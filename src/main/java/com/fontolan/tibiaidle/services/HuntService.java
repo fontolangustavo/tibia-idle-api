@@ -16,7 +16,7 @@ public class HuntService {
 
     public Dungeon createDungeonExample() {
         Dungeon dungeon = new Dungeon();
-        dungeon.setName("Dwarf Dungeon");
+        dungeon.setTitle("Dwarf Dungeon");
 
         Room room1 = new Room();
         room1.setDungeon(dungeon);

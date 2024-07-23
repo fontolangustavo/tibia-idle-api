@@ -1,0 +1,31 @@
+{
+  "title": "Dwarf Mines",
+  "image": "dwarf_dungeon.png",
+  "minLevel": 1,
+  "maxLevel": 10,
+  "minProfitPerHour": 100,
+  "maxProfitPerHour": 500,
+  "minXpPerHour": 200,
+  "maxXpPerHour": 1000,
+  "rooms": [
+    {
+      "monsters": [
+        {
+          "type": "Dwarf",
+          "health": 90,
+          "experience": 45
+        },
+        {
+          "type": "Dwarf",
+          "health": 90,
+          "experience": 45
+        },
+        {
+          "type": "Dwarf",
+          "health": 90,
+          "experience": 45
+        }
+      ]
+    }
+  ]
+}
