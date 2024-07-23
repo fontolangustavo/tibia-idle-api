@@ -1,27 +1,29 @@
 package com.fontolan.tibiaidle.entities;
 
-import com.fontolan.tibiaidle.enums.ItemType;
+import com.fontolan.tibiaidle.enums.SlotType;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.List;
-
 @Data
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-public class Item {
+public class PlayerItem {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String name;
-    private int baseDamage;
-    private ItemType type;
 
-    @OneToMany(mappedBy = "item")
-    private List<PlayerItem> playerItems;
+    @ManyToOne(fetch = FetchType.EAGER)
+    @JoinColumn(name = "player_id")
+    private Player player;
+
+    @ManyToOne(fetch = FetchType.EAGER)
+    @JoinColumn(name = "item_id")
+    private Item item;
+
+    private SlotType slotType;
 }

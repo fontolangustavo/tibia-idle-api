@@ -11,19 +11,25 @@
     {
       "monsters": [
         {
-          "type": "Dwarf",
+          "name": "Dwarf",
+          "maxHealth": 90,
           "health": 90,
-          "experience": 45
+          "experience": 45,
+          "respawnIn": 30
         },
         {
-          "type": "Dwarf",
+          "name": "Dwarf",
+          "maxHealth": 90,
           "health": 90,
-          "experience": 45
+          "experience": 45,
+          "respawnIn": 30
         },
         {
-          "type": "Dwarf",
+          "name": "Dwarf",
+          "maxHealth": 90,
           "health": 90,
-          "experience": 45
+          "experience": 45,
+          "respawnIn": 30
         }
       ]
     }

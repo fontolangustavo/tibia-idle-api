@@ -19,7 +19,8 @@ public class HuntController {
 
     @PostMapping("/{id}")
     public ResponseEntity<Dungeon> startHunt(@PathVariable Long id) {
-        Dungeon dungeon = huntService.createDungeonExample();
+        Dungeon dungeon = huntService.startDungeon(id);
+
         return ResponseEntity.ok(dungeon);
     }
 }
