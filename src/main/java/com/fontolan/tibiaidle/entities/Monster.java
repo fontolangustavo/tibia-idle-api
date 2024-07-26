@@ -35,14 +35,18 @@ public class Monster {
     private Player targetPlayer;
 
     public void attack(Player player) {
-        int damage = 10;
+        int damage = 25;
 
         log.info("{} deal {} damage to a {}.", this.name, player.getName(), damage);
 
-        player.receiveDamage(damage);
+        boolean playerIsAlive = player.receiveDamage(damage);
+
+        if (!playerIsAlive) {
+            this.setTargetPlayer(null);
+        }
     }
 
-    public void receiveDamage(int damage) {
+    public boolean receiveDamage(int damage) {
         if (this.health - damage <= 0) {
             this.diedAt = new Date();
 
@@ -50,6 +54,8 @@ public class Monster {
         }
 
         this.health = Math.max(this.health - damage, 0);
+
+        return this.isAlive();
     }
     public boolean isAlive() {
         return this.health > 0;

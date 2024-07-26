@@ -3,6 +3,7 @@ package com.fontolan.tibiaidle.services;
 import com.fontolan.tibiaidle.entities.Monster;
 import com.fontolan.tibiaidle.entities.Player;
 import com.fontolan.tibiaidle.entities.Room;
+import com.fontolan.tibiaidle.repositories.PlayerRepository;
 import com.fontolan.tibiaidle.repositories.RoomRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.scheduling.annotation.Scheduled;
@@ -11,15 +12,19 @@ import org.springframework.stereotype.Service;
 import java.time.Duration;
 import java.util.Date;
 import java.util.List;
+import java.util.Random;
+import java.util.stream.Collectors;
 
 @Service
 @Slf4j
 public class CombatService {
     private final RoomRepository roomRepository;
+    private final PlayerRepository playerRepository;
     private final FightService fightService;
 
-    public CombatService(RoomRepository roomRepository, FightService fightService) {
+    public CombatService(RoomRepository roomRepository, PlayerRepository playerRepository, FightService fightService) {
         this.roomRepository = roomRepository;
+        this.playerRepository = playerRepository;
         this.fightService = fightService;
     }
 
@@ -31,44 +36,38 @@ public class CombatService {
             log.info("Running a room {} - {}", room.getId(), new Date());
 
             List<Player> players = room.getPlayers();
+            String playersName = players.stream()
+                    .map(Player::getName)
+                    .collect(Collectors.joining(", "));
+            log.info("Players count {} in room {} - players inside {}", players.size(), room.getId(), String.join(", ", playersName));
+
             List<Monster> monsters = room.getMonsters();
 
             for (Player player : players) {
                 Monster target = player.getTargetMonster();
 
-                if (target == null
-                    && !monsters.stream().filter(Monster::isAlive).toList().isEmpty()
-                ) {
-                    target = monsters.stream()
-                            .filter(Monster::isAlive)
-                            .toList()
-                            .get(0);
+                List<Monster> justLiveMonsters = monsters.stream()
+                        .filter(Monster::isAlive)
+                        .toList();
 
-                    player.setTargetMonster(target);
+                if (target == null && !justLiveMonsters.isEmpty()) {
+                    Monster newTarget = justLiveMonsters.get(new Random().nextInt(justLiveMonsters.size()));
+
+                    player.setTargetMonster(newTarget);
                 }
 
                 if (target != null && target.isAlive() && player.isAlive()) {
                     player.attack(target, fightService.damageCalculate(player));
-                }
-
-                if (target != null && !target.isAlive()) {
-                    player.setTargetMonster(null);
                 }
             }
 
             for (Monster monster : monsters) {
                 Player target = monster.getTargetPlayer();
 
-                if (target != null && !target.isAlive()) {
-                    monster.setTargetPlayer(null);
-                }
+                if (target == null && !players.isEmpty()){
+                    Player newTarget = players.get(new Random().nextInt(players.size()));
 
-                if (target == null && !players.isEmpty()) {
-                    target = players.stream()
-                            .filter(Player::isAlive)
-                            .toList()
-                            .get(0);
-                    monster.setTargetPlayer(target);
+                    monster.setTargetPlayer(newTarget);
                 }
 
                 if (target != null && target.isAlive() && monster.isAlive()) {
@@ -78,12 +77,16 @@ public class CombatService {
 
             // Remover jogadores e monstros mortos
             players.removeIf(player -> {
-                boolean isAlive = !player.isAlive();
+                boolean isDead = !player.isAlive();
 
-                player.setTargetMonster(null);
-                player.setHealth(player.getMaxHealth());
+                if (isDead) {
+                    player.setTargetMonster(null);
+                    player.setHealth(player.getMaxHealth());
+                    player.setRoom(null);
+                    playerRepository.save(player);
+                }
 
-                return isAlive;
+                return isDead;
             });
 
             List<Monster> deadMonsters = monsters.stream()
@@ -114,10 +117,10 @@ public class CombatService {
                     if (deadMonster.getDiedAt() != null) {
                         Duration duration = Duration.between(deadMonster.getDiedAt().toInstant(), new Date().toInstant());
 
-
                         if (duration.getSeconds() >= deadMonster.getRespawnIn()) {
                             log.info("{} - {} respawned", deadMonster.getId(), deadMonster.getName());
                             deadMonster.setHealth(deadMonster.getMaxHealth());
+                            deadMonster.setTargetPlayer(null);
                             deadMonster.setDiedAt(null);
                         }
                     }

@@ -37,20 +37,29 @@ public class HuntService {
 
         Room room = rooms.get(0);
 
-        Player player = generatePlayer();
+        Player player1 = generatePlayer("Quero Pix");
+        Player player2 = generatePlayer("Mystic Lower");
+        Player player3 = generatePlayer("Game player");
+        player1.setRoom(room);
+        player2.setRoom(room);
+        player3.setRoom(room);
 
-        room.getPlayers().add(player);
+        room.getPlayers().add(player1);
+        room.getPlayers().add(player2);
+        room.getPlayers().add(player3);
 
-        log.info("Player {} joined into the dungeon {} at room {}.", player.getName(), dungeon.getTitle(), room.getId());
+        log.info("Player {} joined into the dungeon {} at room {}.", player1.getName(), dungeon.getTitle(), room.getId());
+        log.info("Player {} joined into the dungeon {} at room {}.", player2.getName(), dungeon.getTitle(), room.getId());
+        log.info("Player {} joined into the dungeon {} at room {}.", player3.getName(), dungeon.getTitle(), room.getId());
 
         roomRepository.save(room);
 
         return dungeon;
     }
 
-    private Player generatePlayer() {
+    private Player generatePlayer(String name) {
         Player player = Player.builder()
-                .name("Quero Pix")
+                .name(name)
                 .maxHealth(150)
                 .health(150)
                 .maxMana(70)
@@ -59,7 +68,7 @@ public class HuntService {
                 .build();
 
         Map<ItemType, Integer> weaponMastery = new HashMap<>();
-        weaponMastery.put(ItemType.SWORD, 110);
+        weaponMastery.put(ItemType.SWORD, 10);
         weaponMastery.put(ItemType.AXE, 0);
         weaponMastery.put(ItemType.CLUB, 0);
         weaponMastery.put(ItemType.BOW, 0);
@@ -67,8 +76,8 @@ public class HuntService {
         player.setWeaponMastery(weaponMastery);
 
         Item rightHand = itemRepository.save(Item.builder()
-                .name("Fire Sword")
-                .baseDamage(35)
+                .name("Spike Sword")
+                .baseDamage(24)
                 .type(ItemType.SWORD)
                 .build()
         );

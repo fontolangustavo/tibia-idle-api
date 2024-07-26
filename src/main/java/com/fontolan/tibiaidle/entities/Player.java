@@ -39,6 +39,10 @@ public class Player {
     @JoinColumn(name = "target_monster_id")
     private Monster targetMonster;
 
+    @ManyToOne
+    @JoinColumn(name = "room_id")
+    private Room room;
+
     @ElementCollection(fetch = FetchType.EAGER)
     @MapKeyEnumerated(EnumType.STRING)
     private Map<ItemType, Integer> weaponMastery = new HashMap<>();
@@ -60,15 +64,21 @@ public class Player {
     public void attack(Monster monster, int damage) {
         log.info("{} deal {} damage to a {}.", this.name, monster.getName(), damage);
 
-        monster.receiveDamage(damage);
+        boolean monsterIsAlive = monster.receiveDamage(damage);
+
+        if(!monsterIsAlive) {
+            this.setTargetMonster(null);
+        }
     }
 
-    public void receiveDamage(int damage) {
+    public boolean receiveDamage(int damage) {
         if (this.health - damage <= 0) {
             log.info("{} is dead.", this.name);
         }
 
         this.health = Math.max(this.health - damage, 0);
+
+        return this.isAlive();
     }
 
     public boolean isAlive() {
