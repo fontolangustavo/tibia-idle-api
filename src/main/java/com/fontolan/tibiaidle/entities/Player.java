@@ -62,9 +62,11 @@ public class Player {
     }
 
     public void attack(Monster monster, int damage) {
-        log.info("{} deal {} damage to a {}.", this.name, monster.getName(), damage);
+        int effectiveDamage = Math.min(damage, monster.getHealth());
 
-        boolean monsterIsAlive = monster.receiveDamage(damage);
+        log.info("{} deal {} damage to a {} - {}.", this.name, effectiveDamage, monster.getId(), monster.getName());
+
+        boolean monsterIsAlive = monster.receiveDamage(this, effectiveDamage);
 
         if(!monsterIsAlive) {
             this.setTargetMonster(null);

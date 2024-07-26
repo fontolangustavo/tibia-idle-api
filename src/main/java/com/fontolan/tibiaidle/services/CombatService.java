@@ -1,5 +1,6 @@
 package com.fontolan.tibiaidle.services;
 
+import com.fontolan.tibiaidle.entities.DamageReceived;
 import com.fontolan.tibiaidle.entities.Monster;
 import com.fontolan.tibiaidle.entities.Player;
 import com.fontolan.tibiaidle.entities.Room;
@@ -33,13 +34,11 @@ public class CombatService {
         List<Room> rooms = roomRepository.findRoomsWithPlayers();
 
         for (Room room : rooms) {
-            log.info("Running a room {} - {}", room.getId(), new Date());
-
             List<Player> players = room.getPlayers();
             String playersName = players.stream()
                     .map(Player::getName)
                     .collect(Collectors.joining(", "));
-            log.info("Players count {} in room {} - players inside {}", players.size(), room.getId(), String.join(", ", playersName));
+            log.info("Running a room {} with players count {} at {} - players inside {}", room.getId(), players.size(), new Date() , String.join(", ", playersName));
 
             List<Monster> monsters = room.getMonsters();
 
@@ -89,16 +88,25 @@ public class CombatService {
                 return isDead;
             });
 
-            List<Monster> deadMonsters = monsters.stream()
-                    .filter(monster -> !monster.isAlive())
-                    .toList();
+            for(Monster monster : monsters) {
+                if(!monster.isAlive() && monster.getDiedAt() == null) {
+                    monster.setDiedAt(new Date());
 
-            // Recompensar jogadores pelos monstros mortos
-            for (Monster deadMonster : deadMonsters) {
-                Player killer = deadMonster.getTargetPlayer();
-                if (killer != null) {
-                    killer.setExperience(killer.getExperience() + deadMonster.getExperience());
-                    // Adicionar lógica para dropar itens
+                    int totalXP = monster.getExperience();
+
+                    List<DamageReceived> damageReceiveds = monster.getDamageReceiveds();
+                    log.info("Monster total {} - {} damage received {}", monster.getId(), monster.getName(), damageReceiveds.stream().count());
+
+                    int totalDamage = damageReceiveds.stream().mapToInt(DamageReceived::getDamage).sum();
+
+                    for (DamageReceived damageReceived : damageReceiveds) {
+                        Player player = damageReceived.getPlayer();
+
+                        int damageDealt = damageReceived.getDamage();
+                        int xpGained = (int) ((double) damageDealt / totalDamage * totalXP);
+
+                        player.setExperience(player.getExperience() + xpGained);
+                    }
                 }
             }
 
@@ -122,6 +130,7 @@ public class CombatService {
                             deadMonster.setHealth(deadMonster.getMaxHealth());
                             deadMonster.setTargetPlayer(null);
                             deadMonster.setDiedAt(null);
+                            deadMonster.setDamageReceiveds(null);
                         }
                     }
                 })

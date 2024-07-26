@@ -8,6 +8,9 @@ import lombok.NoArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.Date;
+import java.util.List;
+import java.util.Objects;
+import java.util.Optional;
 
 @Data
 @Builder
@@ -34,6 +37,9 @@ public class Monster {
     @JoinColumn(name = "target_player_id")
     private Player targetPlayer;
 
+    @OneToMany(mappedBy = "monster", fetch = FetchType.EAGER)
+    private List<DamageReceived> damageReceiveds;
+
     public void attack(Player player) {
         int damage = 25;
 
@@ -46,12 +52,25 @@ public class Monster {
         }
     }
 
-    public boolean receiveDamage(int damage) {
+    public boolean receiveDamage(Player player, int damage) {
         if (this.health - damage <= 0) {
-            this.diedAt = new Date();
-
             log.info("{} - {} is dead.", this.id, this.name);
         }
+
+        Optional<DamageReceived> optionalDamageReceived = this.damageReceiveds.stream().filter(damageReceived -> Objects.equals(damageReceived.getPlayer().getId(), player.getId())).findFirst();
+
+        DamageReceived damageReceived = new DamageReceived();
+        if (optionalDamageReceived.isPresent()) {
+            damageReceived.setDamage(damageReceived.getDamage() + damage);
+        } else {
+            damageReceived = DamageReceived.builder()
+                    .player(player)
+                    .monster(this)
+                    .damage(damage)
+                    .build();
+        }
+
+        this.damageReceiveds.add(damageReceived);
 
         this.health = Math.max(this.health - damage, 0);
 
