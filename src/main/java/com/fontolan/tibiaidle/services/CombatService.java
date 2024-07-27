@@ -5,83 +5,102 @@ import com.fontolan.tibiaidle.entities.Monster;
 import com.fontolan.tibiaidle.entities.Player;
 import com.fontolan.tibiaidle.entities.Room;
 import com.fontolan.tibiaidle.repositories.PlayerRepository;
-import com.fontolan.tibiaidle.repositories.RoomRepository;
+import com.fontolan.tibiaidle.utils.ArrayUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
 import java.time.Duration;
-import java.util.Date;
-import java.util.List;
-import java.util.Random;
-import java.util.stream.Collectors;
+import java.util.*;
 
 @Service
 @Slf4j
 public class CombatService {
-    private final RoomRepository roomRepository;
     private final PlayerRepository playerRepository;
     private final FightService fightService;
+    private final RoomService roomService;
 
-    public CombatService(RoomRepository roomRepository, PlayerRepository playerRepository, FightService fightService) {
-        this.roomRepository = roomRepository;
+    public CombatService(PlayerRepository playerRepository, FightService fightService, RoomService roomService) {
         this.playerRepository = playerRepository;
         this.fightService = fightService;
+        this.roomService = roomService;
     }
 
     @Scheduled(fixedRate = 5000)
     public void performCombatTick() {
-        List<Room> rooms = roomRepository.findRoomsWithPlayers();
+        List<Room> rooms = roomService.findRoomsWithPlayers();
 
         for (Room room : rooms) {
-            List<Player> players = room.getPlayers();
-            String playersName = players.stream()
-                    .map(Player::getName)
-                    .collect(Collectors.joining(", "));
-            log.info("Running a room {} with players count {} at {} - players inside {}", room.getId(), players.size(), new Date() , String.join(", ", playersName));
-
+            List<String> players = room.getPlayers();
             List<Monster> monsters = room.getMonsters();
 
-            for (Player player : players) {
-                Monster target = player.getTargetMonster();
+            log.info("Running a room {} with players count {} at {} - players inside", room.getId(), players.size(), new Date());
+
+            for (String playerId : players) {
+                Player player = playerRepository.findById(playerId)
+                        .orElseThrow();
+
+                Monster target = ArrayUtils.findById(monsters, player.getTargetId(), Monster::getId);
 
                 List<Monster> justLiveMonsters = monsters.stream()
                         .filter(Monster::isAlive)
                         .toList();
 
-                if (target == null && !justLiveMonsters.isEmpty()) {
-                    Monster newTarget = justLiveMonsters.get(new Random().nextInt(justLiveMonsters.size()));
+                if ((target == null || (target != null && !target.isAlive())) && !justLiveMonsters.isEmpty()) {
+                    target = justLiveMonsters.get(new Random().nextInt(justLiveMonsters.size()));
 
-                    player.setTargetMonster(newTarget);
+                    player.setTargetId(target.getId());
+
+                    playerRepository.save(player);
                 }
 
                 if (target != null && target.isAlive() && player.isAlive()) {
-                    player.attack(target, fightService.damageCalculate(player));
+                    int damage = fightService.damageCalculate(player);
+                    player.attack(target, damage);
+
+                    int index = monsters.indexOf(target);
+
+                    if (index != -1) {
+                        monsters.set(index, target);
+                    } else {
+                        throw new RuntimeException();
+                    }
                 }
             }
 
             for (Monster monster : monsters) {
-                Player target = monster.getTargetPlayer();
+                Player target = null;
+                if (monster.getTargetId() != null) {
+                    target = playerRepository.findById(monster.getTargetId())
+                            .orElse(null);
+                }
 
                 if (target == null && !players.isEmpty()){
-                    Player newTarget = players.get(new Random().nextInt(players.size()));
+                    String targetId = players.get(new Random().nextInt(players.size()));
+                    monster.setTargetId(targetId);
 
-                    monster.setTargetPlayer(newTarget);
+                    target = playerRepository.findById(monster.getTargetId())
+                            .orElse(null);
                 }
 
                 if (target != null && target.isAlive() && monster.isAlive()) {
                     monster.attack(target);
+
+                    playerRepository.save(target);
                 }
             }
 
             // Remover jogadores e monstros mortos
-            players.removeIf(player -> {
+            players.removeIf(playerId -> {
+                Player player = playerRepository.findById(playerId)
+                        .orElseThrow();
+
                 boolean isDead = !player.isAlive();
 
                 if (isDead) {
-                    player.setTargetMonster(null);
+                    player.setTargetId(null);
                     player.setHealth(player.getMaxHealth());
-                    player.setRoom(null);
+                    player.setRoomId(null);
                     playerRepository.save(player);
                 }
 
@@ -94,18 +113,25 @@ public class CombatService {
 
                     int totalXP = monster.getExperience();
 
-                    List<DamageReceived> damageReceiveds = monster.getDamageReceiveds();
-                    log.info("Monster total {} - {} damage received {}", monster.getId(), monster.getName(), damageReceiveds.stream().count());
-
+                    List<DamageReceived> damageReceiveds = monster.getDamageReceived();
                     int totalDamage = damageReceiveds.stream().mapToInt(DamageReceived::getDamage).sum();
 
                     for (DamageReceived damageReceived : damageReceiveds) {
-                        Player player = damageReceived.getPlayer();
+                        Optional<Player> optionalPlayer = playerRepository.findById(damageReceived.getPlayerId());
+
+                        if (optionalPlayer.isEmpty()) {
+                            throw new RuntimeException();
+                        }
+
+                        Player player = optionalPlayer.get();
 
                         int damageDealt = damageReceived.getDamage();
                         int xpGained = (int) ((double) damageDealt / totalDamage * totalXP);
 
                         player.setExperience(player.getExperience() + xpGained);
+                        player.setTargetId(null);
+
+                        playerRepository.save(player);
                     }
                 }
             }
@@ -115,7 +141,7 @@ public class CombatService {
             room.setPlayers(players);
             room.setMonsters(monsters);
 
-            roomRepository.save(room);
+            roomService.updateRoom(room);
         }
     }
 
@@ -128,9 +154,9 @@ public class CombatService {
                         if (duration.getSeconds() >= deadMonster.getRespawnIn()) {
                             log.info("{} - {} respawned", deadMonster.getId(), deadMonster.getName());
                             deadMonster.setHealth(deadMonster.getMaxHealth());
-                            deadMonster.setTargetPlayer(null);
+                            deadMonster.setTargetId(null);
                             deadMonster.setDiedAt(null);
-                            deadMonster.setDamageReceiveds(null);
+                            deadMonster.setDamageReceived(new ArrayList<>());
                         }
                     }
                 })

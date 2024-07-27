@@ -5,24 +5,23 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.springframework.data.redis.core.RedisHash;
+
+import java.io.Serializable;
 
 @Data
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-@Entity
-public class DamageReceived {
+@RedisHash("damage_received")
+public class DamageReceived implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private String id;
 
-    @ManyToOne
-    @JoinColumn(name = "player_id")
-    private Player player;
+    private String playerId;
 
-    @ManyToOne
-    @JoinColumn(name = "monster_id")
-    private Monster monster;
+    private String monsterId;
 
     private int damage;
 }

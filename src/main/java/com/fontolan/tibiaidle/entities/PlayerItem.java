@@ -6,24 +6,22 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.springframework.data.redis.core.RedisHash;
+
+import java.io.Serializable;
 
 @Data
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-@Entity
-public class PlayerItem {
+@RedisHash("player_item")
+public class PlayerItem implements Serializable {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private String id;
 
-    @ManyToOne(fetch = FetchType.EAGER)
-    @JoinColumn(name = "player_id")
-    private Player player;
+    private String playerId;
 
-    @ManyToOne(fetch = FetchType.EAGER)
-    @JoinColumn(name = "item_id")
-    private Item item;
+    private String itemId;
 
     private SlotType slotType;
 }

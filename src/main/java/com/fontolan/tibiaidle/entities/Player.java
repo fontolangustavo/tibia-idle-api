@@ -8,22 +8,23 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.data.redis.core.RedisHash;
+import org.springframework.data.redis.core.index.Indexed;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.io.Serializable;
+import java.util.*;
+import java.util.stream.StreamSupport;
 
 @Data
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
 @Slf4j
-@Entity
-public class Player {
+@RedisHash("player")
+public class Player implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private String id;
     private String name;
     private int level;
     private int maxHealth;
@@ -31,20 +32,11 @@ public class Player {
     private int maxMana;
     private int mana;
     private int experience;
-
-    @OneToMany(mappedBy = "player", cascade = CascadeType.ALL, fetch = FetchType.EAGER,orphanRemoval = true)
     private List<PlayerItem> playerItems = new ArrayList<>();
+    private String targetId;
+    private String roomId;
 
-    @ManyToOne
-    @JoinColumn(name = "target_monster_id")
-    private Monster targetMonster;
-
-    @ManyToOne
-    @JoinColumn(name = "room_id")
-    private Room room;
-
-    @ElementCollection(fetch = FetchType.EAGER)
-    @MapKeyEnumerated(EnumType.STRING)
+    @Indexed
     private Map<ItemType, Integer> weaponMastery = new HashMap<>();
 
     public int getLevel(){
@@ -69,7 +61,7 @@ public class Player {
         boolean monsterIsAlive = monster.receiveDamage(this, effectiveDamage);
 
         if(!monsterIsAlive) {
-            this.setTargetMonster(null);
+            this.setTargetId(null);
         }
     }
 
@@ -91,27 +83,41 @@ public class Player {
         return weaponMastery.getOrDefault(type, 0);
     }
 
-    public List<Item> getBackpack() {
-        return playerItems.stream()
-                .filter(playerItem -> playerItem.getSlotType() == SlotType.BACKPACK)
-                .map(PlayerItem::getItem)
-                .toList();
-    }
-
-    public Item getItemBySlotType(SlotType slotType) {
-        return playerItems.stream()
-                .filter(playerItem -> playerItem.getSlotType() == slotType)
-                .map(PlayerItem::getItem)
+    public PlayerItem getItemBySlotType(SlotType slotType) {
+        return StreamSupport.stream(playerItems.spliterator(), false)
+                .filter(item -> item.getSlotType().equals(slotType))
                 .findFirst()
                 .orElse(null);
     }
 
-    public PlayerItem equipItem(Item item, SlotType slotType) {
-        return PlayerItem.builder()
-                .player(this)
-                .item(item)
-                .slotType(slotType)
-                .build();
+    public boolean equipItem(Item item, SlotType slotType) {
+        Optional<PlayerItem> hasItem = this.checkSlotType(slotType);
+
+        if(slotType.equals(SlotType.BACKPACK)) {
+            return false;
+        }
+
+        if(hasItem.isEmpty()) {
+            this.unequipItem(slotType);
+        }
+
+        playerItems.add(
+                PlayerItem.builder()
+                        .itemId(item.getId())
+                        .slotType(slotType)
+                        .build()
+        );
+
+        return true;
+    }
+
+    public Optional<PlayerItem> checkSlotType(SlotType slotType) {
+        return this.playerItems.stream()
+                .filter(playerItem ->
+                        Objects.equals(playerItem.getPlayerId(), this.id)
+                        && playerItem.getSlotType() == slotType
+                )
+                .findFirst();
     }
 
     public void unequipItem(SlotType slotType) {

@@ -5,31 +5,39 @@ import com.fontolan.tibiaidle.entities.Dungeon;
 import com.fontolan.tibiaidle.entities.Monster;
 import com.fontolan.tibiaidle.entities.Room;
 import com.fontolan.tibiaidle.repositories.DungeonRepository;
-import com.fontolan.tibiaidle.repositories.MonsterRepository;
-import com.fontolan.tibiaidle.repositories.RoomRepository;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
 import java.io.File;
-import java.io.IOException;
 
+@Slf4j
 @Service
 public class DungeonService {
     private final DungeonRepository dungeonRepository;
-    private final RoomRepository roomRepository;
-    private final MonsterRepository monsterRepository;
+    private final IdGenerationService idGenerationService;
 
-    public DungeonService(DungeonRepository dungeonRepository, RoomRepository roomRepository, MonsterRepository monsterRepository) {
+    public DungeonService(DungeonRepository dungeonRepository, IdGenerationService idGenerationService) {
         this.dungeonRepository = dungeonRepository;
-        this.roomRepository = roomRepository;
-        this.monsterRepository = monsterRepository;
+        this.idGenerationService = idGenerationService;
     }
 
-    public Dungeon loadDungeonFromJson(String jsonFilePath) throws IOException {
-        ObjectMapper objectMapper = new ObjectMapper();
-        Dungeon dungeon = objectMapper.readValue(new File(jsonFilePath), Dungeon.class);
+    public void loadDungeonFromJson(String jsonFilePath) {
+        try {
+            ObjectMapper objectMapper = new ObjectMapper();
+            Dungeon dungeon = objectMapper.readValue(new File(jsonFilePath), Dungeon.class);
 
-        dungeon.setRoomsDungeon();
+            for (Room room : dungeon.getRooms()) {
+                room.setId(idGenerationService.generateId());
 
-        return dungeonRepository.save(dungeon);
+                for (Monster monster : room.getMonsters()) {
+                    monster.setId(idGenerationService.generateId());
+                }
+            }
+
+            dungeonRepository.save(dungeon);
+        } catch(Exception e) {
+            log.error(e.getMessage());
+            e.printStackTrace();
+        }
     }
 }

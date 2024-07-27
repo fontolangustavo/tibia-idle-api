@@ -5,7 +5,9 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.springframework.data.redis.core.RedisHash;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -14,33 +16,14 @@ import java.util.List;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-@Entity
-public class Room {
+@RedisHash("room")
+public class Room implements Serializable {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private String id;
 
-    @ManyToOne
-    @JoinColumn(name = "dungeon_id")
-    private Dungeon dungeon;
+    private String dungeonId;
 
-    @OneToMany(mappedBy = "room", cascade = CascadeType.ALL)
     private List<Monster> monsters = new ArrayList<>();
 
-    @ManyToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-    @JoinTable(
-            name = "room_players",
-            joinColumns = @JoinColumn(name = "room_id"),
-            inverseJoinColumns = @JoinColumn(name = "player_id")
-    )
-    private List<Player> players = new ArrayList<>();
-
-    @PostLoad
-    @PostPersist
-    @PostUpdate
-    public void setRoomsDungeon() {
-        for (Monster monster : monsters) {
-            monster.setRoom(this);
-        }
-    }
+    private List<String> players = new ArrayList<>();
 }

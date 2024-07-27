@@ -1,10 +1,9 @@
 package com.fontolan.tibiaidle.repositories;
 
 import com.fontolan.tibiaidle.entities.Player;
-import com.fontolan.tibiaidle.entities.Room;
-import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface PlayerRepository extends JpaRepository<Player, Long> {
+public interface PlayerRepository extends CrudRepository<Player, String> {
 }

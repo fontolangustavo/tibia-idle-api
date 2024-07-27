@@ -6,22 +6,21 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.data.redis.core.RedisHash;
 
-import java.util.Date;
-import java.util.List;
-import java.util.Objects;
-import java.util.Optional;
+import java.io.Serializable;
+import java.util.*;
 
 @Data
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
 @Slf4j
-@Entity
-public class Monster {
+@RedisHash("monster")
+public class Monster implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private String id;
     private String name;
     private int maxHealth;
     private int health;
@@ -33,22 +32,19 @@ public class Monster {
     @JoinColumn(name = "room_id")
     private Room room;
 
-    @ManyToOne
-    @JoinColumn(name = "target_player_id")
-    private Player targetPlayer;
+    private String targetId;
 
-    @OneToMany(mappedBy = "monster", fetch = FetchType.EAGER)
-    private List<DamageReceived> damageReceiveds;
+    private List<DamageReceived> damageReceived = new ArrayList<>();
 
     public void attack(Player player) {
-        int damage = 25;
+        int damage = 15;
 
         log.info("{} deal {} damage to a {}.", this.name, player.getName(), damage);
 
         boolean playerIsAlive = player.receiveDamage(damage);
 
         if (!playerIsAlive) {
-            this.setTargetPlayer(null);
+            this.setTargetId(null);
         }
     }
 
@@ -57,20 +53,30 @@ public class Monster {
             log.info("{} - {} is dead.", this.id, this.name);
         }
 
-        Optional<DamageReceived> optionalDamageReceived = this.damageReceiveds.stream().filter(damageReceived -> Objects.equals(damageReceived.getPlayer().getId(), player.getId())).findFirst();
+        Optional<DamageReceived> optionalDamageReceived = this.damageReceived.stream().filter(damageReceived -> Objects.equals(damageReceived.getPlayerId(), player.getId())).findFirst();
+
+        int index = -1;
 
         DamageReceived damageReceived = new DamageReceived();
         if (optionalDamageReceived.isPresent()) {
+            damageReceived = optionalDamageReceived.get();
+
             damageReceived.setDamage(damageReceived.getDamage() + damage);
+
+            index = this.damageReceived.indexOf(damageReceived);
         } else {
             damageReceived = DamageReceived.builder()
-                    .player(player)
-                    .monster(this)
+                    .playerId(player.getId())
+                    .monsterId(this.id)
                     .damage(damage)
                     .build();
         }
 
-        this.damageReceiveds.add(damageReceived);
+        if (index == -1) {
+            this.damageReceived.add(damageReceived);
+        } else {
+            this.damageReceived.set(index, damageReceived);
+        }
 
         this.health = Math.max(this.health - damage, 0);
 

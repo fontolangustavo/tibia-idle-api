@@ -1,9 +1,9 @@
 package com.fontolan.tibiaidle.repositories;
 
 import com.fontolan.tibiaidle.entities.DamageReceived;
-import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface DamageReceivedRepository extends JpaRepository<DamageReceived, Long> {
+public interface DamageReceivedRepository extends CrudRepository<DamageReceived, String> {
 }

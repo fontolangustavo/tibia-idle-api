@@ -2,21 +2,36 @@ package com.fontolan.tibiaidle.services;
 
 import com.fontolan.tibiaidle.entities.Item;
 import com.fontolan.tibiaidle.entities.Player;
+import com.fontolan.tibiaidle.entities.PlayerItem;
 import com.fontolan.tibiaidle.enums.ItemType;
 import com.fontolan.tibiaidle.enums.SlotType;
+import com.fontolan.tibiaidle.repositories.ItemRepository;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
+import java.util.Optional;
+
+@Slf4j
 @Service
 public class FightService {
-    private static final double LEVEL_FACTOR = 0.5;
-    private static final double MASTERY_FACTOR = 0.2;
+    private static final double LEVEL_FACTOR = 0.3;
+    private static final double MASTERY_FACTOR = 0.1;
+    private final ItemRepository itemRepository;
+
+    public FightService(ItemRepository itemRepository) {
+        this.itemRepository = itemRepository;
+    }
 
     public int damageCalculate(Player player) {
-        Item item = player.getItemBySlotType(SlotType.RIGHT_HAND);
+        PlayerItem playerItem = player.getItemBySlotType(SlotType.RIGHT_HAND);
 
-        if (item == null) {
+        Optional<Item> optionalItem = itemRepository.findById(playerItem.getItemId());
+
+        if (optionalItem.isEmpty()) {
             throw new RuntimeException();
         }
+
+        Item item = optionalItem.get();
 
         int baseDamage = item.getBaseDamage();
         int playerLevel = player.getLevel();

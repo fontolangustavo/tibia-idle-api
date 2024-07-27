@@ -1,11 +1,12 @@
 package com.fontolan.tibiaidle.repositories;
 
 import com.fontolan.tibiaidle.entities.Dungeon;
-import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface DungeonRepository extends JpaRepository<Dungeon, Long> {
-    Dungeon getById(Long id);
+public interface DungeonRepository extends CrudRepository<Dungeon, String> {
+    Dungeon getById(String id);
+    Dungeon getByTitle(String title);
 }
 

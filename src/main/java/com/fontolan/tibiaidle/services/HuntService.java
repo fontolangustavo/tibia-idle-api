@@ -3,58 +3,61 @@ package com.fontolan.tibiaidle.services;
 import com.fontolan.tibiaidle.entities.*;
 import com.fontolan.tibiaidle.enums.ItemType;
 import com.fontolan.tibiaidle.enums.SlotType;
-import com.fontolan.tibiaidle.repositories.DungeonRepository;
-import com.fontolan.tibiaidle.repositories.ItemRepository;
-import com.fontolan.tibiaidle.repositories.PlayerRepository;
-import com.fontolan.tibiaidle.repositories.RoomRepository;
+import com.fontolan.tibiaidle.repositories.*;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 @Slf4j
 @Service
 public class HuntService {
     private final DungeonRepository dungeonRepository;
-    private final RoomRepository roomRepository;
     private final PlayerRepository playerRepository;
     private final ItemRepository itemRepository;
 
-    public HuntService(DungeonRepository dungeonRepository, RoomRepository roomRepository, PlayerRepository playerRepository, ItemRepository itemRepository) {
+    public HuntService(DungeonRepository dungeonRepository, PlayerRepository playerRepository, ItemRepository itemRepository) {
         this.dungeonRepository = dungeonRepository;
-        this.roomRepository = roomRepository;
         this.playerRepository = playerRepository;
         this.itemRepository = itemRepository;
     }
 
-    public Dungeon startDungeon(Long id) {
-        Dungeon dungeon = dungeonRepository.getById(id);
+    public Dungeon startDungeon(String id) {
+        Optional<Dungeon> optionalDungeon = dungeonRepository.findById(id);
 
-        List<Room> rooms = dungeon.getRooms();
+        if (optionalDungeon.isPresent()) {
+            Dungeon dungeon = optionalDungeon.get();
+            List<Room> rooms = dungeon.getRooms();
+            Room room = rooms.get(0);
 
-        Room room = rooms.get(0);
+            Player player1 = generatePlayer("Quero Pix");
+            Player player2 = generatePlayer("Mystic Lower");
+            Player player3 = generatePlayer("Game player");
+            player1.setRoomId(room.getId());
+            player2.setRoomId(room.getId());
+            player3.setRoomId(room.getId());
 
-        Player player1 = generatePlayer("Quero Pix");
-        Player player2 = generatePlayer("Mystic Lower");
-        Player player3 = generatePlayer("Game player");
-        player1.setRoom(room);
-        player2.setRoom(room);
-        player3.setRoom(room);
+            playerRepository.save(player1);
+            playerRepository.save(player2);
+            playerRepository.save(player3);
 
-        room.getPlayers().add(player1);
-        room.getPlayers().add(player2);
-        room.getPlayers().add(player3);
+            room.getPlayers().add(player1.getId());
+            room.getPlayers().add(player2.getId());
+            room.getPlayers().add(player3.getId());
 
-        log.info("Player {} joined into the dungeon {} at room {}.", player1.getName(), dungeon.getTitle(), room.getId());
-        log.info("Player {} joined into the dungeon {} at room {}.", player2.getName(), dungeon.getTitle(), room.getId());
-        log.info("Player {} joined into the dungeon {} at room {}.", player3.getName(), dungeon.getTitle(), room.getId());
+            log.info("Player {} joined into the dungeon {} at room {}.", player1.getName(), dungeon.getTitle(), room.getId());
+            log.info("Player {} joined into the dungeon {} at room {}.", player2.getName(), dungeon.getTitle(), room.getId());
+            log.info("Player {} joined into the dungeon {} at room {}.", player3.getName(), dungeon.getTitle(), room.getId());
 
-        roomRepository.save(room);
+            rooms.set(0, room);
+            dungeon.setRooms(rooms);
 
-        return dungeon;
+            dungeonRepository.save(dungeon);
+
+            return dungeon;
+        }
+
+        return null;
     }
 
     private Player generatePlayer(String name) {
@@ -65,6 +68,7 @@ public class HuntService {
                 .maxMana(70)
                 .mana(70)
                 .experience(0)
+                .playerItems(new ArrayList<>())
                 .build();
 
         Map<ItemType, Integer> weaponMastery = new HashMap<>();
@@ -75,6 +79,8 @@ public class HuntService {
 
         player.setWeaponMastery(weaponMastery);
 
+        player.setLevel(player.getLevel());
+
         Item rightHand = itemRepository.save(Item.builder()
                 .name("Spike Sword")
                 .baseDamage(24)
@@ -82,13 +88,16 @@ public class HuntService {
                 .build()
         );
 
-        List<PlayerItem> playerItems = new ArrayList<>();
-        PlayerItem playerItem = player.equipItem(rightHand, SlotType.RIGHT_HAND);
-        playerItems.add(playerItem);
+        Item leftHand = itemRepository.save(Item.builder()
+                .name("Wooden Shield")
+                .baseDamage(14)
+                .type(ItemType.SHIELD)
+                .build()
+        );
 
-        player.setPlayerItems(playerItems);
-        player.setLevel(player.getLevel());
+        player.equipItem(rightHand, SlotType.RIGHT_HAND);
+        player.equipItem(leftHand, SlotType.LEFT_HAND);
 
-        return playerRepository.save(player);
+        return player;
     }
 }
