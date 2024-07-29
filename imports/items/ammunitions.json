@@ -1,0 +1,335 @@
+[
+  {
+    "name": "Arrow",
+    "image": "arrow.gif",
+    "baseAttack": 25,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "ARROW",
+    "vocations": []
+  },
+  {
+    "name": "Burst Arrow",
+    "image": "burst_arrow.gif",
+    "baseAttack": 27,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "ARROW",
+    "vocations": []
+  },
+  {
+    "name": "Crystalline Arrow",
+    "image": "crystalline_arrow.gif",
+    "baseAttack": 65,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 90,
+    "type": "ARROW",
+    "vocations": []
+  },
+  {
+    "name": "Diamond Arrow",
+    "image": "diamond_arrow.gif",
+    "baseAttack": 37,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 150,
+    "type": "ARROW",
+    "vocations": []
+  },
+  {
+    "name": "Earth Arrow",
+    "image": "earth_arrow.gif",
+    "baseAttack": 14,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 14,
+        "type": "EARTH"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 14,
+    "level": 20,
+    "type": "ARROW",
+    "vocations": []
+  },
+  {
+    "name": "Envenomed Arrow",
+    "image": "envenomed_arrow.gif",
+    "baseAttack": 27,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 27,
+        "type": "EARTH"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 27,
+    "level": 70,
+    "type": "ARROW",
+    "vocations": []
+  },
+  {
+    "name": "Flaming Arrow",
+    "image": "flaming_arrow.gif",
+    "baseAttack": 14,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 14,
+        "type": "FIRE"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 14,
+    "level": 20,
+    "type": "ARROW",
+    "vocations": []
+  },
+  {
+    "name": "Flash Arrow",
+    "image": "flash_arrow.gif",
+    "baseAttack": 14,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 14,
+        "type": "ENERGY"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 14,
+    "level": 20,
+    "type": "ARROW",
+    "vocations": []
+  },
+  {
+    "name": "Onyx Arrow",
+    "image": "onyx_arrow.gif",
+    "baseAttack": 38,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 40,
+    "type": "ARROW",
+    "vocations": []
+  },
+  {
+    "name": "Poison Arrow",
+    "image": "poison_arrow.gif",
+    "baseAttack": 23,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "ARROW",
+    "vocations": []
+  },
+  {
+    "name": "Shiver Arrow",
+    "image": "shiver_arrow.gif",
+    "baseAttack": 14,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 14,
+        "type": "ICE"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 14,
+    "level": 20,
+    "type": "ARROW",
+    "vocations": []
+  },
+  {
+    "name": "Simple Arrow",
+    "image": "simple_arrow.gif",
+    "baseAttack": 20,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "ARROW",
+    "vocations": []
+  },
+  {
+    "name": "Sniper Arrow",
+    "image": "sniper_arrow.gif",
+    "baseAttack": 28,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 20,
+    "type": "ARROW",
+    "vocations": []
+  },
+  {
+    "name": "Tarsal Arrow",
+    "image": "tarsal_arrow.gif",
+    "baseAttack": 33,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 30,
+    "type": "ARROW",
+    "vocations": []
+  },
+  {
+    "name": "Bolt",
+    "image": "bolt.gif",
+    "baseAttack": 30,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "BOLT",
+    "vocations": []
+  },
+  {
+    "name": "Drill Bolt",
+    "image": "drill_bolt.gif",
+    "baseAttack": 56,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 70,
+    "type": "BOLT",
+    "vocations": []
+  },
+  {
+    "name": "Infernal Bolt",
+    "image": "infernal_bolt.gif",
+    "baseAttack": 72,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 110,
+    "type": "BOLT",
+    "vocations": []
+  },
+  {
+    "name": "Piercing Bolt",
+    "image": "piercing_bolt.gif",
+    "baseAttack": 33,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 30,
+    "type": "BOLT",
+    "vocations": []
+  },
+  {
+    "name": "Power Bolt",
+    "image": "power_bolt.gif",
+    "baseAttack": 40,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 55,
+    "type": "BOLT",
+    "vocations": []
+  },
+  {
+    "name": "Prismatic Bolt",
+    "image": "prismatic_bolt.gif",
+    "baseAttack": 66,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 90,
+    "type": "BOLT",
+    "vocations": []
+  },
+  {
+    "name": "Spectral Bolt",
+    "image": "spectral_bolt.gif",
+    "baseAttack": 78,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 150,
+    "type": "BOLT",
+    "vocations": []
+  },
+  {
+    "name": "Vortex Bolt",
+    "image": "vortex_bolt.gif",
+    "baseAttack": 36,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 40,
+    "type": "BOLT",
+    "vocations": []
+  }
+]

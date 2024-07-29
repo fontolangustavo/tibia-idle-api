@@ -1,0 +1,2113 @@
+[
+  {
+    "name": "Abyss Hammer",
+    "image": "abyss_hammer.gif",
+    "baseAttack": 47,
+    "baseDefense": 21,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 3,
+    "level": 60,
+    "type": "CLUB",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Amber Bludgeon",
+    "image": "amber_bludgeon.gif",
+    "baseAttack": 0,
+    "baseDefense": 34,
+    "twoHands": true,
+    "elementalDamage": [
+      {
+        "value": 50,
+        "type": "DEATH"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "CLUB",
+        "value": 4
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 330,
+    "type": "CLUB",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Amber Cudgel",
+    "image": "amber_cudgel.gif",
+    "baseAttack": 0,
+    "baseDefense": 32,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 46,
+        "type": "FIRE"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "CLUB",
+        "value": 4
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 330,
+    "type": "CLUB",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Amber Staff",
+    "image": "amber_staff.gif",
+    "baseAttack": 43,
+    "baseDefense": 25,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 3,
+    "level": 40,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Arcane Staff",
+    "image": "arcane_staff.gif",
+    "baseAttack": 50,
+    "baseDefense": 30,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 75,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Banana Staff",
+    "image": "banana_staff.gif",
+    "baseAttack": 25,
+    "baseDefense": 15,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Battle Hammer",
+    "image": "battle_hammer.gif",
+    "baseAttack": 24,
+    "baseDefense": 14,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Blessed Sceptre",
+    "image": "blessed_sceptre.gif",
+    "baseAttack": 47,
+    "baseDefense": 21,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 75,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Bone Club",
+    "image": "bone_club.gif",
+    "baseAttack": 12,
+    "baseDefense": 8,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Bonebreaker",
+    "image": "bonebreaker.gif",
+    "baseAttack": 46,
+    "baseDefense": 15,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 55,
+    "type": "CLUB",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Brutetamer's Staff",
+    "image": "brutetamer's_staff.gif",
+    "baseAttack": 35,
+    "baseDefense": 15,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 25,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Chaos Mace",
+    "image": "chaos_mace.gif",
+    "baseAttack": 44,
+    "baseDefense": 21,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 45,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Clerical Mace",
+    "image": "clerical_mace.gif",
+    "baseAttack": 28,
+    "baseDefense": 15,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 20,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Club",
+    "image": "club.gif",
+    "baseAttack": 7,
+    "baseDefense": 7,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Club of the Fury",
+    "image": "club_of_the_fury.gif",
+    "baseAttack": 16,
+    "baseDefense": 8,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Cobra Club",
+    "image": "cobra_club.gif",
+    "baseAttack": 8,
+    "baseDefense": 29,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 44,
+        "type": "FIRE"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "CLUB",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 220,
+    "type": "CLUB",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Cranial Basher",
+    "image": "cranial_basher.gif",
+    "baseAttack": 44,
+    "baseDefense": 20,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 60,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Crowbar",
+    "image": "crowbar.gif",
+    "baseAttack": 5,
+    "baseDefense": 6,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Crude Umbral Hammer",
+    "image": "crude_umbral_hammer.gif",
+    "baseAttack": 51,
+    "baseDefense": 27,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 75,
+    "type": "CLUB",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Crude Umbral Mace",
+    "image": "crude_umbral_mace.gif",
+    "baseAttack": 48,
+    "baseDefense": 22,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 75,
+    "type": "CLUB",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Crystal Mace",
+    "image": "crystal_mace.gif",
+    "baseAttack": 38,
+    "baseDefense": 16,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 35,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Daramian Mace",
+    "image": "daramian_mace.gif",
+    "baseAttack": 21,
+    "baseDefense": 12,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Dark Trinity Mace",
+    "image": "dark_trinity_mace.gif",
+    "baseAttack": 51,
+    "baseDefense": 32,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 120,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Deepling Squelcher",
+    "image": "deepling_squelcher.gif",
+    "baseAttack": 44,
+    "baseDefense": 28,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 48,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Deepling Staff",
+    "image": "deepling_staff.gif",
+    "baseAttack": 43,
+    "baseDefense": 23,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 38,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Demonbone",
+    "image": "demonbone.gif",
+    "baseAttack": 48,
+    "baseDefense": 38,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 80,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Diamond Sceptre",
+    "image": "diamond_sceptre.gif",
+    "baseAttack": 34,
+    "baseDefense": 18,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 25,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Drachaku",
+    "image": "drachaku.gif",
+    "baseAttack": 46,
+    "baseDefense": 25,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 55,
+    "type": "CLUB",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Dragon Hammer",
+    "image": "dragon_hammer.gif",
+    "baseAttack": 32,
+    "baseDefense": 20,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 25,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Dragonbone Staff",
+    "image": "dragonbone_staff.gif",
+    "baseAttack": 35,
+    "baseDefense": 18,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 30,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Eldritch Warmace",
+    "image": "eldritch_warmace.gif",
+    "baseAttack": 6,
+    "baseDefense": 33,
+    "twoHands": true,
+    "elementalDamage": [
+      {
+        "value": 50,
+        "type": "FIRE"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "CLUB",
+        "value": 3
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 270,
+    "type": "CLUB",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Energized Demonbone",
+    "image": "energized_demonbone.gif",
+    "baseAttack": 46,
+    "baseDefense": 40,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 80,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Falcon Mace",
+    "image": "falcon_mace.gif",
+    "baseAttack": 11,
+    "baseDefense": 33,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 41,
+        "type": "ENERGY"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "CLUB",
+        "value": 3
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 300,
+    "type": "CLUB",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Ferumbras' Staff (Club)",
+    "image": "ferumbras'_staff_(club).gif",
+    "baseAttack": 20,
+    "baseDefense": 30,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 100,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Furry Club",
+    "image": "furry_club.gif",
+    "baseAttack": 31,
+    "baseDefense": 19,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 20,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Giant Smithhammer",
+    "image": "giant_smithhammer.gif",
+    "baseAttack": 24,
+    "baseDefense": 14,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Gilded Eldritch Warmace",
+    "image": "gilded_eldritch_warmace.gif",
+    "baseAttack": 6,
+    "baseDefense": 33,
+    "twoHands": true,
+    "elementalDamage": [
+      {
+        "value": 50,
+        "type": "FIRE"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "CLUB",
+        "value": 3
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 270,
+    "type": "CLUB",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Glooth Club",
+    "image": "glooth_club.gif",
+    "baseAttack": 39,
+    "baseDefense": 1,
+    "twoHands": true,
+    "elementalDamage": [
+      {
+        "value": 26,
+        "type": "EARTH"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 75,
+    "type": "CLUB",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Glooth Whip",
+    "image": "glooth_whip.gif",
+    "baseAttack": 33,
+    "baseDefense": 19,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 25,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Glutton's Mace",
+    "image": "glutton's_mace.gif",
+    "baseAttack": 16,
+    "baseDefense": 10,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Grand Sanguine Bludgeon",
+    "image": "grand_sanguine_bludgeon.gif",
+    "baseAttack": 8,
+    "baseDefense": 35,
+    "twoHands": true,
+    "elementalDamage": [
+      {
+        "value": 50,
+        "type": "EARTH"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "CLUB",
+        "value": 5
+      }
+    ],
+    "maxEnchantmentSlots": 3,
+    "level": 600,
+    "type": "CLUB",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Grand Sanguine Cudgel",
+    "image": "grand_sanguine_cudgel.gif",
+    "baseAttack": 8,
+    "baseDefense": 32,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 46,
+        "type": "DEATH"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "CLUB",
+        "value": 5
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 600,
+    "type": "CLUB",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Hammer of Destruction",
+    "image": "hammer_of_destruction.gif",
+    "baseAttack": 53,
+    "baseDefense": 29,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 3,
+    "level": 200,
+    "type": "CLUB",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Hammer of Prophecy",
+    "image": "hammer_of_prophecy.gif",
+    "baseAttack": 52,
+    "baseDefense": 35,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 120,
+    "type": "CLUB",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Hammer of Wrath",
+    "image": "hammer_of_wrath.gif",
+    "baseAttack": 48,
+    "baseDefense": 12,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 3,
+    "level": 65,
+    "type": "CLUB",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Heavy Mace",
+    "image": "heavy_mace.gif",
+    "baseAttack": 49,
+    "baseDefense": 15,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 3,
+    "level": 70,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Iron Hammer",
+    "image": "iron_hammer.gif",
+    "baseAttack": 18,
+    "baseDefense": 10,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Jade Hammer",
+    "image": "jade_hammer.gif",
+    "baseAttack": 46,
+    "baseDefense": 20,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 70,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Jungle Flail",
+    "image": "jungle_flail.gif",
+    "baseAttack": 52,
+    "baseDefense": 31,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 150,
+    "type": "CLUB",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Lich Staff",
+    "image": "lich_staff.gif",
+    "baseAttack": 40,
+    "baseDefense": 30,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 40,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Life Preserver",
+    "image": "life_preserver.gif",
+    "baseAttack": 27,
+    "baseDefense": 19,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 15,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Light Mace",
+    "image": "light_mace.gif",
+    "baseAttack": 14,
+    "baseDefense": 9,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Lion Hammer",
+    "image": "lion_hammer.gif",
+    "baseAttack": 8,
+    "baseDefense": 31,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 44,
+        "type": "EARTH"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "CLUB",
+        "value": 3
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 270,
+    "type": "CLUB",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Lunar Staff",
+    "image": "lunar_staff.gif",
+    "baseAttack": 40,
+    "baseDefense": 25,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 3,
+    "level": 30,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Mace",
+    "image": "mace.gif",
+    "baseAttack": 16,
+    "baseDefense": 11,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Mace of Destruction",
+    "image": "mace_of_destruction.gif",
+    "baseAttack": 50,
+    "baseDefense": 32,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 200,
+    "type": "CLUB",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Maimer",
+    "image": "maimer.gif",
+    "baseAttack": 51,
+    "baseDefense": 32,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 150,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Mallet Handle",
+    "image": "mallet_handle.gif",
+    "baseAttack": 24,
+    "baseDefense": 14,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Mammoth Whopper",
+    "image": "mammoth_whopper.gif",
+    "baseAttack": 30,
+    "baseDefense": 15,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 20,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Metal Bat",
+    "image": "metal_bat.gif",
+    "baseAttack": 44,
+    "baseDefense": 20,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 55,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Moohtant Cudgel",
+    "image": "moohtant_cudgel.gif",
+    "baseAttack": 47,
+    "baseDefense": 21,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 60,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Morning Star",
+    "image": "morning_star.gif",
+    "baseAttack": 25,
+    "baseDefense": 11,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Mortal Mace",
+    "image": "mortal_mace.gif",
+    "baseAttack": 8,
+    "baseDefense": 27,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 44,
+        "type": "DEATH"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "CLUB",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 220,
+    "type": "CLUB",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Mycological Mace",
+    "image": "mycological_mace.gif",
+    "baseAttack": 50,
+    "baseDefense": 31,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "CLUB",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 120,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Naga Club",
+    "image": "naga_club.gif",
+    "baseAttack": 52,
+    "baseDefense": 31,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "CLUB",
+        "value": 3
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 300,
+    "type": "CLUB",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Northern Star",
+    "image": "northern_star.gif",
+    "baseAttack": 42,
+    "baseDefense": 15,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 50,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Obsidian Truncheon",
+    "image": "obsidian_truncheon.gif",
+    "baseAttack": 50,
+    "baseDefense": 30,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 100,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Ogre Klubba",
+    "image": "ogre_klubba.gif",
+    "baseAttack": 45,
+    "baseDefense": 25,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 50,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "One Hit Wonder",
+    "image": "one_hit_wonder.gif",
+    "baseAttack": 49,
+    "baseDefense": 22,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 70,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Onyx Flail",
+    "image": "onyx_flail.gif",
+    "baseAttack": 45,
+    "baseDefense": 18,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 65,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Orcish Maul",
+    "image": "orcish_maul.gif",
+    "baseAttack": 42,
+    "baseDefense": 18,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 3,
+    "level": 35,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Ornate Mace",
+    "image": "ornate_mace.gif",
+    "baseAttack": 49,
+    "baseDefense": 24,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 90,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Pair of Iron Fists",
+    "image": "pair_of_iron_fists.gif",
+    "baseAttack": 45,
+    "baseDefense": 17,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 50,
+    "type": "CLUB",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Queen's Sceptre",
+    "image": "queen's_sceptre.gif",
+    "baseAttack": 43,
+    "baseDefense": 19,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 55,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Resizer",
+    "image": "resizer.gif",
+    "baseAttack": 11,
+    "baseDefense": 33,
+    "twoHands": true,
+    "elementalDamage": [
+      {
+        "value": 46,
+        "type": "ICE"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "CLUB",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 230,
+    "type": "CLUB",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Rotten Demonbone",
+    "image": "rotten_demonbone.gif",
+    "baseAttack": 46,
+    "baseDefense": 40,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 80,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Sanguine Bludgeon",
+    "image": "sanguine_bludgeon.gif",
+    "baseAttack": 8,
+    "baseDefense": 35,
+    "twoHands": true,
+    "elementalDamage": [
+      {
+        "value": 50,
+        "type": "EARTH"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "CLUB",
+        "value": 5
+      }
+    ],
+    "maxEnchantmentSlots": 3,
+    "level": 600,
+    "type": "CLUB",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Sanguine Cudgel",
+    "image": "sanguine_cudgel.gif",
+    "baseAttack": 8,
+    "baseDefense": 32,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 46,
+        "type": "DEATH"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "CLUB",
+        "value": 5
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 600,
+    "type": "CLUB",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Sapphire Hammer",
+    "image": "sapphire_hammer.gif",
+    "baseAttack": 37,
+    "baseDefense": 18,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 30,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Scythe",
+    "image": "scythe.gif",
+    "baseAttack": 8,
+    "baseDefense": 3,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Shadow Sceptre",
+    "image": "shadow_sceptre.gif",
+    "baseAttack": 39,
+    "baseDefense": 17,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 35,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Silver Mace",
+    "image": "silver_mace.gif",
+    "baseAttack": 41,
+    "baseDefense": 30,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 45,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Skull Staff",
+    "image": "skull_staff.gif",
+    "baseAttack": 36,
+    "baseDefense": 12,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 30,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Skullcrusher",
+    "image": "skullcrusher.gif",
+    "baseAttack": 51,
+    "baseDefense": 20,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 85,
+    "type": "CLUB",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Snake God's Sceptre",
+    "image": "snake_god's_sceptre.gif",
+    "baseAttack": 48,
+    "baseDefense": 29,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 82,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Soulcrusher",
+    "image": "soulcrusher.gif",
+    "baseAttack": 6,
+    "baseDefense": 33,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 46,
+        "type": "ICE"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "CLUB",
+        "value": 5
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 400,
+    "type": "CLUB",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Soulmaimer",
+    "image": "soulmaimer.gif",
+    "baseAttack": 10,
+    "baseDefense": 35,
+    "twoHands": true,
+    "elementalDamage": [
+      {
+        "value": 47,
+        "type": "ENERGY"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "CLUB",
+        "value": 5
+      }
+    ],
+    "maxEnchantmentSlots": 3,
+    "level": 400,
+    "type": "CLUB",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Spiked Squelcher",
+    "image": "spiked_squelcher.gif",
+    "baseAttack": 41,
+    "baseDefense": 21,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 3,
+    "level": 30,
+    "type": "CLUB",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Spiky Club",
+    "image": "spiky_club.gif",
+    "baseAttack": 31,
+    "baseDefense": 14,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 20,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Staff",
+    "image": "staff.gif",
+    "baseAttack": 10,
+    "baseDefense": 25,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Stale Bread of Ancientness",
+    "image": "stale_bread_of_ancientness.gif",
+    "baseAttack": 18,
+    "baseDefense": 8,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Strange Mallet",
+    "image": "strange_mallet.gif",
+    "baseAttack": 18,
+    "baseDefense": 9,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Studded Club",
+    "image": "studded_club.gif",
+    "baseAttack": 9,
+    "baseDefense": 8,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Sulphurous Demonbone",
+    "image": "sulphurous_demonbone.gif",
+    "baseAttack": 46,
+    "baseDefense": 40,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 80,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Swampling Club",
+    "image": "swampling_club.gif",
+    "baseAttack": 17,
+    "baseDefense": 12,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Taurus Mace",
+    "image": "taurus_mace.gif",
+    "baseAttack": 30,
+    "baseDefense": 18,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 20,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "The Stomper",
+    "image": "the_stomper.gif",
+    "baseAttack": 51,
+    "baseDefense": 20,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 100,
+    "type": "CLUB",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Thunder Hammer",
+    "image": "thunder_hammer.gif",
+    "baseAttack": 49,
+    "baseDefense": 35,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 85,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Umbral Hammer",
+    "image": "umbral_hammer.gif",
+    "baseAttack": 53,
+    "baseDefense": 30,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 120,
+    "type": "CLUB",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Umbral Mace",
+    "image": "umbral_mace.gif",
+    "baseAttack": 50,
+    "baseDefense": 26,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 120,
+    "type": "CLUB",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Umbral Master Hammer",
+    "image": "umbral_master_hammer.gif",
+    "baseAttack": 55,
+    "baseDefense": 34,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "CLUB",
+        "value": 3
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 250,
+    "type": "CLUB",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Umbral Master Mace",
+    "image": "umbral_master_mace.gif",
+    "baseAttack": 52,
+    "baseDefense": 30,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "CLUB",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 250,
+    "type": "CLUB",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Unliving Demonbone",
+    "image": "unliving_demonbone.gif",
+    "baseAttack": 46,
+    "baseDefense": 40,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 80,
+    "type": "CLUB",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "War Hammer",
+    "image": "war_hammer.gif",
+    "baseAttack": 45,
+    "baseDefense": 10,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 3,
+    "level": 50,
+    "type": "CLUB",
+    "vocations": [
+      "KNIGHT"
+    ]
+  }
+]

@@ -33,7 +33,7 @@ public class FightService {
 
         Item item = optionalItem.get();
 
-        int baseDamage = item.getBaseDamage();
+        int baseDamage = item.getBaseAttack();
         int playerLevel = player.getLevel();
 
         ItemType weaponType = item.getType();

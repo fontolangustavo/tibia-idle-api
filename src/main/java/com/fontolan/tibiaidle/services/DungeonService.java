@@ -21,6 +21,11 @@ public class DungeonService {
         this.idGenerationService = idGenerationService;
     }
 
+    public void initialize() {
+        log.info("Init loading dungeons: dwarf-dungeon.json");
+        this.loadDungeonFromJson("imports/dungeons/dwarf-dungeon.json");
+    }
+
     public void loadDungeonFromJson(String jsonFilePath) {
         try {
             ObjectMapper objectMapper = new ObjectMapper();

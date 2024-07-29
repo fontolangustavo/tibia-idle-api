@@ -1,0 +1,2122 @@
+[
+  {
+    "name": "Amber Sabre",
+    "image": "amber_sabre.gif",
+    "baseAttack": 0,
+    "baseDefense": 32,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 46,
+        "type": "ENERGY"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "SWORD",
+        "value": 4
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 330,
+    "type": "SWORD",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Amber Slayer",
+    "image": "amber_slayer.gif",
+    "baseAttack": 0,
+    "baseDefense": 34,
+    "twoHands": true,
+    "elementalDamage": [
+      {
+        "value": 50,
+        "type": "DEATH"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "SWORD",
+        "value": 4
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 330,
+    "type": "SWORD",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Assassin Dagger",
+    "image": "assassin_dagger.gif",
+    "baseAttack": 40,
+    "baseDefense": 12,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 40,
+    "type": "SWORD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Berserker",
+    "image": "berserker.gif",
+    "baseAttack": 48,
+    "baseDefense": 21,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 3,
+    "level": 65,
+    "type": "SWORD",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Blacksteel Sword",
+    "image": "blacksteel_sword.gif",
+    "baseAttack": 42,
+    "baseDefense": 22,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 3,
+    "level": 35,
+    "type": "SWORD",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Blade of Corruption",
+    "image": "blade_of_corruption.gif",
+    "baseAttack": 48,
+    "baseDefense": 29,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 82,
+    "type": "SWORD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Blade of Destruction",
+    "image": "blade_of_destruction.gif",
+    "baseAttack": 50,
+    "baseDefense": 33,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 200,
+    "type": "SWORD",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Bloody Edge",
+    "image": "bloody_edge.gif",
+    "baseAttack": 43,
+    "baseDefense": 21,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 55,
+    "type": "SWORD",
+    "vocations": [
+      
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Bone Sword",
+    "image": "bone_sword.gif",
+    "baseAttack": 13,
+    "baseDefense": 10,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SWORD",
+    "vocations": [
+      
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Bright Sword",
+    "image": "bright_sword.gif",
+    "baseAttack": 36,
+    "baseDefense": 30,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 30,
+    "type": "SWORD",
+    "vocations": [
+      
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Broadsword",
+    "image": "broadsword.gif",
+    "baseAttack": 26,
+    "baseDefense": 23,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 3,
+    "level": 0,
+    "type": "SWORD",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Broken Macuahuitl",
+    "image": "broken_macuahuitl.gif",
+    "baseAttack": 1,
+    "baseDefense": 1,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SWORD",
+    "vocations": [
+      
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Carlin Sword",
+    "image": "carlin_sword.gif",
+    "baseAttack": 15,
+    "baseDefense": 13,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SWORD",
+    "vocations": [
+      
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Cobra Sword",
+    "image": "cobra_sword.gif",
+    "baseAttack": 52,
+    "baseDefense": 31,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "SWORD",
+        "value": 3
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 220,
+    "type": "SWORD",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Combat Knife",
+    "image": "combat_knife.gif",
+    "baseAttack": 8,
+    "baseDefense": 6,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SWORD",
+    "vocations": [
+      
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Cowtana",
+    "image": "cowtana.gif",
+    "baseAttack": 34,
+    "baseDefense": 19,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 25,
+    "type": "SWORD",
+    "vocations": [
+      
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Crimson Sword",
+    "image": "crimson_sword.gif",
+    "baseAttack": 28,
+    "baseDefense": 20,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 20,
+    "type": "SWORD",
+    "vocations": [
+      
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Crimson Sword (Rashid)",
+    "image": "crimson_sword_(rashid).gif",
+    "baseAttack": 18,
+    "baseDefense": 10,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SWORD",
+    "vocations": [
+      
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Crude Umbral Blade",
+    "image": "crude_umbral_blade.gif",
+    "baseAttack": 48,
+    "baseDefense": 26,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 75,
+    "type": "SWORD",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Crude Umbral Slayer",
+    "image": "crude_umbral_slayer.gif",
+    "baseAttack": 51,
+    "baseDefense": 29,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 75,
+    "type": "SWORD",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Crystal Sword",
+    "image": "crystal_sword.gif",
+    "baseAttack": 35,
+    "baseDefense": 26,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 25,
+    "type": "SWORD",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Crystalline Sword",
+    "image": "crystalline_sword.gif",
+    "baseAttack": 47,
+    "baseDefense": 34,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 62,
+    "type": "SWORD",
+    "vocations": [
+      
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Dagger",
+    "image": "dagger.gif",
+    "baseAttack": 8,
+    "baseDefense": 6,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SWORD",
+    "vocations": [
+      
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Demonrage Sword",
+    "image": "demonrage_sword.gif",
+    "baseAttack": 47,
+    "baseDefense": 22,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 3,
+    "level": 60,
+    "type": "SWORD",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Djinn Blade",
+    "image": "djinn_blade.gif",
+    "baseAttack": 38,
+    "baseDefense": 22,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 35,
+    "type": "SWORD",
+    "vocations": [
+      
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Dragon Slayer",
+    "image": "dragon_slayer.gif",
+    "baseAttack": 44,
+    "baseDefense": 28,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 3,
+    "level": 45,
+    "type": "SWORD",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Eldritch Claymore",
+    "image": "eldritch_claymore.gif",
+    "baseAttack": 6,
+    "baseDefense": 33,
+    "twoHands": true,
+    "elementalDamage": [
+      {
+        "value": 50,
+        "type": "FIRE"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "SWORD",
+        "value": 3
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 270,
+    "type": "SWORD",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Emerald Sword",
+    "image": "emerald_sword.gif",
+    "baseAttack": 49,
+    "baseDefense": 33,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 100,
+    "type": "SWORD",
+    "vocations": [
+      
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Epee",
+    "image": "epee.gif",
+    "baseAttack": 37,
+    "baseDefense": 23,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 30,
+    "type": "SWORD",
+    "vocations": [
+      
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Falcon Longsword",
+    "image": "falcon_longsword.gif",
+    "baseAttack": 56,
+    "baseDefense": 34,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "SWORD",
+        "value": 4
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 300,
+    "type": "SWORD",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Fire Sword",
+    "image": "fire_sword.gif",
+    "baseAttack": 24,
+    "baseDefense": 20,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 11,
+        "type": "FIRE"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 30,
+    "type": "SWORD",
+    "vocations": [
+      
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Giant Sword",
+    "image": "giant_sword.gif",
+    "baseAttack": 46,
+    "baseDefense": 22,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 3,
+    "level": 55,
+    "type": "SWORD",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Gilded Eldritch Claymore",
+    "image": "gilded_eldritch_claymore.gif",
+    "baseAttack": 6,
+    "baseDefense": 33,
+    "twoHands": true,
+    "elementalDamage": [
+      {
+        "value": 50,
+        "type": "FIRE"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "SWORD",
+        "value": 3
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 270,
+    "type": "SWORD",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Glooth Blade",
+    "image": "glooth_blade.gif",
+    "baseAttack": 39,
+    "baseDefense": 1,
+    "twoHands": true,
+    "elementalDamage": [
+      {
+        "value": 26,
+        "type": "EARTH"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 75,
+    "type": "SWORD",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Gnome Sword",
+    "image": "gnome_sword.gif",
+    "baseAttack": 10,
+    "baseDefense": 29,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 42,
+        "type": "ENERGY"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "SWORD",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 250,
+    "type": "SWORD",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Golden Magic Longsword",
+    "image": "golden_magic_longsword.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SWORD",
+    "vocations": [
+      
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Golden Warlord Sword",
+    "image": "golden_warlord_sword.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SWORD",
+    "vocations": [
+      
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Grand Sanguine Blade",
+    "image": "grand_sanguine_blade.gif",
+    "baseAttack": 8,
+    "baseDefense": 32,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 46,
+        "type": "FIRE"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "SWORD",
+        "value": 5
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 600,
+    "type": "SWORD",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Grand Sanguine Razor",
+    "image": "grand_sanguine_razor.gif",
+    "baseAttack": 8,
+    "baseDefense": 35,
+    "twoHands": true,
+    "elementalDamage": [
+      {
+        "value": 50,
+        "type": "ENERGY"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "SWORD",
+        "value": 5
+      }
+    ],
+    "maxEnchantmentSlots": 3,
+    "level": 600,
+    "type": "SWORD",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Haunted Blade",
+    "image": "haunted_blade.gif",
+    "baseAttack": 40,
+    "baseDefense": 12,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 3,
+    "level": 30,
+    "type": "SWORD",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Havoc Blade",
+    "image": "havoc_blade.gif",
+    "baseAttack": 49,
+    "baseDefense": 34,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 3,
+    "level": 70,
+    "type": "SWORD",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Heavy Machete",
+    "image": "heavy_machete.gif",
+    "baseAttack": 16,
+    "baseDefense": 10,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SWORD",
+    "vocations": [
+      
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Ice Rapier",
+    "image": "ice_rapier.gif",
+    "baseAttack": 42,
+    "baseDefense": 1,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 18,
+        "type": "ICE"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SWORD",
+    "vocations": [
+      
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Impaler of the Igniter",
+    "image": "impaler_of_the_igniter.gif",
+    "baseAttack": 25,
+    "baseDefense": 31,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 26,
+        "type": "FIRE"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 150,
+    "type": "SWORD",
+    "vocations": [
+      
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Incredible Mumpiz Slayer",
+    "image": "incredible_mumpiz_slayer.gif",
+    "baseAttack": 17,
+    "baseDefense": 14,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SWORD",
+    "vocations": [
+      
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Jagged Sword",
+    "image": "jagged_sword.gif",
+    "baseAttack": 21,
+    "baseDefense": 14,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SWORD",
+    "vocations": [
+      
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Katana",
+    "image": "katana.gif",
+    "baseAttack": 16,
+    "baseDefense": 12,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SWORD",
+    "vocations": [
+      
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Knife",
+    "image": "knife.gif",
+    "baseAttack": 5,
+    "baseDefense": 5,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SWORD",
+    "vocations": [
+      
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Lion Longsword",
+    "image": "lion_longsword.gif",
+    "baseAttack": 8,
+    "baseDefense": 31,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 44,
+        "type": "EARTH"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "SWORD",
+        "value": 3
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 270,
+    "type": "SWORD",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Longsword",
+    "image": "longsword.gif",
+    "baseAttack": 17,
+    "baseDefense": 14,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SWORD",
+    "vocations": [
+      
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Machete",
+    "image": "machete.gif",
+    "baseAttack": 12,
+    "baseDefense": 9,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SWORD",
+    "vocations": [
+      
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Magic Longsword",
+    "image": "magic_longsword.gif",
+    "baseAttack": 55,
+    "baseDefense": 40,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 140,
+    "type": "SWORD",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Magic Sword",
+    "image": "magic_sword.gif",
+    "baseAttack": 48,
+    "baseDefense": 35,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 80,
+    "type": "SWORD",
+    "vocations": [
+      
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Mean Knight Sword",
+    "image": "mean_knight_sword.gif",
+    "baseAttack": 14,
+    "baseDefense": 7,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SWORD",
+    "vocations": [
+      "ROOKIE"
+    ]
+  },
+  {
+    "name": "Mercenary Sword",
+    "image": "mercenary_sword.gif",
+    "baseAttack": 43,
+    "baseDefense": 27,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 40,
+    "type": "SWORD",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Mystic Blade",
+    "image": "mystic_blade.gif",
+    "baseAttack": 44,
+    "baseDefense": 25,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 60,
+    "type": "SWORD",
+    "vocations": [
+      
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Naga Sword",
+    "image": "naga_sword.gif",
+    "baseAttack": 8,
+    "baseDefense": 31,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 44,
+        "type": "ICE"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "SWORD",
+        "value": 3
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 300,
+    "type": "SWORD",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Nightmare Blade",
+    "image": "nightmare_blade.gif",
+    "baseAttack": 46,
+    "baseDefense": 23,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 70,
+    "type": "SWORD",
+    "vocations": [
+      
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Pharaoh Sword",
+    "image": "pharaoh_sword.gif",
+    "baseAttack": 41,
+    "baseDefense": 23,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 45,
+    "type": "SWORD",
+    "vocations": [
+      
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Poet's Fencing Quill",
+    "image": "poet's_fencing_quill.gif",
+    "baseAttack": 10,
+    "baseDefense": 8,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SWORD",
+    "vocations": [
+      
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Pointed Rabbitslayer",
+    "image": "pointed_rabbitslayer.gif",
+    "baseAttack": 16,
+    "baseDefense": 8,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SWORD",
+    "vocations": [
+      
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Poison Dagger",
+    "image": "poison_dagger.gif",
+    "baseAttack": 16,
+    "baseDefense": 8,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 2,
+        "type": "EARTH"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SWORD",
+    "vocations": [
+      
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Rapier",
+    "image": "rapier.gif",
+    "baseAttack": 10,
+    "baseDefense": 8,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SWORD",
+    "vocations": [
+      
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Ratana",
+    "image": "ratana.gif",
+    "baseAttack": 27,
+    "baseDefense": 19,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 15,
+    "type": "SWORD",
+    "vocations": [
+      
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Relic Sword",
+    "image": "relic_sword.gif",
+    "baseAttack": 42,
+    "baseDefense": 24,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 50,
+    "type": "SWORD",
+    "vocations": [
+      
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Ron the Ripper's Sabre",
+    "image": "ron_the_ripper's_sabre.gif",
+    "baseAttack": 12,
+    "baseDefense": 10,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SWORD",
+    "vocations": [
+      
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Runed Sword",
+    "image": "runed_sword.gif",
+    "baseAttack": 45,
+    "baseDefense": 32,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 65,
+    "type": "SWORD",
+    "vocations": [
+      
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Sabre",
+    "image": "sabre.gif",
+    "baseAttack": 12,
+    "baseDefense": 10,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SWORD",
+    "vocations": [
+      
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Sai",
+    "image": "sai.gif",
+    "baseAttack": 45,
+    "baseDefense": 27,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 50,
+    "type": "SWORD",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Sanguine Blade",
+    "image": "sanguine_blade.gif",
+    "baseAttack": 8,
+    "baseDefense": 32,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 46,
+        "type": "FIRE"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "SWORD",
+        "value": 5
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 600,
+    "type": "SWORD",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Sanguine Razor",
+    "image": "sanguine_razor.gif",
+    "baseAttack": 8,
+    "baseDefense": 35,
+    "twoHands": true,
+    "elementalDamage": [
+      {
+        "value": 50,
+        "type": "ENERGY"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "SWORD",
+        "value": 5
+      }
+    ],
+    "maxEnchantmentSlots": 3,
+    "level": 600,
+    "type": "SWORD",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Scimitar",
+    "image": "scimitar.gif",
+    "baseAttack": 19,
+    "baseDefense": 13,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SWORD",
+    "vocations": [
+      
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Serpent Sword",
+    "image": "serpent_sword.gif",
+    "baseAttack": 18,
+    "baseDefense": 15,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 8,
+        "type": "EARTH"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SWORD",
+    "vocations": [
+      
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Shimmer Sword",
+    "image": "shimmer_sword.gif",
+    "baseAttack": 42,
+    "baseDefense": 20,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 40,
+    "type": "SWORD",
+    "vocations": [
+      
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Shiny Blade",
+    "image": "shiny_blade.gif",
+    "baseAttack": 49,
+    "baseDefense": 35,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "SWORD",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 120,
+    "type": "SWORD",
+    "vocations": [
+      
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Short Sword",
+    "image": "short_sword.gif",
+    "baseAttack": 11,
+    "baseDefense": 11,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SWORD",
+    "vocations": [
+      
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Silver Dagger",
+    "image": "silver_dagger.gif",
+    "baseAttack": 9,
+    "baseDefense": 7,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SWORD",
+    "vocations": [
+      
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Slayer of Destruction",
+    "image": "slayer_of_destruction.gif",
+    "baseAttack": 52,
+    "baseDefense": 30,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 3,
+    "level": 200,
+    "type": "SWORD",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Soulcutter",
+    "image": "soulcutter.gif",
+    "baseAttack": 7,
+    "baseDefense": 32,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 45,
+        "type": "DEATH"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "SWORD",
+        "value": 5
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 400,
+    "type": "SWORD",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Soulshredder",
+    "image": "soulshredder.gif",
+    "baseAttack": 10,
+    "baseDefense": 35,
+    "twoHands": true,
+    "elementalDamage": [
+      {
+        "value": 47,
+        "type": "ICE"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "SWORD",
+        "value": 5
+      }
+    ],
+    "maxEnchantmentSlots": 3,
+    "level": 400,
+    "type": "SWORD",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Spike Sword",
+    "image": "spike_sword.gif",
+    "baseAttack": 24,
+    "baseDefense": 21,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 0,
+    "type": "SWORD",
+    "vocations": [
+      
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Summerblade",
+    "image": "summerblade.gif",
+    "baseAttack": 10,
+    "baseDefense": 20,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 41,
+        "type": "FIRE"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "SWORD",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 200,
+    "type": "SWORD",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Sword",
+    "image": "sword.gif",
+    "baseAttack": 14,
+    "baseDefense": 12,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 0,
+    "type": "SWORD",
+    "vocations": [
+      
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Tagralt Blade",
+    "image": "tagralt_blade.gif",
+    "baseAttack": 7,
+    "baseDefense": 32,
+    "twoHands": true,
+    "elementalDamage": [
+      {
+        "value": 49,
+        "type": "EARTH"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "SWORD",
+        "value": 3
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 250,
+    "type": "SWORD",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Templar Scytheblade",
+    "image": "templar_scytheblade.gif",
+    "baseAttack": 23,
+    "baseDefense": 15,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SWORD",
+    "vocations": [
+      
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Thaian Sword",
+    "image": "thaian_sword.gif",
+    "baseAttack": 45,
+    "baseDefense": 29,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 3,
+    "level": 50,
+    "type": "SWORD",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "The Avenger",
+    "image": "the_avenger.gif",
+    "baseAttack": 50,
+    "baseDefense": 38,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 75,
+    "type": "SWORD",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "The Calamity",
+    "image": "the_calamity.gif",
+    "baseAttack": 51,
+    "baseDefense": 35,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 100,
+    "type": "SWORD",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "The Epiphany",
+    "image": "the_epiphany.gif",
+    "baseAttack": 50,
+    "baseDefense": 35,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 120,
+    "type": "SWORD",
+    "vocations": [
+      
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "The Justice Seeker",
+    "image": "the_justice_seeker.gif",
+    "baseAttack": 47,
+    "baseDefense": 24,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 75,
+    "type": "SWORD",
+    "vocations": [
+      
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Twiceslicer",
+    "image": "twiceslicer.gif",
+    "baseAttack": 47,
+    "baseDefense": 30,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 3,
+    "level": 58,
+    "type": "SWORD",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Twin Hooks",
+    "image": "twin_hooks.gif",
+    "baseAttack": 32,
+    "baseDefense": 22,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 3,
+    "level": 20,
+    "type": "SWORD",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Two Handed Sword",
+    "image": "two_handed_sword.gif",
+    "baseAttack": 30,
+    "baseDefense": 25,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 20,
+    "type": "SWORD",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Umbral Blade",
+    "image": "umbral_blade.gif",
+    "baseAttack": 50,
+    "baseDefense": 29,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 120,
+    "type": "SWORD",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Umbral Master Slayer",
+    "image": "umbral_master_slayer.gif",
+    "baseAttack": 54,
+    "baseDefense": 35,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "SWORD",
+        "value": 3
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 250,
+    "type": "SWORD",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Umbral Masterblade",
+    "image": "umbral_masterblade.gif",
+    "baseAttack": 52,
+    "baseDefense": 31,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "SWORD",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 250,
+    "type": "SWORD",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Umbral Slayer",
+    "image": "umbral_slayer.gif",
+    "baseAttack": 52,
+    "baseDefense": 31,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 120,
+    "type": "SWORD",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Warlord Sword",
+    "image": "warlord_sword.gif",
+    "baseAttack": 53,
+    "baseDefense": 38,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 120,
+    "type": "SWORD",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Winterblade",
+    "image": "winterblade.gif",
+    "baseAttack": 10,
+    "baseDefense": 22,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 40,
+        "type": "ICE"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "SWORD",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 200,
+    "type": "SWORD",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Wooden Sword",
+    "image": "wooden_sword.gif",
+    "baseAttack": 7,
+    "baseDefense": 7,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SWORD",
+    "vocations": [
+      
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Wyvern Fang",
+    "image": "wyvern_fang.gif",
+    "baseAttack": 32,
+    "baseDefense": 19,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 25,
+    "type": "SWORD",
+    "vocations": [
+      
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Zaoan Sword",
+    "image": "zaoan_sword.gif",
+    "baseAttack": 43,
+    "baseDefense": 18,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 55,
+    "type": "SWORD",
+    "vocations": [
+      
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  }
+]

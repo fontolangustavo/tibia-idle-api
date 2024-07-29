@@ -1,0 +1,1367 @@
+[
+  {
+    "name": "Alloy Legs",
+    "image": "alloy_legs.gif",
+    "baseAttack": 0,
+    "baseDefense": 6,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "SPEED",
+        "value": 10
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 60,
+    "type": "LEGS",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Bast Legs",
+    "image": "bast_legs.gif",
+    "baseAttack": 0,
+    "baseDefense": 8,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "ENERGY",
+        "value": 4
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "DISTANCE",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 150,
+    "type": "LEGS",
+    "vocations": [
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Bast Skirt",
+    "image": "bast_skirt.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "LEGS",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Blue Legs",
+    "image": "blue_legs.gif",
+    "baseAttack": 0,
+    "baseDefense": 8,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "LEGS",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Brass Legs",
+    "image": "brass_legs.gif",
+    "baseAttack": 0,
+    "baseDefense": 5,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "LEGS",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Broken Iks Faulds",
+    "image": "broken_iks_faulds.gif",
+    "baseAttack": 0,
+    "baseDefense": 1,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "LEGS",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Chain Legs",
+    "image": "chain_legs.gif",
+    "baseAttack": 0,
+    "baseDefense": 3,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "LEGS",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Chocolatey Dragon Scale Legs",
+    "image": "chocolatey_dragon_scale_legs.gif",
+    "baseAttack": 0,
+    "baseDefense": 2,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "LEGS",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Crown Legs",
+    "image": "crown_legs.gif",
+    "baseAttack": 0,
+    "baseDefense": 8,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "LEGS",
+    "vocations": [
+      "KNIGHT",
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Dawnfire Pantaloons",
+    "image": "dawnfire_pantaloons.gif",
+    "baseAttack": 0,
+    "baseDefense": 8,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 3
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 300,
+    "type": "LEGS",
+    "vocations": [
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Demon Legs",
+    "image": "demon_legs.gif",
+    "baseAttack": 0,
+    "baseDefense": 9,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "LEGS",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Depth Ocrea",
+    "image": "depth_ocrea.gif",
+    "baseAttack": 0,
+    "baseDefense": 8,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 130,
+    "type": "LEGS",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Dragon Scale Legs",
+    "image": "dragon_scale_legs.gif",
+    "baseAttack": 0,
+    "baseDefense": 10,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "LEGS",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Dwarven Legs",
+    "image": "dwarven_legs.gif",
+    "baseAttack": 0,
+    "baseDefense": 7,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 3
+      }
+    ],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "LEGS",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Eldritch Breeches",
+    "image": "eldritch_breeches.gif",
+    "baseAttack": 0,
+    "baseDefense": 9,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 2
+      },
+      {
+        "type": "HOLY",
+        "value": 7
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "DISTANCE",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 250,
+    "type": "LEGS",
+    "vocations": [
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Elven Legs",
+    "image": "elven_legs.gif",
+    "baseAttack": 0,
+    "baseDefense": 4,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "LEGS",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Exotic Legs",
+    "image": "exotic_legs.gif",
+    "baseAttack": 0,
+    "baseDefense": 8,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 4
+      }
+    ],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 130,
+    "type": "LEGS",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Fabulous Legs",
+    "image": "fabulous_legs.gif",
+    "baseAttack": 0,
+    "baseDefense": 9,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 4
+      },
+      {
+        "type": "FIRE",
+        "value": 2
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "SWORD",
+        "value": 2
+      },
+      {
+        "type": "AXE",
+        "value": 2
+      },
+      {
+        "type": "CLUB",
+        "value": 2
+      },
+      {
+        "type": "DISTANCE",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 225,
+    "type": "LEGS",
+    "vocations": [
+      "KNIGHT",
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Falcon Greaves",
+    "image": "falcon_greaves.gif",
+    "baseAttack": 0,
+    "baseDefense": 10,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 7
+      },
+      {
+        "type": "ICE",
+        "value": 7
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "SWORD",
+        "value": 3
+      },
+      {
+        "type": "AXE",
+        "value": 3
+      },
+      {
+        "type": "CLUB",
+        "value": 3
+      },
+      {
+        "type": "DISTANCE",
+        "value": 3
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 300,
+    "type": "LEGS",
+    "vocations": [
+      "KNIGHT",
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Gill Legs",
+    "image": "gill_legs.gif",
+    "baseAttack": 0,
+    "baseDefense": 7,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "EARTH",
+        "value": 8
+      },
+      {
+        "type": "FIRE",
+        "value": -8
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 150,
+    "type": "LEGS",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Glacier Kilt",
+    "image": "glacier_kilt.gif",
+    "baseAttack": 0,
+    "baseDefense": 8,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "ICE",
+        "value": 6
+      },
+      {
+        "type": "ENERGY",
+        "value": -6
+      }
+    ],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 40,
+    "type": "LEGS",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Gnome Legs",
+    "image": "gnome_legs.gif",
+    "baseAttack": 0,
+    "baseDefense": 9,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "ENERGY",
+        "value": 7
+      },
+      {
+        "type": "ICE",
+        "value": -2
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 200,
+    "type": "LEGS",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Golden Legs",
+    "image": "golden_legs.gif",
+    "baseAttack": 0,
+    "baseDefense": 9,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "LEGS",
+    "vocations": [
+      "KNIGHT",
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Grasshopper Legs",
+    "image": "grasshopper_legs.gif",
+    "baseAttack": 0,
+    "baseDefense": 7,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "SPEED",
+        "value": 10
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 75,
+    "type": "LEGS",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Green Demon Legs",
+    "image": "green_demon_legs.gif",
+    "baseAttack": 0,
+    "baseDefense": 9,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "LEGS",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Icy Culottes",
+    "image": "icy_culottes.gif",
+    "baseAttack": 0,
+    "baseDefense": 8,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "ICE",
+        "value": 8
+      }
+    ],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "LEGS",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Knight Legs",
+    "image": "knight_legs.gif",
+    "baseAttack": 0,
+    "baseDefense": 8,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "LEGS",
+    "vocations": [
+      "KNIGHT",
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Leaf Legs",
+    "image": "leaf_legs.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "LEGS",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Leather Legs",
+    "image": "leather_legs.gif",
+    "baseAttack": 0,
+    "baseDefense": 1,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "LEGS",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Lederhosen",
+    "image": "lederhosen.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "LEGS",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Lightning Legs",
+    "image": "lightning_legs.gif",
+    "baseAttack": 0,
+    "baseDefense": 8,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "ENERGY",
+        "value": 6
+      },
+      {
+        "type": "EARTH",
+        "value": -6
+      }
+    ],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 40,
+    "type": "LEGS",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Magma Legs",
+    "image": "magma_legs.gif",
+    "baseAttack": 0,
+    "baseDefense": 8,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "FIRE",
+        "value": 6
+      },
+      {
+        "type": "ICE",
+        "value": -6
+      }
+    ],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 40,
+    "type": "LEGS",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Mammoth Fur Shorts",
+    "image": "mammoth_fur_shorts.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "LEGS",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Midnight Sarong",
+    "image": "midnight_sarong.gif",
+    "baseAttack": 0,
+    "baseDefense": 8,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "ICE",
+        "value": 7
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 250,
+    "type": "LEGS",
+    "vocations": [
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Mutant Bone Kilt",
+    "image": "mutant_bone_kilt.gif",
+    "baseAttack": 0,
+    "baseDefense": 8,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 3
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 300,
+    "type": "LEGS",
+    "vocations": [
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Mutated Skin Legs",
+    "image": "mutated_skin_legs.gif",
+    "baseAttack": 0,
+    "baseDefense": 9,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 4
+      },
+      {
+        "type": "EARTH",
+        "value": 4
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "DISTANCE",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 270,
+    "type": "LEGS",
+    "vocations": [
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Ornate Legs",
+    "image": "ornate_legs.gif",
+    "baseAttack": 0,
+    "baseDefense": 8,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 5
+      }
+    ],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 185,
+    "type": "LEGS",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Pirate Knee Breeches",
+    "image": "pirate_knee_breeches.gif",
+    "baseAttack": 0,
+    "baseDefense": 1,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "LEGS",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Plate Legs",
+    "image": "plate_legs.gif",
+    "baseAttack": 0,
+    "baseDefense": 7,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "LEGS",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Prismatic Legs",
+    "image": "prismatic_legs.gif",
+    "baseAttack": 0,
+    "baseDefense": 8,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 3
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "DISTANCE",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 150,
+    "type": "LEGS",
+    "vocations": [
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Ranger Legs",
+    "image": "ranger_legs.gif",
+    "baseAttack": 0,
+    "baseDefense": 4,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "LEGS",
+    "vocations": [
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Sanguine Greaves",
+    "image": "sanguine_greaves.gif",
+    "baseAttack": 0,
+    "baseDefense": 11,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "ENERGY",
+        "value": 9
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 4
+      },
+      {
+        "type": "DISTANCE",
+        "value": 4
+      },
+      {
+        "type": "HOLY",
+        "value": 4
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 500,
+    "type": "LEGS",
+    "vocations": [
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Sanguine Legs",
+    "image": "sanguine_legs.gif",
+    "baseAttack": 0,
+    "baseDefense": 12,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "DEATH",
+        "value": 6
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "SWORD",
+        "value": 4
+      },
+      {
+        "type": "AXE",
+        "value": 4
+      },
+      {
+        "type": "CLUB",
+        "value": 4
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 500,
+    "type": "LEGS",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Soulful Legs",
+    "image": "soulful_legs.gif",
+    "baseAttack": 0,
+    "baseDefense": 8,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "HOLY",
+        "value": 8
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 180,
+    "type": "LEGS",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Soulshanks",
+    "image": "soulshanks.gif",
+    "baseAttack": 0,
+    "baseDefense": 10,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "DEATH",
+        "value": 10
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 3
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 400,
+    "type": "LEGS",
+    "vocations": [
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Soulstrider",
+    "image": "soulstrider.gif",
+    "baseAttack": 0,
+    "baseDefense": 10,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "FIRE",
+        "value": 10
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 3
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 400,
+    "type": "LEGS",
+    "vocations": [
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Stitched Mutant Hide Legs",
+    "image": "stitched_mutant_hide_legs.gif",
+    "baseAttack": 0,
+    "baseDefense": 9,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 5
+      },
+      {
+        "type": "EARTH",
+        "value": 5
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "SWORD",
+        "value": 2
+      },
+      {
+        "type": "AXE",
+        "value": 2
+      },
+      {
+        "type": "CLUB",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 270,
+    "type": "LEGS",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Stoic Iks Culet",
+    "image": "stoic_iks_culet.gif",
+    "baseAttack": 0,
+    "baseDefense": 9,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 4
+      },
+      {
+        "type": "ENERGY",
+        "value": null
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "SWORD",
+        "value": 2
+      },
+      {
+        "type": "AXE",
+        "value": 2
+      },
+      {
+        "type": "CLUB",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 250,
+    "type": "LEGS",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Stoic Iks Faulds",
+    "image": "stoic_iks_faulds.gif",
+    "baseAttack": 0,
+    "baseDefense": 8,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "FIRE",
+        "value": 6
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 250,
+    "type": "LEGS",
+    "vocations": [
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Studded Legs",
+    "image": "studded_legs.gif",
+    "baseAttack": 0,
+    "baseDefense": 2,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "LEGS",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Tatty Dragon Scale Legs",
+    "image": "tatty_dragon_scale_legs.gif",
+    "baseAttack": 0,
+    "baseDefense": 2,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "LEGS",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Terra Legs",
+    "image": "terra_legs.gif",
+    "baseAttack": 0,
+    "baseDefense": 8,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "EARTH",
+        "value": 6
+      },
+      {
+        "type": "FIRE",
+        "value": -6
+      }
+    ],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 40,
+    "type": "LEGS",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Trousers of the Ancients",
+    "image": "trousers_of_the_ancients.gif",
+    "baseAttack": 0,
+    "baseDefense": 2,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "LEGS",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Wereboar Loincloth",
+    "image": "wereboar_loincloth.gif",
+    "baseAttack": 0,
+    "baseDefense": 6,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "LEGS",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Yalahari Leg Piece",
+    "image": "yalahari_leg_piece.gif",
+    "baseAttack": 0,
+    "baseDefense": 8,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "DEATH",
+        "value": 5
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "DISTANCE",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 80,
+    "type": "LEGS",
+    "vocations": [
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Zaoan Legs",
+    "image": "zaoan_legs.gif",
+    "baseAttack": 0,
+    "baseDefense": 8,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 2
+      }
+    ],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "LEGS",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  }
+]

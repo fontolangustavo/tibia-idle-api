@@ -1,0 +1,2223 @@
+[
+  {
+    "name": "Amber Axe",
+    "image": "amber_axe.gif",
+    "baseAttack": 0,
+    "baseDefense": 32,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 46,
+        "type": "ICE"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "AXE",
+        "value": 4
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 330,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Amber Greataxe",
+    "image": "amber_greataxe.gif",
+    "baseAttack": 0,
+    "baseDefense": 34,
+    "twoHands": true,
+    "elementalDamage": [
+      {
+        "value": 50,
+        "type": "EARTH"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "AXE",
+        "value": 4
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 330,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Angelic Axe",
+    "image": "angelic_axe.gif",
+    "baseAttack": 44,
+    "baseDefense": 24,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 45,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Axe",
+    "image": "axe.gif",
+    "baseAttack": 12,
+    "baseDefense": 6,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "AXE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Axe of Carving",
+    "image": "axe_of_carving.gif",
+    "baseAttack": 51,
+    "baseDefense": 31,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 3,
+    "level": 100,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Axe of Carving (Charged)",
+    "image": "axe_of_carving_(charged).gif",
+    "baseAttack": 50,
+    "baseDefense": 30,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 150,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Axe of Carving (Heavily Charged)",
+    "image": "axe_of_carving_(heavily_charged).gif",
+    "baseAttack": 51,
+    "baseDefense": 31,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 200,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Axe of Carving (Overcharged)",
+    "image": "axe_of_carving_(overcharged).gif",
+    "baseAttack": 52,
+    "baseDefense": 33,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "AXE",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 250,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Axe of Destruction",
+    "image": "axe_of_destruction.gif",
+    "baseAttack": 51,
+    "baseDefense": 31,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 200,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Axe of Mayhem",
+    "image": "axe_of_mayhem.gif",
+    "baseAttack": 51,
+    "baseDefense": 31,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 3,
+    "level": 100,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Axe of Mayhem (Charged)",
+    "image": "axe_of_mayhem_(charged).gif",
+    "baseAttack": 50,
+    "baseDefense": 30,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 150,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Axe of Mayhem (Heavily Charged)",
+    "image": "axe_of_mayhem_(heavily_charged).gif",
+    "baseAttack": 51,
+    "baseDefense": 31,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 200,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Axe of Mayhem (Overcharged)",
+    "image": "axe_of_mayhem_(overcharged).gif",
+    "baseAttack": 52,
+    "baseDefense": 33,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "AXE",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 250,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Axe of Remedy",
+    "image": "axe_of_remedy.gif",
+    "baseAttack": 51,
+    "baseDefense": 31,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 3,
+    "level": 100,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Axe of Remedy (Charged)",
+    "image": "axe_of_remedy_(charged).gif",
+    "baseAttack": 50,
+    "baseDefense": 30,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 150,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Axe of Remedy (Heavily Charged)",
+    "image": "axe_of_remedy_(heavily_charged).gif",
+    "baseAttack": 51,
+    "baseDefense": 31,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 200,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Axe of Remedy (Overcharged)",
+    "image": "axe_of_remedy_(overcharged).gif",
+    "baseAttack": 52,
+    "baseDefense": 33,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "AXE",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 250,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Barbarian Axe",
+    "image": "barbarian_axe.gif",
+    "baseAttack": 28,
+    "baseDefense": 18,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 20,
+    "type": "AXE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Battle Axe",
+    "image": "battle_axe.gif",
+    "baseAttack": 25,
+    "baseDefense": 10,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Beastslayer Axe",
+    "image": "beastslayer_axe.gif",
+    "baseAttack": 35,
+    "baseDefense": 12,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 30,
+    "type": "AXE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Butcher's Axe",
+    "image": "butcher's_axe.gif",
+    "baseAttack": 41,
+    "baseDefense": 24,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 45,
+    "type": "AXE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Chopper of Carving",
+    "image": "chopper_of_carving.gif",
+    "baseAttack": 52,
+    "baseDefense": 32,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 3,
+    "level": 100,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Chopper of Carving (Charged)",
+    "image": "chopper_of_carving_(charged).gif",
+    "baseAttack": 51,
+    "baseDefense": 31,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 150,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Chopper of Carving (Heavily Charged)",
+    "image": "chopper_of_carving_(heavily_charged).gif",
+    "baseAttack": 52,
+    "baseDefense": 32,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 200,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Chopper of Carving (Overcharged)",
+    "image": "chopper_of_carving_(overcharged).gif",
+    "baseAttack": 53,
+    "baseDefense": 35,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "AXE",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 250,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Chopper of Destruction",
+    "image": "chopper_of_destruction.gif",
+    "baseAttack": 52,
+    "baseDefense": 30,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 3,
+    "level": 200,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Chopper of Mayhem",
+    "image": "chopper_of_mayhem.gif",
+    "baseAttack": 52,
+    "baseDefense": 32,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 3,
+    "level": 100,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Chopper of Mayhem (Charged)",
+    "image": "chopper_of_mayhem_(charged).gif",
+    "baseAttack": 51,
+    "baseDefense": 37,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 150,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Chopper of Mayhem (Heavily Charged)",
+    "image": "chopper_of_mayhem_(heavily_charged).gif",
+    "baseAttack": 52,
+    "baseDefense": 32,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 200,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Chopper of Mayhem (Overcharged)",
+    "image": "chopper_of_mayhem_(overcharged).gif",
+    "baseAttack": 53,
+    "baseDefense": 35,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "AXE",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 250,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Chopper of Remedy",
+    "image": "chopper_of_remedy.gif",
+    "baseAttack": 52,
+    "baseDefense": 32,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 3,
+    "level": 100,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Chopper of Remedy (Charged)",
+    "image": "chopper_of_remedy_(charged).gif",
+    "baseAttack": 51,
+    "baseDefense": 31,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 150,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Chopper of Remedy (Heavily Charged)",
+    "image": "chopper_of_remedy_(heavily_charged).gif",
+    "baseAttack": 52,
+    "baseDefense": 32,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 200,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Chopper of Remedy (Overcharged)",
+    "image": "chopper_of_remedy_(overcharged).gif",
+    "baseAttack": 53,
+    "baseDefense": 35,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "AXE",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 250,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Cobra Axe",
+    "image": "cobra_axe.gif",
+    "baseAttack": 8,
+    "baseDefense": 29,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 44,
+        "type": "ICE"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "AXE",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 220,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Crude Umbral Axe",
+    "image": "crude_umbral_axe.gif",
+    "baseAttack": 49,
+    "baseDefense": 24,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 75,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Crude Umbral Chopper",
+    "image": "crude_umbral_chopper.gif",
+    "baseAttack": 51,
+    "baseDefense": 27,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 75,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Crystalline Axe",
+    "image": "crystalline_axe.gif",
+    "baseAttack": 51,
+    "baseDefense": 29,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "AXE",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 120,
+    "type": "AXE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Daramian Axe",
+    "image": "daramian_axe.gif",
+    "baseAttack": 17,
+    "baseDefense": 8,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "AXE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Daramian Waraxe",
+    "image": "daramian_waraxe.gif",
+    "baseAttack": 39,
+    "baseDefense": 15,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 25,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Deepling Axe",
+    "image": "deepling_axe.gif",
+    "baseAttack": 49,
+    "baseDefense": 29,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 80,
+    "type": "AXE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Demonwing Axe",
+    "image": "demonwing_axe.gif",
+    "baseAttack": 53,
+    "baseDefense": 20,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 120,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Double Axe",
+    "image": "double_axe.gif",
+    "baseAttack": 35,
+    "baseDefense": 12,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 25,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Dragon Lance",
+    "image": "dragon_lance.gif",
+    "baseAttack": 47,
+    "baseDefense": 16,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 3,
+    "level": 60,
+    "type": "AXE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Drakinata",
+    "image": "drakinata.gif",
+    "baseAttack": 47,
+    "baseDefense": 20,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 3,
+    "level": 60,
+    "type": "AXE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Dreaded Cleaver",
+    "image": "dreaded_cleaver.gif",
+    "baseAttack": 40,
+    "baseDefense": 19,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 40,
+    "type": "AXE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Dwarven Axe",
+    "image": "dwarven_axe.gif",
+    "baseAttack": 31,
+    "baseDefense": 19,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 20,
+    "type": "AXE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Eldritch Greataxe",
+    "image": "eldritch_greataxe.gif",
+    "baseAttack": 56,
+    "baseDefense": 33,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "AXE",
+        "value": 3
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 270,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Execowtioner Axe",
+    "image": "execowtioner_axe.gif",
+    "baseAttack": 46,
+    "baseDefense": 18,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 55,
+    "type": "AXE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Executioner",
+    "image": "executioner.gif",
+    "baseAttack": 51,
+    "baseDefense": 20,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 85,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Falcon Battleaxe",
+    "image": "falcon_battleaxe.gif",
+    "baseAttack": 10,
+    "baseDefense": 33,
+    "twoHands": true,
+    "elementalDamage": [
+      {
+        "value": 47,
+        "type": "ENERGY"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "AXE",
+        "value": 4
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 300,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Farmer's Avenger",
+    "image": "farmer's_avenger.gif",
+    "baseAttack": 17,
+    "baseDefense": 7,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "AXE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Fire Axe",
+    "image": "fire_axe.gif",
+    "baseAttack": 27,
+    "baseDefense": 16,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 11,
+        "type": "FIRE"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 35,
+    "type": "AXE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Gilded Eldritch Greataxe",
+    "image": "gilded_eldritch_greataxe.gif",
+    "baseAttack": 56,
+    "baseDefense": 33,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "AXE",
+        "value": 3
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 270,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Glooth Axe",
+    "image": "glooth_axe.gif",
+    "baseAttack": 39,
+    "baseDefense": 1,
+    "twoHands": true,
+    "elementalDamage": [
+      {
+        "value": 26,
+        "type": "EARTH"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 75,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Glorious Axe",
+    "image": "glorious_axe.gif",
+    "baseAttack": 40,
+    "baseDefense": 23,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 30,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Golden Axe",
+    "image": "golden_axe.gif",
+    "baseAttack": 10,
+    "baseDefense": 5,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "AXE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Golden Sickle",
+    "image": "golden_sickle.gif",
+    "baseAttack": 13,
+    "baseDefense": 6,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "AXE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Grand Sanguine Battleaxe",
+    "image": "grand_sanguine_battleaxe.gif",
+    "baseAttack": 8,
+    "baseDefense": 35,
+    "twoHands": true,
+    "elementalDamage": [
+      {
+        "value": 50,
+        "type": "DEATH"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "AXE",
+        "value": 5
+      }
+    ],
+    "maxEnchantmentSlots": 3,
+    "level": 600,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Grand Sanguine Hatchet",
+    "image": "grand_sanguine_hatchet.gif",
+    "baseAttack": 8,
+    "baseDefense": 32,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 46,
+        "type": "FIRE"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "AXE",
+        "value": 5
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 600,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Great Axe",
+    "image": "great_axe.gif",
+    "baseAttack": 52,
+    "baseDefense": 22,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 95,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Guardian Axe",
+    "image": "guardian_axe.gif",
+    "baseAttack": 46,
+    "baseDefense": 11,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 50,
+    "type": "AXE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Guardian Halberd",
+    "image": "guardian_halberd.gif",
+    "baseAttack": 46,
+    "baseDefense": 15,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 3,
+    "level": 55,
+    "type": "AXE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Halberd",
+    "image": "halberd.gif",
+    "baseAttack": 35,
+    "baseDefense": 14,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 25,
+    "type": "AXE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Hand Axe",
+    "image": "hand_axe.gif",
+    "baseAttack": 10,
+    "baseDefense": 5,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "AXE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Hatchet",
+    "image": "hatchet.gif",
+    "baseAttack": 15,
+    "baseDefense": 8,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "AXE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Headchopper",
+    "image": "headchopper.gif",
+    "baseAttack": 42,
+    "baseDefense": 20,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 3,
+    "level": 35,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Heavy Trident",
+    "image": "heavy_trident.gif",
+    "baseAttack": 35,
+    "baseDefense": 17,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 25,
+    "type": "AXE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Hellforged Axe",
+    "image": "hellforged_axe.gif",
+    "baseAttack": 51,
+    "baseDefense": 28,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 110,
+    "type": "AXE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Heroic Axe",
+    "image": "heroic_axe.gif",
+    "baseAttack": 44,
+    "baseDefense": 24,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 60,
+    "type": "AXE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Hive Scythe",
+    "image": "hive_scythe.gif",
+    "baseAttack": 46,
+    "baseDefense": 24,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 70,
+    "type": "AXE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Ice Hatchet",
+    "image": "ice_hatchet.gif",
+    "baseAttack": 4,
+    "baseDefense": 8,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 11,
+        "type": "ICE"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "AXE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Impaler",
+    "image": "impaler.gif",
+    "baseAttack": 49,
+    "baseDefense": 25,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 85,
+    "type": "AXE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Knight Axe",
+    "image": "knight_axe.gif",
+    "baseAttack": 33,
+    "baseDefense": 21,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 25,
+    "type": "AXE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Lion Axe",
+    "image": "lion_axe.gif",
+    "baseAttack": 8,
+    "baseDefense": 31,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 44,
+        "type": "EARTH"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "AXE",
+        "value": 3
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 270,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Mino Lance",
+    "image": "mino_lance.gif",
+    "baseAttack": 40,
+    "baseDefense": 23,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 45,
+    "type": "AXE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Mythril Axe",
+    "image": "mythril_axe.gif",
+    "baseAttack": 48,
+    "baseDefense": 28,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 80,
+    "type": "AXE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Naga Axe",
+    "image": "naga_axe.gif",
+    "baseAttack": 8,
+    "baseDefense": 31,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 44,
+        "type": "ENERGY"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "AXE",
+        "value": 3
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 300,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Naginata",
+    "image": "naginata.gif",
+    "baseAttack": 39,
+    "baseDefense": 25,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 25,
+    "type": "AXE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Noble Axe",
+    "image": "noble_axe.gif",
+    "baseAttack": 39,
+    "baseDefense": 22,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 35,
+    "type": "AXE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Obsidian Lance",
+    "image": "obsidian_lance.gif",
+    "baseAttack": 34,
+    "baseDefense": 10,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 20,
+    "type": "AXE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Ogre Choppa",
+    "image": "ogre_choppa.gif",
+    "baseAttack": 39,
+    "baseDefense": 23,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 25,
+    "type": "AXE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Orcish Axe",
+    "image": "orcish_axe.gif",
+    "baseAttack": 23,
+    "baseDefense": 12,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "AXE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Ornamented Axe",
+    "image": "ornamented_axe.gif",
+    "baseAttack": 42,
+    "baseDefense": 22,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 50,
+    "type": "AXE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Phantasmal Axe",
+    "image": "phantasmal_axe.gif",
+    "baseAttack": 5,
+    "baseDefense": 32,
+    "twoHands": true,
+    "elementalDamage": [
+      {
+        "value": 49,
+        "type": "FIRE"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "AXE",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 180,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Plague Bite",
+    "image": "plague_bite.gif",
+    "baseAttack": 26,
+    "baseDefense": 31,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 26,
+        "type": "EARTH"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 150,
+    "type": "AXE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Ravager's Axe",
+    "image": "ravager's_axe.gif",
+    "baseAttack": 49,
+    "baseDefense": 14,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 3,
+    "level": 70,
+    "type": "AXE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Ravenwing",
+    "image": "ravenwing.gif",
+    "baseAttack": 45,
+    "baseDefense": 22,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 65,
+    "type": "AXE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Reaper's Axe",
+    "image": "reaper's_axe.gif",
+    "baseAttack": 46,
+    "baseDefense": 25,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 70,
+    "type": "AXE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Rift Lance",
+    "image": "rift_lance.gif",
+    "baseAttack": 48,
+    "baseDefense": 28,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 3,
+    "level": 70,
+    "type": "AXE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Ripper Lance",
+    "image": "ripper_lance.gif",
+    "baseAttack": 28,
+    "baseDefense": 7,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "AXE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Royal Axe",
+    "image": "royal_axe.gif",
+    "baseAttack": 47,
+    "baseDefense": 25,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 75,
+    "type": "AXE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Ruthless Axe",
+    "image": "ruthless_axe.gif",
+    "baseAttack": 50,
+    "baseDefense": 15,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 75,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Sanguine Battleaxe",
+    "image": "sanguine_battleaxe.gif",
+    "baseAttack": 8,
+    "baseDefense": 35,
+    "twoHands": true,
+    "elementalDamage": [
+      {
+        "value": 50,
+        "type": "DEATH"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "AXE",
+        "value": 5
+      }
+    ],
+    "maxEnchantmentSlots": 3,
+    "level": 600,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Sanguine Hatchet",
+    "image": "sanguine_hatchet.gif",
+    "baseAttack": 8,
+    "baseDefense": 32,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 46,
+        "type": "FIRE"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "AXE",
+        "value": 5
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 600,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Scythe of the Reaper",
+    "image": "scythe_of_the_reaper.gif",
+    "baseAttack": 16,
+    "baseDefense": 6,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "AXE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Sickle",
+    "image": "sickle.gif",
+    "baseAttack": 5,
+    "baseDefense": 4,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "AXE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Solar Axe",
+    "image": "solar_axe.gif",
+    "baseAttack": 52,
+    "baseDefense": 29,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 130,
+    "type": "AXE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Soulbiter",
+    "image": "soulbiter.gif",
+    "baseAttack": 7,
+    "baseDefense": 32,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 45,
+        "type": "DEATH"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "AXE",
+        "value": 5
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 400,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Souleater (Axe)",
+    "image": "souleater_(axe).gif",
+    "baseAttack": 10,
+    "baseDefense": 34,
+    "twoHands": true,
+    "elementalDamage": [
+      {
+        "value": 47,
+        "type": "ICE"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "AXE",
+        "value": 5
+      }
+    ],
+    "maxEnchantmentSlots": 3,
+    "level": 400,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Steel Axe",
+    "image": "steel_axe.gif",
+    "baseAttack": 21,
+    "baseDefense": 10,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "AXE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Stonecutter Axe",
+    "image": "stonecutter_axe.gif",
+    "baseAttack": 50,
+    "baseDefense": 30,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 90,
+    "type": "AXE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Throwing Axe",
+    "image": "throwing_axe.gif",
+    "baseAttack": 51,
+    "baseDefense": 30,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "AXE",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 150,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Titan Axe",
+    "image": "titan_axe.gif",
+    "baseAttack": 43,
+    "baseDefense": 30,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 40,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Twin Axe",
+    "image": "twin_axe.gif",
+    "baseAttack": 45,
+    "baseDefense": 24,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 3,
+    "level": 50,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Umbral Axe",
+    "image": "umbral_axe.gif",
+    "baseAttack": 51,
+    "baseDefense": 27,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 120,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Umbral Chopper",
+    "image": "umbral_chopper.gif",
+    "baseAttack": 52,
+    "baseDefense": 30,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 120,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Umbral Master Axe",
+    "image": "umbral_master_axe.gif",
+    "baseAttack": 53,
+    "baseDefense": 30,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "AXE",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 250,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Umbral Master Chopper",
+    "image": "umbral_master_chopper.gif",
+    "baseAttack": 54,
+    "baseDefense": 34,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "AXE",
+        "value": 3
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 250,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Vile Axe",
+    "image": "vile_axe.gif",
+    "baseAttack": 43,
+    "baseDefense": 19,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 55,
+    "type": "AXE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "War Axe",
+    "image": "war_axe.gif",
+    "baseAttack": 48,
+    "baseDefense": 10,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 3,
+    "level": 65,
+    "type": "AXE",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Warrior's Axe",
+    "image": "warrior's_axe.gif",
+    "baseAttack": 42,
+    "baseDefense": 21,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 40,
+    "type": "AXE",
+    "vocations": [      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Zaoan Halberd",
+    "image": "zaoan_halberd.gif",
+    "baseAttack": 37,
+    "baseDefense": 15,
+    "twoHands": true,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 3,
+    "level": 25,
+    "type": "AXE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  }
+]

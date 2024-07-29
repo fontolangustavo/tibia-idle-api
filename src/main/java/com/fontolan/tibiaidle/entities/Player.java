@@ -2,6 +2,7 @@ package com.fontolan.tibiaidle.entities;
 
 import com.fontolan.tibiaidle.enums.ItemType;
 import com.fontolan.tibiaidle.enums.SlotType;
+import com.fontolan.tibiaidle.enums.Vocation;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -32,6 +33,7 @@ public class Player implements Serializable {
     private int maxMana;
     private int mana;
     private int experience;
+    private Vocation vocation;
     private List<PlayerItem> playerItems = new ArrayList<>();
     private String targetId;
     private String roomId;

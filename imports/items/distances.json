@@ -1,0 +1,1472 @@
+[
+  {
+    "name": "Assassin Star",
+    "image": "assassin_star.gif",
+    "baseAttack": 65,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 80,
+    "type": "DISTANCE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 0
+  },
+  {
+    "name": "Broken Iks Spear",
+    "image": "broken_iks_spear.gif",
+    "baseAttack": 1,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "DISTANCE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 0
+  },
+  {
+    "name": "Enchanted Spear",
+    "image": "enchanted_spear.gif",
+    "baseAttack": 38,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 42,
+    "type": "DISTANCE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 0
+  },
+  {
+    "name": "Glooth Spear",
+    "image": "glooth_spear.gif",
+    "baseAttack": 55,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 60,
+    "type": "DISTANCE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 0
+  },
+  {
+    "name": "Hunting Spear",
+    "image": "hunting_spear.gif",
+    "baseAttack": 32,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 20,
+    "type": "DISTANCE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 0
+  },
+  {
+    "name": "Leaf Star",
+    "image": "leaf_star.gif",
+    "baseAttack": 48,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 60,
+    "type": "DISTANCE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 0
+  },
+  {
+    "name": "Mean Paladin Spear",
+    "image": "mean_paladin_spear.gif",
+    "baseAttack": 15,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "DISTANCE",
+    "vocations": [
+      "ROOKIE"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 0
+  },
+  {
+    "name": "Royal Spear",
+    "image": "royal_spear.gif",
+    "baseAttack": 35,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 25,
+    "type": "DISTANCE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 0
+  },
+  {
+    "name": "Royal Star",
+    "image": "royal_star.gif",
+    "baseAttack": 64,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 120,
+    "type": "DISTANCE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 0
+  },
+  {
+    "name": "Small Stone",
+    "image": "small_stone.gif",
+    "baseAttack": 5,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "DISTANCE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 0
+  },
+  {
+    "name": "Snowball",
+    "image": "snowball.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "DISTANCE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 0
+  },
+  {
+    "name": "Spear",
+    "image": "spear.gif",
+    "baseAttack": 25,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "DISTANCE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 0
+  },
+  {
+    "name": "Throwing Cake",
+    "image": "throwing_cake.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "DISTANCE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 0
+  },
+  {
+    "name": "Throwing Knife",
+    "image": "throwing_knife.gif",
+    "baseAttack": 25,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "DISTANCE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 0
+  },
+  {
+    "name": "Throwing Star",
+    "image": "throwing_star.gif",
+    "baseAttack": 30,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "DISTANCE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 0
+  },
+  {
+    "name": "Throwing Star of Sula",
+    "image": "throwing_star_of_sula.gif",
+    "baseAttack": 250,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "DISTANCE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 0
+  },
+  {
+    "name": "Viper Star",
+    "image": "viper_star.gif",
+    "baseAttack": 28,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "DISTANCE",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 0
+  },
+  {
+    "name": "Amber Crossbow",
+    "image": "amber_crossbow.gif",
+    "baseAttack": 8,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "ENERGY",
+        "value": 5
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "DISTANCE",
+        "value": 3
+      }
+    ],
+    "maxEnchantmentSlots": 3,
+    "level": 330,
+    "type": "CROSSBOW",
+    "vocations": [
+      "PALADIN"
+    ],
+    "hitPercentageIncrease": 7,
+    "manaCost": 0
+  },
+  {
+    "name": "Arbalest",
+    "image": "arbalest.gif",
+    "baseAttack": 2,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 75,
+    "type": "CROSSBOW",
+    "vocations": [
+      "PALADIN"
+    ],
+    "hitPercentageIncrease": 2,
+    "manaCost": 0
+  },
+  {
+    "name": "Chain Bolter",
+    "image": "chain_bolter.gif",
+    "baseAttack": 4,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 3,
+    "level": 60,
+    "type": "CROSSBOW",
+    "vocations": [
+      "PALADIN"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 0
+  },
+  {
+    "name": "Cobra Crossbow",
+    "image": "cobra_crossbow.gif",
+    "baseAttack": 7,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "DISTANCE",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 220,
+    "type": "CROSSBOW",
+    "vocations": [
+      "PALADIN"
+    ],
+    "hitPercentageIncrease": 6,
+    "manaCost": 0
+  },
+  {
+    "name": "Crossbow",
+    "image": "crossbow.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 3,
+    "level": 0,
+    "type": "CROSSBOW",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 0
+  },
+  {
+    "name": "Crossbow of Destruction",
+    "image": "crossbow_of_destruction.gif",
+    "baseAttack": 6,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 3,
+    "level": 200,
+    "type": "CROSSBOW",
+    "vocations": [
+      "PALADIN"
+    ],
+    "hitPercentageIncrease": 5,
+    "manaCost": 0
+  },
+  {
+    "name": "Crude Umbral Crossbow",
+    "image": "crude_umbral_crossbow.gif",
+    "baseAttack": 3,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 75,
+    "type": "CROSSBOW",
+    "vocations": [
+      "PALADIN"
+    ],
+    "hitPercentageIncrease": 1,
+    "manaCost": 0
+  },
+  {
+    "name": "Crystal Crossbow",
+    "image": "crystal_crossbow.gif",
+    "baseAttack": 4,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 90,
+    "type": "CROSSBOW",
+    "vocations": [
+      "PALADIN"
+    ],
+    "hitPercentageIncrease": 3,
+    "manaCost": 0
+  },
+  {
+    "name": "Grand Sanguine Crossbow",
+    "image": "grand_sanguine_crossbow.gif",
+    "baseAttack": 10,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "FIRE",
+        "value": 6
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "DISTANCE",
+        "value": 4
+      }
+    ],
+    "maxEnchantmentSlots": 3,
+    "level": 600,
+    "type": "CROSSBOW",
+    "vocations": [
+      "PALADIN"
+    ],
+    "hitPercentageIncrease": 7,
+    "manaCost": 0
+  },
+  {
+    "name": "Modified Crossbow",
+    "image": "modified_crossbow.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 3,
+    "level": 45,
+    "type": "CROSSBOW",
+    "vocations": [
+      "PALADIN"
+    ],
+    "hitPercentageIncrease": 1,
+    "manaCost": 0
+  },
+  {
+    "name": "Naga Crossbow",
+    "image": "naga_crossbow.gif",
+    "baseAttack": 8,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "DISTANCE",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 3,
+    "level": 300,
+    "type": "CROSSBOW",
+    "vocations": [
+      "PALADIN"
+    ],
+    "hitPercentageIncrease": 6,
+    "manaCost": 0
+  },
+  {
+    "name": "Ornate Crossbow",
+    "image": "ornate_crossbow.gif",
+    "baseAttack": 1,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 50,
+    "type": "CROSSBOW",
+    "vocations": [
+      "PALADIN"
+    ],
+    "hitPercentageIncrease": 2,
+    "manaCost": 0
+  },
+  {
+    "name": "Rift Crossbow",
+    "image": "rift_crossbow.gif",
+    "baseAttack": 5,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 3,
+    "level": 120,
+    "type": "CROSSBOW",
+    "vocations": [
+      "PALADIN"
+    ],
+    "hitPercentageIncrease": 4,
+    "manaCost": 0
+  },
+  {
+    "name": "Royal Crossbow",
+    "image": "royal_crossbow.gif",
+    "baseAttack": 5,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 3,
+    "level": 130,
+    "type": "CROSSBOW",
+    "vocations": [
+      "PALADIN"
+    ],
+    "hitPercentageIncrease": 3,
+    "manaCost": 0
+  },
+  {
+    "name": "Sanguine Crossbow",
+    "image": "sanguine_crossbow.gif",
+    "baseAttack": 10,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "FIRE",
+        "value": 6
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "DISTANCE",
+        "value": 4
+      }
+    ],
+    "maxEnchantmentSlots": 3,
+    "level": 600,
+    "type": "CROSSBOW",
+    "vocations": [
+      "PALADIN"
+    ],
+    "hitPercentageIncrease": 7,
+    "manaCost": 0
+  },
+  {
+    "name": "Soulpiercer",
+    "image": "soulpiercer.gif",
+    "baseAttack": 9,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "DEATH",
+        "value": 7
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "DISTANCE",
+        "value": 4
+      }
+    ],
+    "maxEnchantmentSlots": 3,
+    "level": 400,
+    "type": "CROSSBOW",
+    "vocations": [
+      "PALADIN"
+    ],
+    "hitPercentageIncrease": 6,
+    "manaCost": 0
+  },
+  {
+    "name": "The Devileye",
+    "image": "the_devileye.gif",
+    "baseAttack": 20,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 3,
+    "level": 100,
+    "type": "CROSSBOW",
+    "vocations": [
+      "PALADIN"
+    ],
+    "hitPercentageIncrease": -20,
+    "manaCost": 0
+  },
+  {
+    "name": "The Ironworker",
+    "image": "the_ironworker.gif",
+    "baseAttack": 4,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 3,
+    "level": 80,
+    "type": "CROSSBOW",
+    "vocations": [
+      "PALADIN"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 0
+  },
+  {
+    "name": "Thorn Spitter",
+    "image": "thorn_spitter.gif",
+    "baseAttack": 9,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 3,
+    "level": 150,
+    "type": "CROSSBOW",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ],
+    "hitPercentageIncrease": 1,
+    "manaCost": 0
+  },
+  {
+    "name": "Triple Bolt Crossbow",
+    "image": "triple_bolt_crossbow.gif",
+    "baseAttack": 3,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 3,
+    "level": 70,
+    "type": "CROSSBOW",
+    "vocations": [
+      "PALADIN"
+    ],
+    "hitPercentageIncrease": 2,
+    "manaCost": 0
+  },
+  {
+    "name": "Umbral Crossbow",
+    "image": "umbral_crossbow.gif",
+    "baseAttack": 6,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 120,
+    "type": "CROSSBOW",
+    "vocations": [
+      "PALADIN"
+    ],
+    "hitPercentageIncrease": 2,
+    "manaCost": 0
+  },
+  {
+    "name": "Umbral Master Crossbow",
+    "image": "umbral_master_crossbow.gif",
+    "baseAttack": 9,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "DISTANCE",
+        "value": 3
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 250,
+    "type": "CROSSBOW",
+    "vocations": [
+      "PALADIN"
+    ],
+    "hitPercentageIncrease": 4,
+    "manaCost": 0
+  },
+  {
+    "name": "Amber Bow",
+    "image": "amber_bow.gif",
+    "baseAttack": 7,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "ENERGY",
+        "value": 5
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "DISTANCE",
+        "value": 3
+      }
+    ],
+    "maxEnchantmentSlots": 3,
+    "level": 330,
+    "type": "BOW",
+    "vocations": [
+      "PALADIN"
+    ],
+    "hitPercentageIncrease": 6,
+    "manaCost": 0
+  },
+  {
+    "name": "Bow",
+    "image": "bow.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "BOW",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 0
+  },
+  {
+    "name": "Bow of Cataclysm",
+    "image": "bow_of_cataclysm.gif",
+    "baseAttack": 6,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "DEATH",
+        "value": 4
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "DISTANCE",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 3,
+    "level": 250,
+    "type": "BOW",
+    "vocations": [
+      "PALADIN"
+    ],
+    "hitPercentageIncrease": 4,
+    "manaCost": 0
+  },
+  {
+    "name": "Bow of Destruction",
+    "image": "bow_of_destruction.gif",
+    "baseAttack": 5,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 3,
+    "level": 200,
+    "type": "BOW",
+    "vocations": [
+      "PALADIN"
+    ],
+    "hitPercentageIncrease": 5,
+    "manaCost": 0
+  },
+  {
+    "name": "Composite Hornbow",
+    "image": "composite_hornbow.gif",
+    "baseAttack": 3,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 3,
+    "level": 50,
+    "type": "BOW",
+    "vocations": [
+      "PALADIN"
+    ],
+    "hitPercentageIncrease": 2,
+    "manaCost": 0
+  },
+  {
+    "name": "Crude Umbral Bow",
+    "image": "crude_umbral_bow.gif",
+    "baseAttack": 2,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 75,
+    "type": "BOW",
+    "vocations": [
+      "PALADIN"
+    ],
+    "hitPercentageIncrease": 5,
+    "manaCost": 0
+  },
+  {
+    "name": "Eldritch Bow",
+    "image": "eldritch_bow.gif",
+    "baseAttack": 6,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 2
+      },
+      {
+        "type": "DISTANCE",
+        "value": 2
+      },
+      {
+        "type": "HOLY",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 3,
+    "level": 250,
+    "type": "BOW",
+    "vocations": [
+      "PALADIN"
+    ],
+    "hitPercentageIncrease": 6,
+    "manaCost": 0
+  },
+  {
+    "name": "Elethriel's Elemental Bow",
+    "image": "elethriel's_elemental_bow.gif",
+    "baseAttack": 7,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 70,
+    "type": "BOW",
+    "vocations": [
+      "PALADIN"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 0
+  },
+  {
+    "name": "Elvish Bow",
+    "image": "elvish_bow.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 3,
+    "level": 0,
+    "type": "BOW",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ],
+    "hitPercentageIncrease": 5,
+    "manaCost": 0
+  },
+  {
+    "name": "Falcon Bow",
+    "image": "falcon_bow.gif",
+    "baseAttack": 7,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "FIRE",
+        "value": 5
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "DISTANCE",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 3,
+    "level": 300,
+    "type": "BOW",
+    "vocations": [
+      "PALADIN"
+    ],
+    "hitPercentageIncrease": 5,
+    "manaCost": 0
+  },
+  {
+    "name": "Gilded Eldritch Bow",
+    "image": "gilded_eldritch_bow.gif",
+    "baseAttack": 6,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 2
+      },
+      {
+        "type": "DISTANCE",
+        "value": 2
+      },
+      {
+        "type": "HOLY",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 3,
+    "level": 250,
+    "type": "BOW",
+    "vocations": [
+      "PALADIN"
+    ],
+    "hitPercentageIncrease": 6,
+    "manaCost": 0
+  },
+  {
+    "name": "Grand Sanguine Bow",
+    "image": "grand_sanguine_bow.gif",
+    "baseAttack": 9,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "EARTH",
+        "value": 6
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "DISTANCE",
+        "value": 4
+      }
+    ],
+    "maxEnchantmentSlots": 3,
+    "level": 600,
+    "type": "BOW",
+    "vocations": [
+      "PALADIN"
+    ],
+    "hitPercentageIncrease": 6,
+    "manaCost": 0
+  },
+  {
+    "name": "Hive Bow",
+    "image": "hive_bow.gif",
+    "baseAttack": 2,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 3,
+    "level": 85,
+    "type": "BOW",
+    "vocations": [
+      "PALADIN"
+    ],
+    "hitPercentageIncrease": 5,
+    "manaCost": 0
+  },
+  {
+    "name": "Icicle Bow",
+    "image": "icicle_bow.gif",
+    "baseAttack": 1,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 3,
+    "level": 0,
+    "type": "BOW",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ],
+    "hitPercentageIncrease": 4,
+    "manaCost": 0
+  },
+  {
+    "name": "Jungle Bow",
+    "image": "jungle_bow.gif",
+    "baseAttack": 6,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 3
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "DISTANCE",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 150,
+    "type": "BOW",
+    "vocations": [
+      "PALADIN"
+    ],
+    "hitPercentageIncrease": 5,
+    "manaCost": 0
+  },
+  {
+    "name": "Lion Longbow",
+    "image": "lion_longbow.gif",
+    "baseAttack": 6,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "ICE",
+        "value": 5
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "DISTANCE",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 3,
+    "level": 270,
+    "type": "BOW",
+    "vocations": [
+      "PALADIN"
+    ],
+    "hitPercentageIncrease": 6,
+    "manaCost": 0
+  },
+  {
+    "name": "Living Vine Bow",
+    "image": "living_vine_bow.gif",
+    "baseAttack": 5,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "EARTH",
+        "value": 4
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "DISTANCE",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 3,
+    "level": 220,
+    "type": "BOW",
+    "vocations": [
+      "PALADIN"
+    ],
+    "hitPercentageIncrease": 5,
+    "manaCost": 0
+  },
+  {
+    "name": "Musician's Bow",
+    "image": "musician's_bow.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 3,
+    "level": 0,
+    "type": "BOW",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 0
+  },
+  {
+    "name": "Mycological Bow",
+    "image": "mycological_bow.gif",
+    "baseAttack": 4,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 3,
+    "level": 105,
+    "type": "BOW",
+    "vocations": [
+      "PALADIN"
+    ],
+    "hitPercentageIncrease": 4,
+    "manaCost": 0
+  },
+  {
+    "name": "Rift Bow",
+    "image": "rift_bow.gif",
+    "baseAttack": 5,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 3,
+    "level": 120,
+    "type": "BOW",
+    "vocations": [
+      "PALADIN"
+    ],
+    "hitPercentageIncrease": 3,
+    "manaCost": 0
+  },
+  {
+    "name": "Sanguine Bow",
+    "image": "sanguine_bow.gif",
+    "baseAttack": 9,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "EARTH",
+        "value": 6
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "DISTANCE",
+        "value": 4
+      }
+    ],
+    "maxEnchantmentSlots": 3,
+    "level": 600,
+    "type": "BOW",
+    "vocations": [
+      "PALADIN"
+    ],
+    "hitPercentageIncrease": 6,
+    "manaCost": 0
+  },
+  {
+    "name": "Shimmer Bow",
+    "image": "shimmer_bow.gif",
+    "baseAttack": 1,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 40,
+    "type": "BOW",
+    "vocations": [
+      "PALADIN"
+    ],
+    "hitPercentageIncrease": 7,
+    "manaCost": 0
+  },
+  {
+    "name": "Silkweaver Bow",
+    "image": "silkweaver_bow.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 3,
+    "level": 40,
+    "type": "BOW",
+    "vocations": [
+      "PALADIN"
+    ],
+    "hitPercentageIncrease": 3,
+    "manaCost": 0
+  },
+  {
+    "name": "Soulbleeder",
+    "image": "soulbleeder.gif",
+    "baseAttack": 8,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "HOLY",
+        "value": 7
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "DISTANCE",
+        "value": 4
+      }
+    ],
+    "maxEnchantmentSlots": 3,
+    "level": 400,
+    "type": "BOW",
+    "vocations": [
+      "PALADIN"
+    ],
+    "hitPercentageIncrease": 5,
+    "manaCost": 0
+  },
+  {
+    "name": "Umbral Bow",
+    "image": "umbral_bow.gif",
+    "baseAttack": 4,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 120,
+    "type": "BOW",
+    "vocations": [
+      "PALADIN"
+    ],
+    "hitPercentageIncrease": 5,
+    "manaCost": 0
+  },
+  {
+    "name": "Umbral Master Bow",
+    "image": "umbral_master_bow.gif",
+    "baseAttack": 6,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "DISTANCE",
+        "value": 3
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 250,
+    "type": "BOW",
+    "vocations": [
+      "PALADIN"
+    ],
+    "hitPercentageIncrease": 5,
+    "manaCost": 0
+  },
+  {
+    "name": "Warsinger Bow",
+    "image": "warsinger_bow.gif",
+    "baseAttack": 3,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 3,
+    "level": 80,
+    "type": "BOW",
+    "vocations": [
+      "PALADIN"
+    ],
+    "hitPercentageIncrease": 5,
+    "manaCost": 0
+  },
+  {
+    "name": "Yol's Bow",
+    "image": "yol's_bow.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 60,
+    "type": "BOW",
+    "vocations": [
+      "PALADIN"
+    ],
+    "hitPercentageIncrease": 7,
+    "manaCost": 0
+  }
+]

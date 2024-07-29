@@ -1,6 +1,10 @@
 spring:
   application:
     name: tibiaidle
+  mvc:
+    static-path-pattern=/static/**
+  resources:
+    static-locations=classpath:/static/
   redis:
     host: localhost
     port: 6379

@@ -1,0 +1,1338 @@
+[
+  {
+    "name": "Alchemist's Boots",
+    "image": "alchemist's_boots.gif",
+    "baseAttack": 0,
+    "baseDefense": 2,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 2
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 250,
+    "type": "BOOTS",
+    "vocations": [
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Badger Boots",
+    "image": "badger_boots.gif",
+    "baseAttack": 0,
+    "baseDefense": 2,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "SPEED",
+        "value": 10
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 60,
+    "type": "BOOTS",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Boots of Haste",
+    "image": "boots_of_haste.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "SPEED",
+        "value": 20
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 0,
+    "type": "BOOTS",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Boots of Homecoming",
+    "image": "boots_of_homecoming.gif",
+    "baseAttack": 0,
+    "baseDefense": 2,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 100,
+    "type": "BOOTS",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Boots of Waterwalking",
+    "image": "boots_of_waterwalking.gif",
+    "baseAttack": 0,
+    "baseDefense": null,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "BOOTS",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Broken Iks Sandals",
+    "image": "broken_iks_sandals.gif",
+    "baseAttack": 0,
+    "baseDefense": 1,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "BOOTS",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Bunnyslippers",
+    "image": "bunnyslippers.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 0,
+    "type": "BOOTS",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Cobra Boots",
+    "image": "cobra_boots.gif",
+    "baseAttack": 0,
+    "baseDefense": 3,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 6
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "SPEED",
+        "value": 10
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 220,
+    "type": "BOOTS",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Coconut Shoes",
+    "image": "coconut_shoes.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 0,
+    "type": "BOOTS",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Crocodile Boots",
+    "image": "crocodile_boots.gif",
+    "baseAttack": 0,
+    "baseDefense": 1,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 0,
+    "type": "BOOTS",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Crystal Boots",
+    "image": "crystal_boots.gif",
+    "baseAttack": 0,
+    "baseDefense": 3,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "ICE",
+        "value": 3
+      },
+      {
+        "type": "ENERGY",
+        "value": -3
+      }
+    ],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 70,
+    "type": "BOOTS",
+    "vocations": [
+      "KNIGHT",
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Depth Calcei",
+    "image": "depth_calcei.gif",
+    "baseAttack": 0,
+    "baseDefense": 3,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 5
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "SPEED",
+        "value": 5
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 150,
+    "type": "BOOTS",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Dragon Scale Boots",
+    "image": "dragon_scale_boots.gif",
+    "baseAttack": 0,
+    "baseDefense": 3,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "FIRE",
+        "value": 3
+      },
+      {
+        "type": "ICE",
+        "value": -3
+      }
+    ],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 70,
+    "type": "BOOTS",
+    "vocations": [
+      "KNIGHT",
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Draken Boots",
+    "image": "draken_boots.gif",
+    "baseAttack": 0,
+    "baseDefense": 3,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "SPEED",
+        "value": 15
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 80,
+    "type": "BOOTS",
+    "vocations": [
+      "KNIGHT",
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Feverbloom Boots",
+    "image": "feverbloom_boots.gif",
+    "baseAttack": 0,
+    "baseDefense": 2,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "ICE",
+        "value": 7
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "DISTANCE",
+        "value": 1
+      },
+      {
+        "type": "SPEED",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 270,
+    "type": "BOOTS",
+    "vocations": [
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Filthy Bunnyslippers",
+    "image": "filthy_bunnyslippers.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "BOOTS",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Firewalker Boots",
+    "image": "firewalker_boots.gif",
+    "baseAttack": 0,
+    "baseDefense": 2,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "FIRE",
+        "value": null
+      }
+    ],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 130,
+    "type": "BOOTS",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Frostflower Boots",
+    "image": "frostflower_boots.gif",
+    "baseAttack": 0,
+    "baseDefense": 3,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 5
+      },
+      {
+        "type": "ICE",
+        "value": 5
+      }
+    ],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 270,
+    "type": "BOOTS",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Fur Boots",
+    "image": "fur_boots.gif",
+    "baseAttack": 0,
+    "baseDefense": 2,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "SPEED",
+        "value": 6
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 0,
+    "type": "BOOTS",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Glacier Shoes",
+    "image": "glacier_shoes.gif",
+    "baseAttack": 0,
+    "baseDefense": 2,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "ICE",
+        "value": 5
+      },
+      {
+        "type": "ENERGY",
+        "value": -5
+      }
+    ],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 35,
+    "type": "BOOTS",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Golden Boots",
+    "image": "golden_boots.gif",
+    "baseAttack": 0,
+    "baseDefense": 4,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 0,
+    "type": "BOOTS",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Green Demon Slippers",
+    "image": "green_demon_slippers.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 0,
+    "type": "BOOTS",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Guardian Boots",
+    "image": "guardian_boots.gif",
+    "baseAttack": 0,
+    "baseDefense": 3,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 2
+      },
+      {
+        "type": "HOLY",
+        "value": -2
+      }
+    ],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 70,
+    "type": "BOOTS",
+    "vocations": [
+      "KNIGHT",
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Leather Boots",
+    "image": "leather_boots.gif",
+    "baseAttack": 0,
+    "baseDefense": 1,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 0,
+    "type": "BOOTS",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Lightning Boots",
+    "image": "lightning_boots.gif",
+    "baseAttack": 0,
+    "baseDefense": 2,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "ENERGY",
+        "value": 5
+      },
+      {
+        "type": "EARTH",
+        "value": -5
+      }
+    ],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 35,
+    "type": "BOOTS",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Magma Boots",
+    "image": "magma_boots.gif",
+    "baseAttack": 0,
+    "baseDefense": 2,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "FIRE",
+        "value": 5
+      },
+      {
+        "type": "ICE",
+        "value": -5
+      }
+    ],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 35,
+    "type": "BOOTS",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Make-do Boots",
+    "image": "make-do_boots.gif",
+    "baseAttack": 0,
+    "baseDefense": 2,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "ICE",
+        "value": 6
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 150,
+    "type": "BOOTS",
+    "vocations": [
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Makeshift Boots",
+    "image": "makeshift_boots.gif",
+    "baseAttack": 0,
+    "baseDefense": 2,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "FIRE",
+        "value": 6
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 150,
+    "type": "BOOTS",
+    "vocations": [
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Metal Spats",
+    "image": "metal_spats.gif",
+    "baseAttack": 0,
+    "baseDefense": 1,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 1
+      }
+    ],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 50,
+    "type": "BOOTS",
+    "vocations": [
+      "KNIGHT",
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Mutant Bone Boots",
+    "image": "mutant_bone_boots.gif",
+    "baseAttack": 0,
+    "baseDefense": 2,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "DEATH",
+        "value": 3
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 250,
+    "type": "BOOTS",
+    "vocations": [
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Oriental Shoes",
+    "image": "oriental_shoes.gif",
+    "baseAttack": 0,
+    "baseDefense": 2,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "SPEED",
+        "value": 15
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 80,
+    "type": "BOOTS",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Pair of Dreamwalkers",
+    "image": "pair_of_dreamwalkers.gif",
+    "baseAttack": 0,
+    "baseDefense": 2,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "EARTH",
+        "value": 8
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 180,
+    "type": "BOOTS",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Pair of Nightmare Boots",
+    "image": "pair_of_nightmare_boots.gif",
+    "baseAttack": 0,
+    "baseDefense": 2,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "ENERGY",
+        "value": 6
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 140,
+    "type": "BOOTS",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Pair of Soft Boots",
+    "image": "pair_of_soft_boots.gif",
+    "baseAttack": 0,
+    "baseDefense": null,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "BOOTS",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Pair of Soulstalkers",
+    "image": "pair_of_soulstalkers.gif",
+    "baseAttack": 0,
+    "baseDefense": 3,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 5
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "DISTANCE",
+        "value": 1
+      },
+      {
+        "type": "SPEED",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 400,
+    "type": "BOOTS",
+    "vocations": [
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Pair of Soulwalkers",
+    "image": "pair_of_soulwalkers.gif",
+    "baseAttack": 0,
+    "baseDefense": 4,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 7
+      },
+      {
+        "type": "FIRE",
+        "value": 5
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "SWORD",
+        "value": 1
+      },
+      {
+        "type": "AXE",
+        "value": 1
+      },
+      {
+        "type": "CLUB",
+        "value": 1
+      },
+      {
+        "type": "SPEED",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 400,
+    "type": "BOOTS",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Patched Boots",
+    "image": "patched_boots.gif",
+    "baseAttack": 0,
+    "baseDefense": 2,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 0,
+    "type": "BOOTS",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Pirate Boots",
+    "image": "pirate_boots.gif",
+    "baseAttack": 0,
+    "baseDefense": 2,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 0,
+    "type": "BOOTS",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Prismatic Boots",
+    "image": "prismatic_boots.gif",
+    "baseAttack": 0,
+    "baseDefense": 3,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "DEATH",
+        "value": 3
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "SPEED",
+        "value": 15
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 150,
+    "type": "BOOTS",
+    "vocations": [
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Sandals",
+    "image": "sandals.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 0,
+    "type": "BOOTS",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Sanguine Boots",
+    "image": "sanguine_boots.gif",
+    "baseAttack": 0,
+    "baseDefense": 3,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "ICE",
+        "value": 8
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 2
+      },
+      {
+        "type": "SPEED",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 500,
+    "type": "BOOTS",
+    "vocations": [
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Sanguine Galoshes",
+    "image": "sanguine_galoshes.gif",
+    "baseAttack": 0,
+    "baseDefense": 3,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "FIRE",
+        "value": 8
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 2
+      },
+      {
+        "type": "SPEED",
+        "value": 2
+      },
+      {
+        "type": "HEAL",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 500,
+    "type": "BOOTS",
+    "vocations": [
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Steel Boots",
+    "image": "steel_boots.gif",
+    "baseAttack": 0,
+    "baseDefense": 3,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 0,
+    "type": "BOOTS",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Stoic Iks Boots",
+    "image": "stoic_iks_boots.gif",
+    "baseAttack": 0,
+    "baseDefense": 2,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "FIRE",
+        "value": 5
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "DISTANCE",
+        "value": 1
+      },
+      {
+        "type": "SPEED",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 250,
+    "type": "BOOTS",
+    "vocations": [
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Stoic Iks Sandals",
+    "image": "stoic_iks_sandals.gif",
+    "baseAttack": 0,
+    "baseDefense": 2,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "ICE",
+        "value": 6
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 250,
+    "type": "BOOTS",
+    "vocations": [
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Terra Boots",
+    "image": "terra_boots.gif",
+    "baseAttack": 0,
+    "baseDefense": 2,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "EARTH",
+        "value": 5
+      },
+      {
+        "type": "FIRE",
+        "value": -5
+      }
+    ],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 35,
+    "type": "BOOTS",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Traditional Leather Shoes",
+    "image": "traditional_leather_shoes.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "BOOTS",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Treader of Torment",
+    "image": "treader_of_torment.gif",
+    "baseAttack": 0,
+    "baseDefense": 4,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 0,
+    "type": "BOOTS",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Vampire Silk Slippers",
+    "image": "vampire_silk_slippers.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 0,
+    "type": "BOOTS",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Void Boots",
+    "image": "void_boots.gif",
+    "baseAttack": 0,
+    "baseDefense": 2,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "ENERGY",
+        "value": 10
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "SPEED",
+        "value": 30
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 150,
+    "type": "BOOTS",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Winged Boots",
+    "image": "winged_boots.gif",
+    "baseAttack": 0,
+    "baseDefense": 2,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "EARTH",
+        "value": 7
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "DISTANCE",
+        "value": 1
+      },
+      {
+        "type": "SPEED",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 220,
+    "type": "BOOTS",
+    "vocations": [
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Worn Firewalker Boots",
+    "image": "worn_firewalker_boots.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 130,
+    "type": "BOOTS",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Worn Soft Boots",
+    "image": "worn_soft_boots.gif",
+    "baseAttack": 0,
+    "baseDefense": null,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "BOOTS",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Yetislippers",
+    "image": "yetislippers.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "BOOTS",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Zaoan Shoes",
+    "image": "zaoan_shoes.gif",
+    "baseAttack": 0,
+    "baseDefense": 1,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "SPEED",
+        "value": 5
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 0,
+    "type": "BOOTS",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  }
+]

@@ -1,0 +1,2970 @@
+[
+  {
+    "name": "Alicorn Headguard",
+    "image": "alicorn_headguard.gif",
+    "baseAttack": 0,
+    "baseDefense": 11,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 5
+      },
+      {
+        "type": "FIRE",
+        "value": 5
+      },
+      {
+        "type": "EARTH",
+        "value": 5
+      },
+      {
+        "type": "ENERGY",
+        "value": 5
+      },
+      {
+        "type": "ICE",
+        "value": 5
+      },
+      {
+        "type": "HOLY",
+        "value": 5
+      },
+      {
+        "type": "DEATH",
+        "value": 5
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "DISTANCE",
+        "value": 3
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 400,
+    "type": "HELMET",
+    "vocations": [
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Amazon Helmet",
+    "image": "amazon_helmet.gif",
+    "baseAttack": 0,
+    "baseDefense": 7,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Ancient Tiara",
+    "image": "ancient_tiara.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Antler-Horn Helmet",
+    "image": "antler-horn_helmet.gif",
+    "baseAttack": 0,
+    "baseDefense": 9,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 3
+      },
+      {
+        "type": "ICE",
+        "value": 7
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "SWORD",
+        "value": 1
+      },
+      {
+        "type": "AXE",
+        "value": 1
+      },
+      {
+        "type": "CLUB",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 250,
+    "type": "HELMET",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Arboreal Crown",
+    "image": "arboreal_crown.gif",
+    "baseAttack": 0,
+    "baseDefense": 9,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 2
+      },
+      {
+        "type": "ICE",
+        "value": 9
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 3
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 400,
+    "type": "HELMET",
+    "vocations": [
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Arcanomancer Regalia",
+    "image": "arcanomancer_regalia.gif",
+    "baseAttack": 0,
+    "baseDefense": 9,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 3
+      },
+      {
+        "type": "EARTH",
+        "value": 7
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 3
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 400,
+    "type": "HELMET",
+    "vocations": [
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Bandana",
+    "image": "bandana.gif",
+    "baseAttack": 0,
+    "baseDefense": 1,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Batwing Hat",
+    "image": "batwing_hat.gif",
+    "baseAttack": 0,
+    "baseDefense": 3,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 50,
+    "type": "HELMET",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Blue Spectacles",
+    "image": "blue_spectacles.gif",
+    "baseAttack": 0,
+    "baseDefense": null,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Bonelord Helmet",
+    "image": "bonelord_helmet.gif",
+    "baseAttack": 0,
+    "baseDefense": 7,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Brass Helmet",
+    "image": "brass_helmet.gif",
+    "baseAttack": 0,
+    "baseDefense": 3,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Bridal Wreath",
+    "image": "bridal_wreath.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Broken Iks Headpiece",
+    "image": "broken_iks_headpiece.gif",
+    "baseAttack": 0,
+    "baseDefense": 1,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Broken Visor",
+    "image": "broken_visor.gif",
+    "baseAttack": 0,
+    "baseDefense": 1,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Ceremonial Mask",
+    "image": "ceremonial_mask.gif",
+    "baseAttack": 0,
+    "baseDefense": 9,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Chain Helmet",
+    "image": "chain_helmet.gif",
+    "baseAttack": 0,
+    "baseDefense": 2,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Charmer's Tiara",
+    "image": "charmer's_tiara.gif",
+    "baseAttack": 0,
+    "baseDefense": 2,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Cobra Crown",
+    "image": "cobra_crown.gif",
+    "baseAttack": 0,
+    "baseDefense": 3,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "EARTH",
+        "value": 5
+      },
+      {
+        "type": "FIRE",
+        "value": -5
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Cobra Hood",
+    "image": "cobra_hood.gif",
+    "baseAttack": 0,
+    "baseDefense": 9,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 5
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "SWORD",
+        "value": 1
+      },
+      {
+        "type": "AXE",
+        "value": 1
+      },
+      {
+        "type": "CLUB",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 270,
+    "type": "HELMET",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Crest of the Deep Seas",
+    "image": "crest_of_the_deep_seas.gif",
+    "baseAttack": 0,
+    "baseDefense": 7,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "ICE",
+        "value": 5
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "SPEED",
+        "value": 5
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 80,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Crown",
+    "image": "crown.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Crown Helmet",
+    "image": "crown_helmet.gif",
+    "baseAttack": 0,
+    "baseDefense": 7,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Crusader Helmet",
+    "image": "crusader_helmet.gif",
+    "baseAttack": 0,
+    "baseDefense": 8,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Damaged Helmet",
+    "image": "damaged_helmet.gif",
+    "baseAttack": 0,
+    "baseDefense": 5,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Dark Helmet",
+    "image": "dark_helmet.gif",
+    "baseAttack": 0,
+    "baseDefense": 6,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Dark Whispers",
+    "image": "dark_whispers.gif",
+    "baseAttack": 0,
+    "baseDefense": 7,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "ICE",
+        "value": 3
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "DISTANCE",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 180,
+    "type": "HELMET",
+    "vocations": [
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Demon Helmet",
+    "image": "demon_helmet.gif",
+    "baseAttack": 0,
+    "baseDefense": 10,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Depth Galea",
+    "image": "depth_galea.gif",
+    "baseAttack": 0,
+    "baseDefense": 8,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "SPEED",
+        "value": 300
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 150,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Devil Helmet",
+    "image": "devil_helmet.gif",
+    "baseAttack": 0,
+    "baseDefense": 7,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Dragon Scale Helmet",
+    "image": "dragon_scale_helmet.gif",
+    "baseAttack": 0,
+    "baseDefense": 9,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Dwarven Helmet",
+    "image": "dwarven_helmet.gif",
+    "baseAttack": 0,
+    "baseDefense": 6,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 2
+      }
+    ],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Eldritch Cowl",
+    "image": "eldritch_cowl.gif",
+    "baseAttack": 0,
+    "baseDefense": 7,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "ICE",
+        "value": 7
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 250,
+    "type": "HELMET",
+    "vocations": [
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Eldritch Hood",
+    "image": "eldritch_hood.gif",
+    "baseAttack": 0,
+    "baseDefense": 7,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "EARTH",
+        "value": 7
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 250,
+    "type": "HELMET",
+    "vocations": [
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Elite Draken Helmet",
+    "image": "elite_draken_helmet.gif",
+    "baseAttack": 0,
+    "baseDefense": 9,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "DEATH",
+        "value": 3
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "DISTANCE",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 100,
+    "type": "HELMET",
+    "vocations": [
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Enchanted Werewolf Helmet (Axe)",
+    "image": "enchanted_werewolf_helmet_(axe).gif",
+    "baseAttack": 0,
+    "baseDefense": 9,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 4
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "AXE",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 100,
+    "type": "HELMET",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Enchanted Werewolf Helmet (Club)",
+    "image": "enchanted_werewolf_helmet_(club).gif",
+    "baseAttack": 0,
+    "baseDefense": 9,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 4
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "CLUB",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 100,
+    "type": "HELMET",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Enchanted Werewolf Helmet (Distance)",
+    "image": "enchanted_werewolf_helmet_(distance).gif",
+    "baseAttack": 0,
+    "baseDefense": 9,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 4
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "DISTANCE",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 100,
+    "type": "HELMET",
+    "vocations": [
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Enchanted Werewolf Helmet (Magic)",
+    "image": "enchanted_werewolf_helmet_(magic).gif",
+    "baseAttack": 0,
+    "baseDefense": 9,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 4
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 100,
+    "type": "HELMET",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Enchanted Werewolf Helmet (Sword)",
+    "image": "enchanted_werewolf_helmet_(sword).gif",
+    "baseAttack": 0,
+    "baseDefense": 9,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 4
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "SWORD",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 100,
+    "type": "HELMET",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Falcon Circlet",
+    "image": "falcon_circlet.gif",
+    "baseAttack": 0,
+    "baseDefense": 8,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "FIRE",
+        "value": 9
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 300,
+    "type": "HELMET",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Falcon Coif",
+    "image": "falcon_coif.gif",
+    "baseAttack": 0,
+    "baseDefense": 10,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 3
+      },
+      {
+        "type": "FIRE",
+        "value": 10
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "DISTANCE",
+        "value": 2
+      },
+      {
+        "type": "SHIELD",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 300,
+    "type": "HELMET",
+    "vocations": [
+      "KNIGHT",
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Feather Headdress",
+    "image": "feather_headdress.gif",
+    "baseAttack": 0,
+    "baseDefense": 2,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Ferumbras' Candy Hat",
+    "image": "ferumbras'_candy_hat.gif",
+    "baseAttack": 0,
+    "baseDefense": 1,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Ferumbras' Hat",
+    "image": "ferumbras'_hat.gif",
+    "baseAttack": 0,
+    "baseDefense": 1,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Flower Wreath",
+    "image": "flower_wreath.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Full Helmet of the Ancients",
+    "image": "full_helmet_of_the_ancients.gif",
+    "baseAttack": 0,
+    "baseDefense": 11,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Fur Cap",
+    "image": "fur_cap.gif",
+    "baseAttack": 0,
+    "baseDefense": 3,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Galea Mortis",
+    "image": "galea_mortis.gif",
+    "baseAttack": 0,
+    "baseDefense": 7,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "DEATH",
+        "value": 6
+      },
+      {
+        "type": "HOLY",
+        "value": -3
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 220,
+    "type": "HELMET",
+    "vocations": [
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Gill Gugel",
+    "image": "gill_gugel.gif",
+    "baseAttack": 0,
+    "baseDefense": 5,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "EARTH",
+        "value": 6
+      },
+      {
+        "type": "FIRE",
+        "value": -6
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 150,
+    "type": "HELMET",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Glacier Mask",
+    "image": "glacier_mask.gif",
+    "baseAttack": 0,
+    "baseDefense": 5,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "ICE",
+        "value": 4
+      },
+      {
+        "type": "ENERGY",
+        "value": -5
+      }
+    ],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Gnome Helmet",
+    "image": "gnome_helmet.gif",
+    "baseAttack": 0,
+    "baseDefense": 8,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 3
+      },
+      {
+        "type": "ENERGY",
+        "value": 8
+      },
+      {
+        "type": "ICE",
+        "value": -2
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 200,
+    "type": "HELMET",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Golden Crown",
+    "image": "golden_crown.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Golden Helmet",
+    "image": "golden_helmet.gif",
+    "baseAttack": 0,
+    "baseDefense": 12,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Golden Horned Helmet",
+    "image": "golden_horned_helmet.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Green Demon Helmet",
+    "image": "green_demon_helmet.gif",
+    "baseAttack": 0,
+    "baseDefense": 10,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Gryphon Mask",
+    "image": "gryphon_mask.gif",
+    "baseAttack": 0,
+    "baseDefense": null,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Hat of the Mad",
+    "image": "hat_of_the_mad.gif",
+    "baseAttack": 0,
+    "baseDefense": 3,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Helmet of Nature",
+    "image": "helmet_of_nature.gif",
+    "baseAttack": 0,
+    "baseDefense": 3,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Helmet of the Ancients",
+    "image": "helmet_of_the_ancients.gif",
+    "baseAttack": 0,
+    "baseDefense": 8,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Helmet of the Deep",
+    "image": "helmet_of_the_deep.gif",
+    "baseAttack": 0,
+    "baseDefense": 2,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "SPEED",
+        "value": 300
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Helmet of The Lost",
+    "image": "helmet_of_the_lost.gif",
+    "baseAttack": 0,
+    "baseDefense": 7,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Helmet of Ultimate Terror",
+    "image": "helmet_of_ultimate_terror.gif",
+    "baseAttack": 0,
+    "baseDefense": 3,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Horned Helmet",
+    "image": "horned_helmet.gif",
+    "baseAttack": 0,
+    "baseDefense": 11,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Horseman Helmet",
+    "image": "horseman_helmet.gif",
+    "baseAttack": 0,
+    "baseDefense": 6,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Incandescent Crown",
+    "image": "incandescent_crown.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Iron Crown",
+    "image": "iron_crown.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Iron Helmet",
+    "image": "iron_helmet.gif",
+    "baseAttack": 0,
+    "baseDefense": 5,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Ivory Mask",
+    "image": "ivory_mask.gif",
+    "baseAttack": 0,
+    "baseDefense": null,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Jade Hat",
+    "image": "jade_hat.gif",
+    "baseAttack": 0,
+    "baseDefense": 4,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 60,
+    "type": "HELMET",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Jester Hat",
+    "image": "jester_hat.gif",
+    "baseAttack": 0,
+    "baseDefense": 1,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Krimhorn Helmet",
+    "image": "krimhorn_helmet.gif",
+    "baseAttack": 0,
+    "baseDefense": 6,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Laurel Wreath",
+    "image": "laurel_wreath.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Leaf Crown",
+    "image": "leaf_crown.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Leather Helmet",
+    "image": "leather_helmet.gif",
+    "baseAttack": 0,
+    "baseDefense": 1,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Legion Helmet",
+    "image": "legion_helmet.gif",
+    "baseAttack": 0,
+    "baseDefense": 4,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Lightning Headband",
+    "image": "lightning_headband.gif",
+    "baseAttack": 0,
+    "baseDefense": 5,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "ENERGY",
+        "value": 4
+      },
+      {
+        "type": "EARTH",
+        "value": -5
+      }
+    ],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Lion Spangenhelm",
+    "image": "lion_spangenhelm.gif",
+    "baseAttack": 0,
+    "baseDefense": 7,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 3
+      },
+      {
+        "type": "EARTH",
+        "value": 5
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "DISTANCE",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 230,
+    "type": "HELMET",
+    "vocations": [
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Mage Hat",
+    "image": "mage_hat.gif",
+    "baseAttack": 0,
+    "baseDefense": 3,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Mage's Cap",
+    "image": "mage's_cap.gif",
+    "baseAttack": 0,
+    "baseDefense": 3,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "FIRE",
+        "value": 4
+      }
+    ],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Magician Hat",
+    "image": "magician_hat.gif",
+    "baseAttack": 0,
+    "baseDefense": 1,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Magma Monocle",
+    "image": "magma_monocle.gif",
+    "baseAttack": 0,
+    "baseDefense": 5,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "FIRE",
+        "value": 4
+      },
+      {
+        "type": "ICE",
+        "value": -5
+      }
+    ],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Mighty Helm of Green Sparks",
+    "image": "mighty_helm_of_green_sparks.gif",
+    "baseAttack": 0,
+    "baseDefense": 6,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Mining Helmet",
+    "image": "mining_helmet.gif",
+    "baseAttack": 0,
+    "baseDefense": 1,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Mining Helmet (Budrik)",
+    "image": "mining_helmet_(budrik).gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Mirror Mask",
+    "image": "mirror_mask.gif",
+    "baseAttack": 0,
+    "baseDefense": null,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Mystic Turban",
+    "image": "mystic_turban.gif",
+    "baseAttack": 0,
+    "baseDefense": 1,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Odd Hat",
+    "image": "odd_hat.gif",
+    "baseAttack": 0,
+    "baseDefense": 5,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Pair of Earmuffs",
+    "image": "pair_of_earmuffs.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "ICE",
+        "value": 2
+      }
+    ],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Party Hat",
+    "image": "party_hat.gif",
+    "baseAttack": 0,
+    "baseDefense": 1,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Pirate Hat",
+    "image": "pirate_hat.gif",
+    "baseAttack": 0,
+    "baseDefense": 3,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Porcelain Mask",
+    "image": "porcelain_mask.gif",
+    "baseAttack": 0,
+    "baseDefense": 1,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Post Officers Hat",
+    "image": "post_officers_hat.gif",
+    "baseAttack": 0,
+    "baseDefense": 1,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Prismatic Helmet",
+    "image": "prismatic_helmet.gif",
+    "baseAttack": 0,
+    "baseDefense": 9,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 5
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "SHIELD",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 150,
+    "type": "HELMET",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Ragnir Helmet",
+    "image": "ragnir_helmet.gif",
+    "baseAttack": 0,
+    "baseDefense": 6,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Reflecting Crown",
+    "image": "reflecting_crown.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Royal Helmet",
+    "image": "royal_helmet.gif",
+    "baseAttack": 0,
+    "baseDefense": 9,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Rubber Cap",
+    "image": "rubber_cap.gif",
+    "baseAttack": 0,
+    "baseDefense": 5,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "EARTH",
+        "value": 3
+      },
+      {
+        "type": "FIRE",
+        "value": -3
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 70,
+    "type": "HELMET",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Rusty Winged Helmet",
+    "image": "rusty_winged_helmet.gif",
+    "baseAttack": 0,
+    "baseDefense": 2,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Santa Hat",
+    "image": "santa_hat.gif",
+    "baseAttack": 0,
+    "baseDefense": 1,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Sedge Hat",
+    "image": "sedge_hat.gif",
+    "baseAttack": 0,
+    "baseDefense": 2,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Shamanic Mask",
+    "image": "shamanic_mask.gif",
+    "baseAttack": 0,
+    "baseDefense": 4,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Shroud of Despair",
+    "image": "shroud_of_despair.gif",
+    "baseAttack": 0,
+    "baseDefense": 7,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "DEATH",
+        "value": 3
+      }
+    ],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 150,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Silver Mask",
+    "image": "silver_mask.gif",
+    "baseAttack": 0,
+    "baseDefense": null,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Skull Helmet",
+    "image": "skull_helmet.gif",
+    "baseAttack": 0,
+    "baseDefense": 9,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Soldier Helmet",
+    "image": "soldier_helmet.gif",
+    "baseAttack": 0,
+    "baseDefense": 5,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Sphinx Tiara",
+    "image": "sphinx_tiara.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Spiritthorn Helmet",
+    "image": "spiritthorn_helmet.gif",
+    "baseAttack": 0,
+    "baseDefense": 12,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 6
+      },
+      {
+        "type": "ENERGY",
+        "value": 10
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "SWORD",
+        "value": 3
+      },
+      {
+        "type": "AXE",
+        "value": 3
+      },
+      {
+        "type": "CLUB",
+        "value": 3
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 400,
+    "type": "HELMET",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Spooky Hood",
+    "image": "spooky_hood.gif",
+    "baseAttack": 0,
+    "baseDefense": null,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Steel Helmet",
+    "image": "steel_helmet.gif",
+    "baseAttack": 0,
+    "baseDefense": 6,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Stoic Iks Casque",
+    "image": "stoic_iks_casque.gif",
+    "baseAttack": 0,
+    "baseDefense": 8,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 3
+      },
+      {
+        "type": "ENERGY",
+        "value": null
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "DISTANCE",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 250,
+    "type": "HELMET",
+    "vocations": [
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Stoic Iks Headpiece",
+    "image": "stoic_iks_headpiece.gif",
+    "baseAttack": 0,
+    "baseDefense": 8,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "DEATH",
+        "value": 3
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 250,
+    "type": "HELMET",
+    "vocations": [
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Strange Helmet",
+    "image": "strange_helmet.gif",
+    "baseAttack": 0,
+    "baseDefense": 6,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Studded Helmet",
+    "image": "studded_helmet.gif",
+    "baseAttack": 0,
+    "baseDefense": 2,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Terra Helmet",
+    "image": "terra_helmet.gif",
+    "baseAttack": 0,
+    "baseDefense": 9,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 5
+      },
+      {
+        "type": "EARTH",
+        "value": 5
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "SWORD",
+        "value": 2
+      },
+      {
+        "type": "AXE",
+        "value": 2
+      },
+      {
+        "type": "CLUB",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 230,
+    "type": "HELMET",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Terra Hood",
+    "image": "terra_hood.gif",
+    "baseAttack": 0,
+    "baseDefense": 5,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "EARTH",
+        "value": 4
+      },
+      {
+        "type": "FIRE",
+        "value": -5
+      }
+    ],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "The Crown of the Percht Queen (Fire)",
+    "image": "the_crown_of_the_percht_queen_(fire).gif",
+    "baseAttack": 0,
+    "baseDefense": null,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "The Crown of the Percht Queen (Ice)",
+    "image": "the_crown_of_the_percht_queen_(ice).gif",
+    "baseAttack": 0,
+    "baseDefense": null,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "The Epic Wisdom",
+    "image": "the_epic_wisdom.gif",
+    "baseAttack": 0,
+    "baseDefense": null,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Tiara of Power",
+    "image": "tiara_of_power.gif",
+    "baseAttack": 0,
+    "baseDefense": 7,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "ENERGY",
+        "value": 8
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "SPEED",
+        "value": 20
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 100,
+    "type": "HELMET",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Traditional Gamsbart Hat",
+    "image": "traditional_gamsbart_hat.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Tribal Mask",
+    "image": "tribal_mask.gif",
+    "baseAttack": 0,
+    "baseDefense": 2,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Viking Helmet",
+    "image": "viking_helmet.gif",
+    "baseAttack": 0,
+    "baseDefense": 4,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Visage of the End Days",
+    "image": "visage_of_the_end_days.gif",
+    "baseAttack": 0,
+    "baseDefense": 10,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Warrior Helmet",
+    "image": "warrior_helmet.gif",
+    "baseAttack": 0,
+    "baseDefense": 8,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Werewolf Helmet",
+    "image": "werewolf_helmet.gif",
+    "baseAttack": 0,
+    "baseDefense": 9,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "SPEED",
+        "value": 15
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 100,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Winged Helmet",
+    "image": "winged_helmet.gif",
+    "baseAttack": 0,
+    "baseDefense": 10,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Witch Hat",
+    "image": "witch_hat.gif",
+    "baseAttack": 0,
+    "baseDefense": 3,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Wood Cape",
+    "image": "wood_cape.gif",
+    "baseAttack": 0,
+    "baseDefense": 3,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "EARTH",
+        "value": 4
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "DISTANCE",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Yalahari Mask",
+    "image": "yalahari_mask.gif",
+    "baseAttack": 0,
+    "baseDefense": 5,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 80,
+    "type": "HELMET",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Zaoan Helmet",
+    "image": "zaoan_helmet.gif",
+    "baseAttack": 0,
+    "baseDefense": 9,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 5
+      }
+    ],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 0,
+    "type": "HELMET",
+    "vocations": [
+      "KNIGHT",
+      "PALADIN"
+    ]
+  }
+]

@@ -1,0 +1,794 @@
+[
+  {
+    "name": "Alchemist's Notepad",
+    "image": "alchemist's_notepad.gif",
+    "baseAttack": 0,
+    "baseDefense": 20,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "DEATH",
+        "value": 5
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 2
+      },
+      {
+        "type": "FIRE",
+        "value": 2
+      },
+      {
+        "type": "ENERGY",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 250,
+    "type": "SPELLBOOK",
+    "vocations": [
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Arboreal Tome",
+    "image": "arboreal_tome.gif",
+    "baseAttack": 0,
+    "baseDefense": 22,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 4
+      },
+      {
+        "type": "ENERGY",
+        "value": 6
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 5
+      },
+      {
+        "type": "ICE",
+        "value": 5
+      },
+      {
+        "type": "HEAL",
+        "value": 5
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 400,
+    "type": "SPELLBOOK",
+    "vocations": [
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Arcanomancer Folio",
+    "image": "arcanomancer_folio.gif",
+    "baseAttack": 0,
+    "baseDefense": 22,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 3
+      },
+      {
+        "type": "FIRE",
+        "value": 8
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 5
+      },
+      {
+        "type": "FIRE",
+        "value": 5
+      },
+      {
+        "type": "ENERGY",
+        "value": 5
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 400,
+    "type": "SPELLBOOK",
+    "vocations": [
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Book of Lies",
+    "image": "book_of_lies.gif",
+    "baseAttack": 0,
+    "baseDefense": 18,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 4
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 150,
+    "type": "SPELLBOOK",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Brain in a Jar",
+    "image": "brain_in_a_jar.gif",
+    "baseAttack": 0,
+    "baseDefense": 19,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "EARTH",
+        "value": 7
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 3
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 180,
+    "type": "SPELLBOOK",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Cocoa Grimoire",
+    "image": "cocoa_grimoire.gif",
+    "baseAttack": 0,
+    "baseDefense": 19,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 2
+      },
+      {
+        "type": "ENERGY",
+        "value": 5
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 3
+      },
+      {
+        "type": "FIRE",
+        "value": 3
+      },
+      {
+        "type": "MAGIC_SHIELD",
+        "value": 3
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 200,
+    "type": "SPELLBOOK",
+    "vocations": [
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Creamy Grimoire",
+    "image": "creamy_grimoire.gif",
+    "baseAttack": 0,
+    "baseDefense": 19,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 2
+      },
+      {
+        "type": "FIRE",
+        "value": 5
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 3
+      },
+      {
+        "type": "HEAL",
+        "value": 3
+      },
+      {
+        "type": "MAGIC_SHIELD",
+        "value": 3
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 200,
+    "type": "SPELLBOOK",
+    "vocations": [
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Crude Umbral Spellbook",
+    "image": "crude_umbral_spellbook.gif",
+    "baseAttack": 0,
+    "baseDefense": 14,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "EARTH",
+        "value": 2
+      },
+      {
+        "type": "ENERGY",
+        "value": 2
+      },
+      {
+        "type": "FIRE",
+        "value": 2
+      },
+      {
+        "type": "ICE",
+        "value": 2
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 75,
+    "type": "SPELLBOOK",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Depth Scutum",
+    "image": "depth_scutum.gif",
+    "baseAttack": 0,
+    "baseDefense": 25,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 120,
+    "type": "SPELLBOOK",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Eldritch Folio",
+    "image": "eldritch_folio.gif",
+    "baseAttack": 0,
+    "baseDefense": 21,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "EARTH",
+        "value": 6
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 4
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 300,
+    "type": "SPELLBOOK",
+    "vocations": [
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Eldritch Tome",
+    "image": "eldritch_tome.gif",
+    "baseAttack": 0,
+    "baseDefense": 21,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "FIRE",
+        "value": 6
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 4
+      },
+      {
+        "type": "EARTH",
+        "value": 4
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 300,
+    "type": "SPELLBOOK",
+    "vocations": [
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Lion Spellbook",
+    "image": "lion_spellbook.gif",
+    "baseAttack": 0,
+    "baseDefense": 20,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 3
+      },
+      {
+        "type": "ICE",
+        "value": 7
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 4
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 220,
+    "type": "SPELLBOOK",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Shoulder Plate",
+    "image": "shoulder_plate.gif",
+    "baseAttack": 0,
+    "baseDefense": 26,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "EARTH",
+        "value": 6
+      },
+      {
+        "type": "PHYSICAL",
+        "value": 2
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 3
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 180,
+    "type": "SPELLBOOK",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Snake God's Wristguard",
+    "image": "snake_god's_wristguard.gif",
+    "baseAttack": 0,
+    "baseDefense": 14,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 3
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 100,
+    "type": "SPELLBOOK",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Spellbook",
+    "image": "spellbook.gif",
+    "baseAttack": 0,
+    "baseDefense": 14,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 0,
+    "type": "SPELLBOOK",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Spellbook of Ancient Arcana",
+    "image": "spellbook_of_ancient_arcana.gif",
+    "baseAttack": 0,
+    "baseDefense": 19,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "DEATH",
+        "value": 5
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 4
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 150,
+    "type": "SPELLBOOK",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Spellbook of Dark Mysteries",
+    "image": "spellbook_of_dark_mysteries.gif",
+    "baseAttack": 0,
+    "baseDefense": 16,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 3
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 80,
+    "type": "SPELLBOOK",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Spellbook of Enlightenment",
+    "image": "spellbook_of_enlightenment.gif",
+    "baseAttack": 0,
+    "baseDefense": 18,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 30,
+    "type": "SPELLBOOK",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Spellbook of Lost Souls",
+    "image": "spellbook_of_lost_souls.gif",
+    "baseAttack": 0,
+    "baseDefense": 20,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 60,
+    "type": "SPELLBOOK",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Spellbook of Mind Control",
+    "image": "spellbook_of_mind_control.gif",
+    "baseAttack": 0,
+    "baseDefense": 16,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 50,
+    "type": "SPELLBOOK",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Spellbook of the Novice",
+    "image": "spellbook_of_the_novice.gif",
+    "baseAttack": 0,
+    "baseDefense": 8,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SPELLBOOK",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Spellbook of Vigilance",
+    "image": "spellbook_of_vigilance.gif",
+    "baseAttack": 0,
+    "baseDefense": 20,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "EARTH",
+        "value": 3
+      },
+      {
+        "type": "FIRE",
+        "value": -3
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 3
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 130,
+    "type": "SPELLBOOK",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Spellbook of Warding",
+    "image": "spellbook_of_warding.gif",
+    "baseAttack": 0,
+    "baseDefense": 22,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 40,
+    "type": "SPELLBOOK",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Spellscroll of Prophecies",
+    "image": "spellscroll_of_prophecies.gif",
+    "baseAttack": 0,
+    "baseDefense": 12,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 3
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 70,
+    "type": "SPELLBOOK",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Spirit Guide",
+    "image": "spirit_guide.gif",
+    "baseAttack": 0,
+    "baseDefense": 17,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "ENERGY",
+        "value": 6
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 4
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 180,
+    "type": "SPELLBOOK",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Umbral Master Spellbook",
+    "image": "umbral_master_spellbook.gif",
+    "baseAttack": 0,
+    "baseDefense": 20,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "EARTH",
+        "value": 5
+      },
+      {
+        "type": "ENERGY",
+        "value": 5
+      },
+      {
+        "type": "FIRE",
+        "value": 5
+      },
+      {
+        "type": "ICE",
+        "value": 5
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 4
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 250,
+    "type": "SPELLBOOK",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Umbral Spellbook",
+    "image": "umbral_spellbook.gif",
+    "baseAttack": 0,
+    "baseDefense": 16,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "EARTH",
+        "value": 3
+      },
+      {
+        "type": "ENERGY",
+        "value": 3
+      },
+      {
+        "type": "FIRE",
+        "value": 3
+      },
+      {
+        "type": "ICE",
+        "value": 3
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 150,
+    "type": "SPELLBOOK",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Wooden Spellbook",
+    "image": "wooden_spellbook.gif",
+    "baseAttack": 0,
+    "baseDefense": 16,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "EARTH",
+        "value": 5
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 80,
+    "type": "SPELLBOOK",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  }
+]

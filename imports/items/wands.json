@@ -1,0 +1,875 @@
+[
+  {
+    "name": "Wand of Cosmic Energy",
+    "image": "wand_of_cosmic_energy.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 45,
+        "type": "ENERGY"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 26,
+    "type": "WAND",
+    "vocations": [
+      "SORCERER"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 8
+  },
+  {
+    "name": "Wand of Decay",
+    "image": "wand_of_decay.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 30,
+        "type": "DEATH"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 19,
+    "type": "WAND",
+    "vocations": [
+      "SORCERER"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 5
+  },
+  {
+    "name": "Wand of Draconia",
+    "image": "wand_of_draconia.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 30,
+        "type": "FIRE"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 22,
+    "type": "WAND",
+    "vocations": [
+      "SORCERER"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 5
+  },
+  {
+    "name": "Wand of Dragonbreath",
+    "image": "wand_of_dragonbreath.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 19,
+        "type": "FIRE"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 13,
+    "type": "WAND",
+    "vocations": [
+      "SORCERER"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 3
+  },
+  {
+    "name": "Wand of Inferno",
+    "image": "wand_of_inferno.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 65,
+        "type": "FIRE"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 33,
+    "type": "WAND",
+    "vocations": [
+      "SORCERER"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 13
+  },
+  {
+    "name": "Wand of Starstorm",
+    "image": "wand_of_starstorm.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 65,
+        "type": "ENERGY"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 37,
+    "type": "WAND",
+    "vocations": [
+      "SORCERER"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 13
+  },
+  {
+    "name": "Wand of Voodoo",
+    "image": "wand_of_voodoo.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 65,
+        "type": "DEATH"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 42,
+    "type": "WAND",
+    "vocations": [
+      "SORCERER"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 13
+  },
+  {
+    "name": "Shimmer Wand",
+    "image": "shimmer_wand.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 65,
+        "type": "ENERGY"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 40,
+    "type": "WAND",
+    "vocations": [
+      "SORCERER"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 13
+  },
+  {
+    "name": "Wand of Defiance",
+    "image": "wand_of_defiance.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 85,
+        "type": "ENERGY"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 65,
+    "type": "WAND",
+    "vocations": [
+      "SORCERER"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 17
+  },
+  {
+    "name": "Wand of Everblazing",
+    "image": "wand_of_everblazing.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 85,
+        "type": "FIRE"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 65,
+    "type": "WAND",
+    "vocations": [
+      "SORCERER"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 17
+  },
+  {
+    "name": "Sorcerer and Druid Staff",
+    "image": "sorcerer_and_druid_staff.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 25,
+        "type": "ENERGY"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "WAND",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 2
+  },
+  {
+    "name": "The Scorcher",
+    "image": "the_scorcher.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 4,
+        "type": "FIRE"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "WAND",
+    "vocations": [
+      "SORCERER"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 1
+  },
+  {
+    "name": "Ferumbras' Staff (Wand)",
+    "image": "ferumbras'_staff_(wand).gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 95,
+        "type": "ENERGY"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 100,
+    "type": "WAND",
+    "vocations": [
+      "SORCERER"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 19
+  },
+  {
+    "name": "Dream Blossom Staff",
+    "image": "dream_blossom_staff.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 70,
+        "type": "ENERGY"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 80,
+    "type": "WAND",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 18
+  },
+  {
+    "name": "Wand of Darkness",
+    "image": "wand_of_darkness.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 85,
+        "type": "DEATH"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 41,
+    "type": "WAND",
+    "vocations": [
+      "SORCERER"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 15
+  },
+  {
+    "name": "Wand of Destruction",
+    "image": "wand_of_destruction.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 88,
+        "type": "ENERGY"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 200,
+    "type": "WAND",
+    "vocations": [
+      "SORCERER"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 18
+  },
+  {
+    "name": "Falcon Wand",
+    "image": "falcon_wand.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 100,
+        "type": "ENERGY"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 3
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 300,
+    "type": "WAND",
+    "vocations": [
+      "SORCERER"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 21
+  },
+  {
+    "name": "Deepling Ceremonial Dagger",
+    "image": "deepling_ceremonial_dagger.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 90,
+        "type": "ICE"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 180,
+    "type": "WAND",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 23
+  },
+  {
+    "name": "Deepling Fork",
+    "image": "deepling_fork.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 90,
+        "type": "ICE"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 230,
+    "type": "WAND",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 23
+  },
+  {
+    "name": "Energized Limb",
+    "image": "energized_limb.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 98,
+        "type": "FIRE"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 180,
+    "type": "WAND",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 24
+  },
+  {
+    "name": "Cobra Wand",
+    "image": "cobra_wand.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 95,
+        "type": "ENERGY"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 270,
+    "type": "WAND",
+    "vocations": [
+      "SORCERER"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 22
+  },
+  {
+    "name": "Wand of Dimensions",
+    "image": "wand_of_dimensions.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 55,
+        "type": "ENERGY"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 37,
+    "type": "WAND",
+    "vocations": [
+      "SORCERER"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 11
+  },
+  {
+    "name": "Lion Wand",
+    "image": "lion_wand.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 89,
+        "type": "ICE"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 220,
+    "type": "WAND",
+    "vocations": [
+      "SORCERER"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 20
+  },
+  {
+    "name": "Soultainter",
+    "image": "soultainter.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 100,
+        "type": "DEATH"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 5
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 400,
+    "type": "WAND",
+    "vocations": [
+      "SORCERER"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 22
+  },
+  {
+    "name": "Jungle Wand",
+    "image": "jungle_wand.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 80,
+        "type": "EARTH"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 150,
+    "type": "WAND",
+    "vocations": [
+      "SORCERER"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 19
+  },
+  {
+    "name": "Eldritch Wand",
+    "image": "eldritch_wand.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 85,
+        "type": "FIRE"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 2
+      },
+      {
+        "type": "FIRE",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 250,
+    "type": "WAND",
+    "vocations": [
+      "SORCERER"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 22
+  },
+  {
+    "name": "Gilded Eldritch Wand",
+    "image": "gilded_eldritch_wand.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 85,
+        "type": "FIRE"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 2
+      },
+      {
+        "type": "FIRE",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 250,
+    "type": "WAND",
+    "vocations": [
+      "SORCERER"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 22
+  },
+  {
+    "name": "Naga Wand",
+    "image": "naga_wand.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 90,
+        "type": "ENERGY"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 2
+      },
+      {
+        "type": "ENERGY",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 250,
+    "type": "WAND",
+    "vocations": [
+      "SORCERER"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 21
+  },
+  {
+    "name": "Wand of Vortex",
+    "image": "wand_of_vortex.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 13,
+        "type": "ENERGY"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 6,
+    "type": "WAND",
+    "vocations": [
+      "SORCERER"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 2
+  },
+  {
+    "name": "Sanguine Coil",
+    "image": "sanguine_coil.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 114,
+        "type": "FIRE"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 5
+      },
+      {
+        "type": "FIRE",
+        "value": 5
+      },
+      {
+        "type": "ENERGY",
+        "value": 5
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 600,
+    "type": "WAND",
+    "vocations": [
+      "SORCERER"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 21
+  },
+  {
+    "name": "Grand Sanguine Coil",
+    "image": "grand_sanguine_coil.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 114,
+        "type": "FIRE"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 5
+      },
+      {
+        "type": "FIRE",
+        "value": 5
+      },
+      {
+        "type": "ENERGY",
+        "value": 5
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 600,
+    "type": "WAND",
+    "vocations": [
+      "SORCERER"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 21
+  },
+  {
+    "name": "Amber Wand",
+    "image": "amber_wand.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": null,
+        "type": "ENERGY"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 3
+      },
+      {
+        "type": "ENERGY",
+        "value": 3
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 330,
+    "type": "WAND",
+    "vocations": [
+      "SORCERER"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 20
+  }
+]

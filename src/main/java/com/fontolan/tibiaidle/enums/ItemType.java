@@ -2,8 +2,19 @@ package com.fontolan.tibiaidle.enums;
 
 public enum ItemType {
     SHIELD,
+    SPELLBOOK,
     SWORD,
     AXE,
     CLUB,
-    BOW
+    DISTANCE,
+    WAND,
+    ROD,
+    BOW,
+    CROSSBOW,
+    HELMET,
+    ARMOR,
+    LEGS,
+    BOOTS,
+    ARROW,
+    BOLT
 }

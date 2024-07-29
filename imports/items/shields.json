@@ -1,0 +1,1749 @@
+[
+  {
+    "name": "Adamant Shield",
+    "image": "adamant_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Alicorn Quiver",
+    "image": "alicorn_quiver.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 400,
+    "type": "SHIELD",
+    "vocations": [
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Amazon Shield",
+    "image": "amazon_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 32,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Ancient Shield",
+    "image": "ancient_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 27,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Aylie",
+    "image": "aylie.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Battle Shield",
+    "image": "battle_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 23,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Biscuit Barrier",
+    "image": "biscuit_barrier.gif",
+    "baseAttack": 0,
+    "baseDefense": 36,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 200,
+    "type": "SHIELD",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Black Shield",
+    "image": "black_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 18,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Blessed Shield",
+    "image": "blessed_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 40,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Blue Quiver",
+    "image": "blue_quiver.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Bone Shield",
+    "image": "bone_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 20,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Bonelord Shield",
+    "image": "bonelord_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 28,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Brass Shield",
+    "image": "brass_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 16,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Broken Wooden Shield",
+    "image": "broken_wooden_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 11,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Candy-Coated Quiver",
+    "image": "candy-coated_quiver.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 200,
+    "type": "SHIELD",
+    "vocations": [
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Carapace Shield",
+    "image": "carapace_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 36,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Castle Shield",
+    "image": "castle_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 28,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Copper Shield",
+    "image": "copper_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 19,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Crown Shield",
+    "image": "crown_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 32,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Dark Shield",
+    "image": "dark_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 25,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Death Gaze",
+    "image": "death_gaze.gif",
+    "baseAttack": 0,
+    "baseDefense": 38,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 200,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Demon Shield",
+    "image": "demon_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 35,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Dragon Shield",
+    "image": "dragon_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 31,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Dwarven Shield",
+    "image": "dwarven_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 26,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Eagle Shield",
+    "image": "eagle_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 32,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Ectoplasmic Shield",
+    "image": "ectoplasmic_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 37,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 180,
+    "type": "SHIELD",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Eerie Song Book",
+    "image": "eerie_song_book.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Eldritch Quiver",
+    "image": "eldritch_quiver.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 250,
+    "type": "SHIELD",
+    "vocations": [
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Eldritch Shield",
+    "image": "eldritch_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 39,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 270,
+    "type": "SHIELD",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Falcon Escutcheon",
+    "image": "falcon_escutcheon.gif",
+    "baseAttack": 0,
+    "baseDefense": 40,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 300,
+    "type": "SHIELD",
+    "vocations": [
+      "KNIGHT",
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Falcon Shield",
+    "image": "falcon_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 39,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 300,
+    "type": "SHIELD",
+    "vocations": [
+      "KNIGHT",
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Fiery Rainbow Shield",
+    "image": "fiery_rainbow_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 36,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 100,
+    "type": "SHIELD",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Gnome Shield",
+    "image": "gnome_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 38,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 200,
+    "type": "SHIELD",
+    "vocations": [
+      "KNIGHT",
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Golden Blessed Shield",
+    "image": "golden_blessed_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Great Shield",
+    "image": "great_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 38,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Griffin Shield",
+    "image": "griffin_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 29,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Guardian Shield",
+    "image": "guardian_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 30,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Haunted Mirror Piece",
+    "image": "haunted_mirror_piece.gif",
+    "baseAttack": 0,
+    "baseDefense": 34,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Icy Rainbow Shield",
+    "image": "icy_rainbow_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 39,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 100,
+    "type": "SHIELD",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Journal Shield",
+    "image": "journal_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Jungle Quiver",
+    "image": "jungle_quiver.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 150,
+    "type": "SHIELD",
+    "vocations": [
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Lion Shield",
+    "image": "lion_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 39,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 250,
+    "type": "SHIELD",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Mastermind Shield",
+    "image": "mastermind_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 37,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Mathmaster Shield",
+    "image": "mathmaster_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Meat Shield",
+    "image": "meat_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 10,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Medusa Shield",
+    "image": "medusa_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 33,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Mino Shield",
+    "image": "mino_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 31,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Morshabaal's Mask",
+    "image": "morshabaal's_mask.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 150,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Naga Quiver",
+    "image": "naga_quiver.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 250,
+    "type": "SHIELD",
+    "vocations": [
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Necromancer Shield",
+    "image": "necromancer_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 37,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Nightmare Shield",
+    "image": "nightmare_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 37,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Norse Shield",
+    "image": "norse_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 28,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Ornamented Shield",
+    "image": "ornamented_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 22,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Ornate Shield",
+    "image": "ornate_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 36,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 130,
+    "type": "SHIELD",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Painted Gourd Rattle",
+    "image": "painted_gourd_rattle.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Phoenix Shield",
+    "image": "phoenix_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 34,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Plate Shield",
+    "image": "plate_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 17,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Prismatic Shield",
+    "image": "prismatic_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 37,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 150,
+    "type": "SHIELD",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Quiver",
+    "image": "quiver.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Rainbow Shield",
+    "image": "rainbow_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 30,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 100,
+    "type": "SHIELD",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Red Quiver",
+    "image": "red_quiver.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Rift Shield",
+    "image": "rift_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 37,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Rose Shield",
+    "image": "rose_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 27,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Runic Ice Shield",
+    "image": "runic_ice_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 31,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Salamander Shield",
+    "image": "salamander_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 26,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Scarab Shield",
+    "image": "scarab_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 25,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Sentinel Shield",
+    "image": "sentinel_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 22,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Shield of Care",
+    "image": "shield_of_care.gif",
+    "baseAttack": 0,
+    "baseDefense": 8,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Shield of Corruption",
+    "image": "shield_of_corruption.gif",
+    "baseAttack": 0,
+    "baseDefense": 36,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 80,
+    "type": "SHIELD",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Shield of Destiny",
+    "image": "shield_of_destiny.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Shield of Endless Search",
+    "image": "shield_of_endless_search.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Shield of Honour",
+    "image": "shield_of_honour.gif",
+    "baseAttack": 0,
+    "baseDefense": 33,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Shield of the White Knight",
+    "image": "shield_of_the_white_knight.gif",
+    "baseAttack": 0,
+    "baseDefense": 8,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Soulbastion",
+    "image": "soulbastion.gif",
+    "baseAttack": 0,
+    "baseDefense": 42,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 400,
+    "type": "SHIELD",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Sparking Rainbow Shield",
+    "image": "sparking_rainbow_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 36,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 100,
+    "type": "SHIELD",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Spike Shield",
+    "image": "spike_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 28,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Steel Shield",
+    "image": "steel_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 21,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Strange Good Night Songs",
+    "image": "strange_good_night_songs.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Studded Shield",
+    "image": "studded_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 15,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Tempest Shield",
+    "image": "tempest_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 36,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Terran Rainbow Shield",
+    "image": "terran_rainbow_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 37,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 100,
+    "type": "SHIELD",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "The Dragon Spirit",
+    "image": "the_dragon_spirit.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "The Shield Nevermourn",
+    "image": "the_shield_nevermourn.gif",
+    "baseAttack": 0,
+    "baseDefense": 25,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Tortoise Shield",
+    "image": "tortoise_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 26,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Tower Shield",
+    "image": "tower_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 32,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Tusk Shield",
+    "image": "tusk_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 27,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Vampire Shield",
+    "image": "vampire_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 34,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Viking Shield",
+    "image": "viking_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 22,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Warrior's Shield",
+    "image": "warrior's_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 33,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Wooden Shield",
+    "image": "wooden_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 14,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Demon Powered Shield",
+    "image": "demon_powered_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 50,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Mercenary Shield",
+    "image": "mercenary_shield.gif",
+    "baseAttack": 0,
+    "baseDefense": 24,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "SHIELD",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "DRUID",
+      "SORCERER"
+    ]
+  }
+]

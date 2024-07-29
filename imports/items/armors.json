@@ -1,0 +1,3518 @@
+[
+  {
+    "name": "Albino Plate",
+    "image": "albino_plate.gif",
+    "baseAttack": 0,
+    "baseDefense": 11,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 0,
+    "type": "ARMOR",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Amazon Armor",
+    "image": "amazon_armor.gif",
+    "baseAttack": 0,
+    "baseDefense": 13,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "DISTANCE",
+        "value": 3
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 60,
+    "type": "ARMOR",
+    "vocations": [
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Arcane Dragon Robe",
+    "image": "arcane_dragon_robe.gif",
+    "baseAttack": 0,
+    "baseDefense": 15,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "ICE",
+        "value": 12
+      },
+      {
+        "type": "FIRE",
+        "value": -6
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 3
+      },
+      {
+        "type": "ENERGY",
+        "value": 3
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 300,
+    "type": "ARMOR",
+    "vocations": [
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Ball Gown",
+    "image": "ball_gown.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "ARMOR",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Bear Skin",
+    "image": "bear_skin.gif",
+    "baseAttack": 0,
+    "baseDefense": 16,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "EARTH",
+        "value": 11
+      },
+      {
+        "type": "FIRE",
+        "value": -2
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 4
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 230,
+    "type": "ARMOR",
+    "vocations": [
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Belted Cape",
+    "image": "belted_cape.gif",
+    "baseAttack": 0,
+    "baseDefense": 10,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "ARMOR",
+    "vocations": [
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Blue Robe",
+    "image": "blue_robe.gif",
+    "baseAttack": 0,
+    "baseDefense": 11,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 0,
+    "type": "ARMOR",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Brass Armor",
+    "image": "brass_armor.gif",
+    "baseAttack": 0,
+    "baseDefense": 8,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "ARMOR",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Broken Iks Cuirass",
+    "image": "broken_iks_cuirass.gif",
+    "baseAttack": 0,
+    "baseDefense": 1,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "ARMOR",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Buckle",
+    "image": "buckle.gif",
+    "baseAttack": 0,
+    "baseDefense": 12,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "ARMOR",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Burial Shroud",
+    "image": "burial_shroud.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "DEATH",
+        "value": 5
+      }
+    ],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "ARMOR",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Calopteryx Cape",
+    "image": "calopteryx_cape.gif",
+    "baseAttack": 0,
+    "baseDefense": 12,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "ICE",
+        "value": 5
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 80,
+    "type": "ARMOR",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Cape",
+    "image": "cape.gif",
+    "baseAttack": 0,
+    "baseDefense": 1,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "ARMOR",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Chain Armor",
+    "image": "chain_armor.gif",
+    "baseAttack": 0,
+    "baseDefense": 6,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 0,
+    "type": "ARMOR",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Coat",
+    "image": "coat.gif",
+    "baseAttack": 0,
+    "baseDefense": 1,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "ARMOR",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Crown Armor",
+    "image": "crown_armor.gif",
+    "baseAttack": 0,
+    "baseDefense": 13,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 0,
+    "type": "ARMOR",
+    "vocations": [
+      "KNIGHT",
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Crystalline Armor",
+    "image": "crystalline_armor.gif",
+    "baseAttack": 0,
+    "baseDefense": 13,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "ICE",
+        "value": 3
+      },
+      {
+        "type": "ENERGY",
+        "value": -3
+      }
+    ],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 60,
+    "type": "ARMOR",
+    "vocations": [
+      "KNIGHT",
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Dark Armor",
+    "image": "dark_armor.gif",
+    "baseAttack": 0,
+    "baseDefense": 10,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "ARMOR",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Dark Lord's Cape",
+    "image": "dark_lord's_cape.gif",
+    "baseAttack": 0,
+    "baseDefense": 11,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "DEATH",
+        "value": 8
+      },
+      {
+        "type": "HOLY",
+        "value": -8
+      }
+    ],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 65,
+    "type": "ARMOR",
+    "vocations": [
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Dauntless Dragon Scale Armor",
+    "image": "dauntless_dragon_scale_armor.gif",
+    "baseAttack": 0,
+    "baseDefense": 18,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 8
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "SWORD",
+        "value": 3
+      },
+      {
+        "type": "AXE",
+        "value": 3
+      },
+      {
+        "type": "CLUB",
+        "value": 3
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 300,
+    "type": "ARMOR",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Dawnfire Sherwani",
+    "image": "dawnfire_sherwani.gif",
+    "baseAttack": 0,
+    "baseDefense": 16,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "FIRE",
+        "value": 10
+      },
+      {
+        "type": "EARTH",
+        "value": -2
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 4
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 270,
+    "type": "ARMOR",
+    "vocations": [
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Demon Armor",
+    "image": "demon_armor.gif",
+    "baseAttack": 0,
+    "baseDefense": 16,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 0,
+    "type": "ARMOR",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Depth Lorica",
+    "image": "depth_lorica.gif",
+    "baseAttack": 0,
+    "baseDefense": 16,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "DEATH",
+        "value": 5
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "DISTANCE",
+        "value": 3
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 150,
+    "type": "ARMOR",
+    "vocations": [
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Divine Plate",
+    "image": "divine_plate.gif",
+    "baseAttack": 0,
+    "baseDefense": 13,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "DEATH",
+        "value": 10
+      },
+      {
+        "type": "HOLY",
+        "value": -10
+      }
+    ],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 75,
+    "type": "ARMOR",
+    "vocations": [
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Doublet",
+    "image": "doublet.gif",
+    "baseAttack": 0,
+    "baseDefense": 2,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "ARMOR",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Dragon Robe",
+    "image": "dragon_robe.gif",
+    "baseAttack": 0,
+    "baseDefense": 12,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "FIRE",
+        "value": 12
+      },
+      {
+        "type": "ICE",
+        "value": -12
+      }
+    ],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 75,
+    "type": "ARMOR",
+    "vocations": [
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Dragon Scale Mail",
+    "image": "dragon_scale_mail.gif",
+    "baseAttack": 0,
+    "baseDefense": 15,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 1,
+    "level": 0,
+    "type": "ARMOR",
+    "vocations": [
+      "KNIGHT",
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Dream Shroud",
+    "image": "dream_shroud.gif",
+    "baseAttack": 0,
+    "baseDefense": 12,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "ENERGY",
+        "value": 10
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 3
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 180,
+    "type": "ARMOR",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Dwarven Armor",
+    "image": "dwarven_armor.gif",
+    "baseAttack": 0,
+    "baseDefense": 10,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 5
+      }
+    ],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 0,
+    "type": "ARMOR",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Earthborn Titan Armor",
+    "image": "earthborn_titan_armor.gif",
+    "baseAttack": 0,
+    "baseDefense": 15,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "EARTH",
+        "value": 5
+      },
+      {
+        "type": "FIRE",
+        "value": -5
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "AXE",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 100,
+    "type": "ARMOR",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Earthheart Cuirass",
+    "image": "earthheart_cuirass.gif",
+    "baseAttack": 0,
+    "baseDefense": 18,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "EARTH",
+        "value": 8
+      },
+      {
+        "type": "FIRE",
+        "value": -8
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "SWORD",
+        "value": 4
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 200,
+    "type": "ARMOR",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Earthheart Hauberk",
+    "image": "earthheart_hauberk.gif",
+    "baseAttack": 0,
+    "baseDefense": 18,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "EARTH",
+        "value": 8
+      },
+      {
+        "type": "FIRE",
+        "value": -8
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "AXE",
+        "value": 4
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 200,
+    "type": "ARMOR",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Earthheart Platemail",
+    "image": "earthheart_platemail.gif",
+    "baseAttack": 0,
+    "baseDefense": 18,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "EARTH",
+        "value": 8
+      },
+      {
+        "type": "FIRE",
+        "value": -8
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "CLUB",
+        "value": 4
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 200,
+    "type": "ARMOR",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Earthmind Raiment",
+    "image": "earthmind_raiment.gif",
+    "baseAttack": 0,
+    "baseDefense": 15,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "EARTH",
+        "value": 8
+      },
+      {
+        "type": "FIRE",
+        "value": -8
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 4
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 200,
+    "type": "ARMOR",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Earthsoul Tabard",
+    "image": "earthsoul_tabard.gif",
+    "baseAttack": 0,
+    "baseDefense": 18,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "EARTH",
+        "value": 8
+      },
+      {
+        "type": "FIRE",
+        "value": -8
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "DISTANCE",
+        "value": 4
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 200,
+    "type": "ARMOR",
+    "vocations": [
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Eldritch Cuirass",
+    "image": "eldritch_cuirass.gif",
+    "baseAttack": 0,
+    "baseDefense": 16,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 10
+      }
+    ],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 250,
+    "type": "ARMOR",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Elite Draken Mail",
+    "image": "elite_draken_mail.gif",
+    "baseAttack": 0,
+    "baseDefense": 15,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "SPEED",
+        "value": 10
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 100,
+    "type": "ARMOR",
+    "vocations": [
+      "KNIGHT",
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Elven Mail",
+    "image": "elven_mail.gif",
+    "baseAttack": 0,
+    "baseDefense": 9,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 3,
+    "level": 0,
+    "type": "ARMOR",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Embrace of Nature",
+    "image": "embrace_of_nature.gif",
+    "baseAttack": 0,
+    "baseDefense": 16,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "ICE",
+        "value": 11
+      },
+      {
+        "type": "ENERGY",
+        "value": -3
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "DISTANCE",
+        "value": 4
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 220,
+    "type": "ARMOR",
+    "vocations": [
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Ethno Coat",
+    "image": "ethno_coat.gif",
+    "baseAttack": 0,
+    "baseDefense": 7,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "ARMOR",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Falcon Plate",
+    "image": "falcon_plate.gif",
+    "baseAttack": 0,
+    "baseDefense": 18,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 12
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "SHIELD",
+        "value": 4
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 300,
+    "type": "ARMOR",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Fireborn Giant Armor",
+    "image": "fireborn_giant_armor.gif",
+    "baseAttack": 0,
+    "baseDefense": 15,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "FIRE",
+        "value": 5
+      },
+      {
+        "type": "ICE",
+        "value": -5
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "SWORD",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 100,
+    "type": "ARMOR",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Fireheart Cuirass",
+    "image": "fireheart_cuirass.gif",
+    "baseAttack": 0,
+    "baseDefense": 18,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "FIRE",
+        "value": 8
+      },
+      {
+        "type": "ICE",
+        "value": -8
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "SWORD",
+        "value": 4
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 200,
+    "type": "ARMOR",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Fireheart Hauberk",
+    "image": "fireheart_hauberk.gif",
+    "baseAttack": 0,
+    "baseDefense": 18,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "FIRE",
+        "value": 8
+      },
+      {
+        "type": "ICE",
+        "value": -8
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "AXE",
+        "value": 4
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 200,
+    "type": "ARMOR",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Fireheart Platemail",
+    "image": "fireheart_platemail.gif",
+    "baseAttack": 0,
+    "baseDefense": 18,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "FIRE",
+        "value": 8
+      },
+      {
+        "type": "ICE",
+        "value": -8
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "CLUB",
+        "value": 4
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 200,
+    "type": "ARMOR",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Firemind Raiment",
+    "image": "firemind_raiment.gif",
+    "baseAttack": 0,
+    "baseDefense": 15,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "FIRE",
+        "value": 8
+      },
+      {
+        "type": "ICE",
+        "value": -8
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 4
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 200,
+    "type": "ARMOR",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Firesoul Tabard",
+    "image": "firesoul_tabard.gif",
+    "baseAttack": 0,
+    "baseDefense": 18,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "FIRE",
+        "value": 8
+      },
+      {
+        "type": "ICE",
+        "value": -8
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "DISTANCE",
+        "value": 4
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 200,
+    "type": "ARMOR",
+    "vocations": [
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Flower Dress",
+    "image": "flower_dress.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "ARMOR",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Focus Cape",
+    "image": "focus_cape.gif",
+    "baseAttack": 0,
+    "baseDefense": 9,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "ARMOR",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Frostheart Cuirass",
+    "image": "frostheart_cuirass.gif",
+    "baseAttack": 0,
+    "baseDefense": 18,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "ICE",
+        "value": 8
+      },
+      {
+        "type": "ENERGY",
+        "value": -8
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "SWORD",
+        "value": 4
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 200,
+    "type": "ARMOR",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Frostheart Hauberk",
+    "image": "frostheart_hauberk.gif",
+    "baseAttack": 0,
+    "baseDefense": 18,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "ICE",
+        "value": 8
+      },
+      {
+        "type": "ENERGY",
+        "value": -8
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "AXE",
+        "value": 4
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 200,
+    "type": "ARMOR",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Frostheart Platemail",
+    "image": "frostheart_platemail.gif",
+    "baseAttack": 0,
+    "baseDefense": 18,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "ICE",
+        "value": 8
+      },
+      {
+        "type": "ENERGY",
+        "value": -8
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "CLUB",
+        "value": 4
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 200,
+    "type": "ARMOR",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Frostmind Raiment",
+    "image": "frostmind_raiment.gif",
+    "baseAttack": 0,
+    "baseDefense": 15,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "ICE",
+        "value": 8
+      },
+      {
+        "type": "ENERGY",
+        "value": -8
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 4
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 200,
+    "type": "ARMOR",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Frostsoul Tabard",
+    "image": "frostsoul_tabard.gif",
+    "baseAttack": 0,
+    "baseDefense": 18,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "ICE",
+        "value": 8
+      },
+      {
+        "type": "ENERGY",
+        "value": -8
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "DISTANCE",
+        "value": 4
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 200,
+    "type": "ARMOR",
+    "vocations": [
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Frozen Plate",
+    "image": "frozen_plate.gif",
+    "baseAttack": 0,
+    "baseDefense": 13,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "ICE",
+        "value": 7
+      },
+      {
+        "type": "ENERGY",
+        "value": -7
+      }
+    ],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 75,
+    "type": "ARMOR",
+    "vocations": [
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Fur Armor",
+    "image": "fur_armor.gif",
+    "baseAttack": 0,
+    "baseDefense": 11,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "EARTH",
+        "value": 5
+      },
+      {
+        "type": "ICE",
+        "value": 5
+      }
+    ],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 50,
+    "type": "ARMOR",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Furious Frock",
+    "image": "furious_frock.gif",
+    "baseAttack": 0,
+    "baseDefense": 12,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "FIRE",
+        "value": 5
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 130,
+    "type": "ARMOR",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Ghost Chestplate",
+    "image": "ghost_chestplate.gif",
+    "baseAttack": 0,
+    "baseDefense": 17,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 3
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "DISTANCE",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 230,
+    "type": "ARMOR",
+    "vocations": [
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Gill Coat",
+    "image": "gill_coat.gif",
+    "baseAttack": 0,
+    "baseDefense": 12,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "EARTH",
+        "value": 10
+      },
+      {
+        "type": "FIRE",
+        "value": -10
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 150,
+    "type": "ARMOR",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Girl's Dress",
+    "image": "girl's_dress.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "ARMOR",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Glacier Robe",
+    "image": "glacier_robe.gif",
+    "baseAttack": 0,
+    "baseDefense": 11,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "ICE",
+        "value": 8
+      },
+      {
+        "type": "ENERGY",
+        "value": -8
+      }
+    ],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 50,
+    "type": "ARMOR",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Glooth Cape",
+    "image": "glooth_cape.gif",
+    "baseAttack": 0,
+    "baseDefense": 9,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "EARTH",
+        "value": 5
+      },
+      {
+        "type": "FIRE",
+        "value": -5
+      }
+    ],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 40,
+    "type": "ARMOR",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Gnome Armor",
+    "image": "gnome_armor.gif",
+    "baseAttack": 0,
+    "baseDefense": 17,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 4
+      },
+      {
+        "type": "ENERGY",
+        "value": 8
+      },
+      {
+        "type": "ICE",
+        "value": -2
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "DISTANCE",
+        "value": 3
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 200,
+    "type": "ARMOR",
+    "vocations": [
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Golden Armor",
+    "image": "golden_armor.gif",
+    "baseAttack": 0,
+    "baseDefense": 14,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 0,
+    "type": "ARMOR",
+    "vocations": [
+      "KNIGHT",
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Goo Shell",
+    "image": "goo_shell.gif",
+    "baseAttack": 0,
+    "baseDefense": 12,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "EARTH",
+        "value": 2
+      },
+      {
+        "type": "FIRE",
+        "value": -2
+      }
+    ],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "ARMOR",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Green Demon Armor",
+    "image": "green_demon_armor.gif",
+    "baseAttack": 0,
+    "baseDefense": 16,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 0,
+    "type": "ARMOR",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Green Tunic",
+    "image": "green_tunic.gif",
+    "baseAttack": 0,
+    "baseDefense": 1,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "ARMOR",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Greenwood Coat",
+    "image": "greenwood_coat.gif",
+    "baseAttack": 0,
+    "baseDefense": 12,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "EARTH",
+        "value": 12
+      },
+      {
+        "type": "FIRE",
+        "value": -12
+      }
+    ],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 75,
+    "type": "ARMOR",
+    "vocations": [
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Heat Core",
+    "image": "heat_core.gif",
+    "baseAttack": 0,
+    "baseDefense": 12,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 0,
+    "type": "ARMOR",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Heavy Metal T-Shirt",
+    "image": "heavy_metal_t-shirt.gif",
+    "baseAttack": 0,
+    "baseDefense": 6,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 0,
+    "type": "ARMOR",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Hibiscus Dress",
+    "image": "hibiscus_dress.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "ARMOR",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Jacket",
+    "image": "jacket.gif",
+    "baseAttack": 0,
+    "baseDefense": 1,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "ARMOR",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Knight Armor",
+    "image": "knight_armor.gif",
+    "baseAttack": 0,
+    "baseDefense": 12,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 0,
+    "type": "ARMOR",
+    "vocations": [
+      "KNIGHT",
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Lavos Armor",
+    "image": "lavos_armor.gif",
+    "baseAttack": 0,
+    "baseDefense": 13,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "FIRE",
+        "value": 3
+      },
+      {
+        "type": "ICE",
+        "value": -3
+      }
+    ],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 60,
+    "type": "ARMOR",
+    "vocations": [
+      "KNIGHT",
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Leather Armor",
+    "image": "leather_armor.gif",
+    "baseAttack": 0,
+    "baseDefense": 4,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "ARMOR",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Leather Harness",
+    "image": "leather_harness.gif",
+    "baseAttack": 0,
+    "baseDefense": 9,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "ARMOR",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Leopard Armor",
+    "image": "leopard_armor.gif",
+    "baseAttack": 0,
+    "baseDefense": 9,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 0,
+    "type": "ARMOR",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Lightning Robe",
+    "image": "lightning_robe.gif",
+    "baseAttack": 0,
+    "baseDefense": 11,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "ENERGY",
+        "value": 8
+      },
+      {
+        "type": "EARTH",
+        "value": -8
+      }
+    ],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 50,
+    "type": "ARMOR",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Lion Plate",
+    "image": "lion_plate.gif",
+    "baseAttack": 0,
+    "baseDefense": 17,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 6
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "SWORD",
+        "value": 3
+      },
+      {
+        "type": "AXE",
+        "value": 3
+      },
+      {
+        "type": "CLUB",
+        "value": 3
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 270,
+    "type": "ARMOR",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Living Armor",
+    "image": "living_armor.gif",
+    "baseAttack": 0,
+    "baseDefense": 13,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "EARTH",
+        "value": 12
+      },
+      {
+        "type": "FIRE",
+        "value": -5
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 180,
+    "type": "ARMOR",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Magic Plate Armor",
+    "image": "magic_plate_armor.gif",
+    "baseAttack": 0,
+    "baseDefense": 17,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 0,
+    "type": "ARMOR",
+    "vocations": [
+      "KNIGHT",
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Magician's Robe",
+    "image": "magician's_robe.gif",
+    "baseAttack": 0,
+    "baseDefense": 6,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "ARMOR",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Magma Coat",
+    "image": "magma_coat.gif",
+    "baseAttack": 0,
+    "baseDefense": 11,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "FIRE",
+        "value": 8
+      },
+      {
+        "type": "ICE",
+        "value": -8
+      }
+    ],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 50,
+    "type": "ARMOR",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Mammoth Fur Cape",
+    "image": "mammoth_fur_cape.gif",
+    "baseAttack": 0,
+    "baseDefense": 10,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 0,
+    "type": "ARMOR",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Master Archer's Armor",
+    "image": "master_archer's_armor.gif",
+    "baseAttack": 0,
+    "baseDefense": 15,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "DISTANCE",
+        "value": 3
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 100,
+    "type": "ARMOR",
+    "vocations": [
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Midnight Tunic",
+    "image": "midnight_tunic.gif",
+    "baseAttack": 0,
+    "baseDefense": 16,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 3
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 4
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 300,
+    "type": "ARMOR",
+    "vocations": [
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Molten Plate",
+    "image": "molten_plate.gif",
+    "baseAttack": 0,
+    "baseDefense": 13,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "FIRE",
+        "value": 7
+      },
+      {
+        "type": "ICE",
+        "value": -7
+      }
+    ],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 75,
+    "type": "ARMOR",
+    "vocations": [
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Mooh'tah Plate",
+    "image": "mooh'tah_plate.gif",
+    "baseAttack": 0,
+    "baseDefense": 12,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 0,
+    "type": "ARMOR",
+    "vocations": [
+      "KNIGHT",
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Mutated Skin Armor",
+    "image": "mutated_skin_armor.gif",
+    "baseAttack": 0,
+    "baseDefense": 17,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 3
+      },
+      {
+        "type": "EARTH",
+        "value": 8
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "DISTANCE",
+        "value": 3
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 270,
+    "type": "ARMOR",
+    "vocations": [
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Mystical Dragon Robe",
+    "image": "mystical_dragon_robe.gif",
+    "baseAttack": 0,
+    "baseDefense": 15,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "FIRE",
+        "value": 12
+      },
+      {
+        "type": "ICE",
+        "value": -6
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 3
+      },
+      {
+        "type": "EARTH",
+        "value": 3
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 300,
+    "type": "ARMOR",
+    "vocations": [
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Native Armor",
+    "image": "native_armor.gif",
+    "baseAttack": 0,
+    "baseDefense": 7,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "ARMOR",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Noble Armor",
+    "image": "noble_armor.gif",
+    "baseAttack": 0,
+    "baseDefense": 11,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 0,
+    "type": "ARMOR",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Oceanborn Leviathan Armor",
+    "image": "oceanborn_leviathan_armor.gif",
+    "baseAttack": 0,
+    "baseDefense": 15,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "ICE",
+        "value": 5
+      },
+      {
+        "type": "ENERGY",
+        "value": -5
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "SHIELD",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 100,
+    "type": "ARMOR",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Old Cape",
+    "image": "old_cape.gif",
+    "baseAttack": 0,
+    "baseDefense": 1,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "ARMOR",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Ornate Chestplate",
+    "image": "ornate_chestplate.gif",
+    "baseAttack": 0,
+    "baseDefense": 16,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 8
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "SHIELD",
+        "value": 3
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 200,
+    "type": "ARMOR",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Pair of Old Bracers",
+    "image": "pair_of_old_bracers.gif",
+    "baseAttack": 0,
+    "baseDefense": 1,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "ARMOR",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Paladin Armor",
+    "image": "paladin_armor.gif",
+    "baseAttack": 0,
+    "baseDefense": 12,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "DISTANCE",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 0,
+    "type": "ARMOR",
+    "vocations": [
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Pirate Shirt",
+    "image": "pirate_shirt.gif",
+    "baseAttack": 0,
+    "baseDefense": 3,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "ARMOR",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Plate Armor",
+    "image": "plate_armor.gif",
+    "baseAttack": 0,
+    "baseDefense": 10,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "ARMOR",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Prismatic Armor",
+    "image": "prismatic_armor.gif",
+    "baseAttack": 0,
+    "baseDefense": 15,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 5
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "SPEED",
+        "value": 15
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 120,
+    "type": "ARMOR",
+    "vocations": [
+      "KNIGHT",
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Ranger's Cloak",
+    "image": "ranger's_cloak.gif",
+    "baseAttack": 0,
+    "baseDefense": 7,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "ARMOR",
+    "vocations": [
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Red Robe",
+    "image": "red_robe.gif",
+    "baseAttack": 0,
+    "baseDefense": 1,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "ARMOR",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Red Tunic",
+    "image": "red_tunic.gif",
+    "baseAttack": 0,
+    "baseDefense": 2,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "ARMOR",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Robe of the Ice Queen",
+    "image": "robe_of_the_ice_queen.gif",
+    "baseAttack": 0,
+    "baseDefense": 12,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "ICE",
+        "value": 12
+      },
+      {
+        "type": "ENERGY",
+        "value": -12
+      }
+    ],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 75,
+    "type": "ARMOR",
+    "vocations": [
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Robe of the Underworld",
+    "image": "robe_of_the_underworld.gif",
+    "baseAttack": 0,
+    "baseDefense": 12,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "DEATH",
+        "value": 12
+      },
+      {
+        "type": "HOLY",
+        "value": -12
+      }
+    ],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 100,
+    "type": "ARMOR",
+    "vocations": [
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Royal Draken Mail",
+    "image": "royal_draken_mail.gif",
+    "baseAttack": 0,
+    "baseDefense": 16,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 5
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "SHIELD",
+        "value": 3
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 100,
+    "type": "ARMOR",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Royal Scale Robe",
+    "image": "royal_scale_robe.gif",
+    "baseAttack": 0,
+    "baseDefense": 12,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "FIRE",
+        "value": 5
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 100,
+    "type": "ARMOR",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Scale Armor",
+    "image": "scale_armor.gif",
+    "baseAttack": 0,
+    "baseDefense": 9,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "ARMOR",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Simple Dress",
+    "image": "simple_dress.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "ARMOR",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Skullcracker Armor",
+    "image": "skullcracker_armor.gif",
+    "baseAttack": 0,
+    "baseDefense": 14,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "DEATH",
+        "value": 5
+      },
+      {
+        "type": "HOLY",
+        "value": -5
+      }
+    ],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 85,
+    "type": "ARMOR",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Soulmantle",
+    "image": "soulmantle.gif",
+    "baseAttack": 0,
+    "baseDefense": 17,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 4
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 4
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 400,
+    "type": "ARMOR",
+    "vocations": [
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Soulshell",
+    "image": "soulshell.gif",
+    "baseAttack": 0,
+    "baseDefense": 18,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 3
+      },
+      {
+        "type": "FIRE",
+        "value": 15
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "DISTANCE",
+        "value": 4
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 400,
+    "type": "ARMOR",
+    "vocations": [
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Soulshroud",
+    "image": "soulshroud.gif",
+    "baseAttack": 0,
+    "baseDefense": 17,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "DEATH",
+        "value": 10
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 4
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 400,
+    "type": "ARMOR",
+    "vocations": [
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Spectral Dress",
+    "image": "spectral_dress.gif",
+    "baseAttack": 0,
+    "baseDefense": null,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "ARMOR",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Spellweaver's Robe",
+    "image": "spellweaver's_robe.gif",
+    "baseAttack": 0,
+    "baseDefense": 11,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "ENERGY",
+        "value": 10
+      },
+      {
+        "type": "EARTH",
+        "value": -10
+      }
+    ],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 60,
+    "type": "ARMOR",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Spirit Cloak",
+    "image": "spirit_cloak.gif",
+    "baseAttack": 0,
+    "baseDefense": 8,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "ARMOR",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Spiritthorn Armor",
+    "image": "spiritthorn_armor.gif",
+    "baseAttack": 0,
+    "baseDefense": 20,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 13
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "SWORD",
+        "value": 4
+      },
+      {
+        "type": "AXE",
+        "value": 4
+      },
+      {
+        "type": "CLUB",
+        "value": 4
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 400,
+    "type": "ARMOR",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Stoic Iks Chestplate",
+    "image": "stoic_iks_chestplate.gif",
+    "baseAttack": 0,
+    "baseDefense": 16,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "PHYSICAL",
+        "value": 8
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "SHIELD",
+        "value": 3
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 250,
+    "type": "ARMOR",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Stoic Iks Cuirass",
+    "image": "stoic_iks_cuirass.gif",
+    "baseAttack": 0,
+    "baseDefense": 15,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "DEATH",
+        "value": 5
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 4
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 250,
+    "type": "ARMOR",
+    "vocations": [
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Studded Armor",
+    "image": "studded_armor.gif",
+    "baseAttack": 0,
+    "baseDefense": 5,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "ARMOR",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Summer Dress",
+    "image": "summer_dress.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "DEATH",
+        "value": 5
+      }
+    ],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "ARMOR",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Swamplair Armor",
+    "image": "swamplair_armor.gif",
+    "baseAttack": 0,
+    "baseDefense": 13,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "EARTH",
+        "value": 3
+      },
+      {
+        "type": "FIRE",
+        "value": -3
+      }
+    ],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 60,
+    "type": "ARMOR",
+    "vocations": [
+      "KNIGHT",
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Swan Feather Cloak",
+    "image": "swan_feather_cloak.gif",
+    "baseAttack": 0,
+    "baseDefense": 12,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "EARTH",
+        "value": 12
+      },
+      {
+        "type": "ENERGY",
+        "value": 12
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "SPEED",
+        "value": 10
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 60,
+    "type": "ARMOR",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Terra Mantle",
+    "image": "terra_mantle.gif",
+    "baseAttack": 0,
+    "baseDefense": 11,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "EARTH",
+        "value": 8
+      },
+      {
+        "type": "FIRE",
+        "value": -8
+      }
+    ],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 50,
+    "type": "ARMOR",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "The Rain Coat",
+    "image": "the_rain_coat.gif",
+    "baseAttack": 0,
+    "baseDefense": 1,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "ARMOR",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Thunderheart Cuirass",
+    "image": "thunderheart_cuirass.gif",
+    "baseAttack": 0,
+    "baseDefense": 18,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "ENERGY",
+        "value": 8
+      },
+      {
+        "type": "EARTH",
+        "value": -8
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "SWORD",
+        "value": 4
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 200,
+    "type": "ARMOR",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Thunderheart Hauberk",
+    "image": "thunderheart_hauberk.gif",
+    "baseAttack": 0,
+    "baseDefense": 18,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "ENERGY",
+        "value": 8
+      },
+      {
+        "type": "EARTH",
+        "value": -8
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "AXE",
+        "value": 4
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 200,
+    "type": "ARMOR",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Thunderheart Platemail",
+    "image": "thunderheart_platemail.gif",
+    "baseAttack": 0,
+    "baseDefense": 18,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "ENERGY",
+        "value": 8
+      },
+      {
+        "type": "EARTH",
+        "value": -8
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "CLUB",
+        "value": 4
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 200,
+    "type": "ARMOR",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Thundermind Raiment",
+    "image": "thundermind_raiment.gif",
+    "baseAttack": 0,
+    "baseDefense": 15,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "ENERGY",
+        "value": 8
+      },
+      {
+        "type": "EARTH",
+        "value": -8
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 4
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 200,
+    "type": "ARMOR",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Thundersoul Tabard",
+    "image": "thundersoul_tabard.gif",
+    "baseAttack": 0,
+    "baseDefense": 18,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "ENERGY",
+        "value": 8
+      },
+      {
+        "type": "EARTH",
+        "value": -8
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "DISTANCE",
+        "value": 4
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 200,
+    "type": "ARMOR",
+    "vocations": [
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Toga Mortis",
+    "image": "toga_mortis.gif",
+    "baseAttack": 0,
+    "baseDefense": 16,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "DEATH",
+        "value": 6
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 4
+      }
+    ],
+    "maxEnchantmentSlots": 1,
+    "level": 220,
+    "type": "ARMOR",
+    "vocations": [
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Traditional Shirt",
+    "image": "traditional_shirt.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "ARMOR",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Tunic",
+    "image": "tunic.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "ARMOR",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Unerring Dragon Scale Armor",
+    "image": "unerring_dragon_scale_armor.gif",
+    "baseAttack": 0,
+    "baseDefense": 17,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "ENERGY",
+        "value": 10
+      },
+      {
+        "type": "EARTH",
+        "value": -5
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 3
+      },
+      {
+        "type": "DISTANCE",
+        "value": 3
+      },
+      {
+        "type": "HOLY",
+        "value": 3
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 300,
+    "type": "ARMOR",
+    "vocations": [
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Velvet Mantle",
+    "image": "velvet_mantle.gif",
+    "baseAttack": 0,
+    "baseDefense": 12,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "ENERGY",
+        "value": 12
+      },
+      {
+        "type": "EARTH",
+        "value": -12
+      }
+    ],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 75,
+    "type": "ARMOR",
+    "vocations": [
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Voltage Armor",
+    "image": "voltage_armor.gif",
+    "baseAttack": 0,
+    "baseDefense": 13,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "ENERGY",
+        "value": 3
+      },
+      {
+        "type": "EARTH",
+        "value": -3
+      }
+    ],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 60,
+    "type": "ARMOR",
+    "vocations": [
+      "KNIGHT",
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "White Dress",
+    "image": "white_dress.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "ARMOR",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Windborn Colossus Armor",
+    "image": "windborn_colossus_armor.gif",
+    "baseAttack": 0,
+    "baseDefense": 15,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "ENERGY",
+        "value": 5
+      },
+      {
+        "type": "EARTH",
+        "value": -5
+      }
+    ],
+    "attributeBuff": [
+      {
+        "type": "CLUB",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 100,
+    "type": "ARMOR",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Witchhunter's Coat",
+    "image": "witchhunter's_coat.gif",
+    "baseAttack": 0,
+    "baseDefense": 11,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "DEATH",
+        "value": 2
+      },
+      {
+        "type": "HOLY",
+        "value": -2
+      }
+    ],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 50,
+    "type": "ARMOR",
+    "vocations": [
+      "ROOKIE",
+      "KNIGHT",
+      "PALADIN",
+      "SORCERER",
+      "DRUID"
+    ]
+  },
+  {
+    "name": "Yalahari Armor",
+    "image": "yalahari_armor.gif",
+    "baseAttack": 0,
+    "baseDefense": 16,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "DEATH",
+        "value": 3
+      }
+    ],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 80,
+    "type": "ARMOR",
+    "vocations": [
+      "KNIGHT"
+    ]
+  },
+  {
+    "name": "Zaoan Armor",
+    "image": "zaoan_armor.gif",
+    "baseAttack": 0,
+    "baseDefense": 13,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "SPEED",
+        "value": 10
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 50,
+    "type": "ARMOR",
+    "vocations": [
+      "KNIGHT",
+      "PALADIN"
+    ]
+  },
+  {
+    "name": "Zaoan Robe",
+    "image": "zaoan_robe.gif",
+    "baseAttack": 0,
+    "baseDefense": 11,
+    "twoHands": false,
+    "elementalDamage": [],
+    "elementalProtection": [
+      {
+        "type": "FIRE",
+        "value": 10
+      },
+      {
+        "type": "ICE",
+        "value": -10
+      }
+    ],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 60,
+    "type": "ARMOR",
+    "vocations": [
+      "SORCERER"
+    ]
+  }
+]

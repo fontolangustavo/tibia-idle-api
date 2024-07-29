@@ -75,7 +75,7 @@ public class HuntService {
         weaponMastery.put(ItemType.SWORD, 10);
         weaponMastery.put(ItemType.AXE, 0);
         weaponMastery.put(ItemType.CLUB, 0);
-        weaponMastery.put(ItemType.BOW, 0);
+        weaponMastery.put(ItemType.DISTANCE, 0);
 
         player.setWeaponMastery(weaponMastery);
 
@@ -83,14 +83,14 @@ public class HuntService {
 
         Item rightHand = itemRepository.save(Item.builder()
                 .name("Spike Sword")
-                .baseDamage(24)
+                .baseAttack(24)
                 .type(ItemType.SWORD)
                 .build()
         );
 
         Item leftHand = itemRepository.save(Item.builder()
                 .name("Wooden Shield")
-                .baseDamage(14)
+                .baseAttack(14)
                 .type(ItemType.SHIELD)
                 .build()
         );

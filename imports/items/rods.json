@@ -1,0 +1,798 @@
+[
+  {
+    "name": "Amber Rod",
+    "image": "amber_rod.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": null,
+        "type": "ICE"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 3
+      },
+      {
+        "type": "ICE",
+        "value": 3
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 330,
+    "type": "ROD",
+    "vocations": [
+      "DRUID"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 20
+  },
+  {
+    "name": "Cobra Rod",
+    "image": "cobra_rod.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 90,
+        "type": "EARTH"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 220,
+    "type": "ROD",
+    "vocations": [
+      "DRUID"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 21
+  },
+  {
+    "name": "Deepling Ceremonial Dagger",
+    "image": "deepling_ceremonial_dagger.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 90,
+        "type": "ICE"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 180,
+    "type": "ROD",
+    "vocations": [
+      "SORCERER",
+      "DRUID"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 23
+  },
+  {
+    "name": "Deepling Fork",
+    "image": "deepling_fork.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 90,
+        "type": "ICE"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 230,
+    "type": "ROD",
+    "vocations": [
+      
+      "SORCERER",
+      "DRUID"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 23
+  },
+  {
+    "name": "Dream Blossom Staff",
+    "image": "dream_blossom_staff.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 70,
+        "type": "ENERGY"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 80,
+    "type": "ROD",
+    "vocations": [
+      
+      "SORCERER",
+      "DRUID"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 18
+  },
+  {
+    "name": "Eldritch Rod",
+    "image": "eldritch_rod.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 85,
+        "type": "ICE"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 2
+      },
+      {
+        "type": "HEAL",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 250,
+    "type": "ROD",
+    "vocations": [
+      "DRUID"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 22
+  },
+  {
+    "name": "Energized Limb",
+    "image": "energized_limb.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 98,
+        "type": "FIRE"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 180,
+    "type": "ROD",
+    "vocations": [
+      
+      "SORCERER",
+      "DRUID"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 24
+  },
+  {
+    "name": "Falcon Rod",
+    "image": "falcon_rod.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 90,
+        "type": "EARTH"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 3
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 300,
+    "type": "ROD",
+    "vocations": [
+      "DRUID"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 20
+  },
+  {
+    "name": "Gilded Eldritch Rod",
+    "image": "gilded_eldritch_rod.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 85,
+        "type": "ICE"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 2
+      },
+      {
+        "type": "HEAL",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 250,
+    "type": "ROD",
+    "vocations": [
+      "DRUID"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 22
+  },
+  {
+    "name": "Glacial Rod",
+    "image": "glacial_rod.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 85,
+        "type": "ICE"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 65,
+    "type": "ROD",
+    "vocations": [
+      "DRUID"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 17
+  },
+  {
+    "name": "Grand Sanguine Rod",
+    "image": "grand_sanguine_rod.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 112,
+        "type": "EARTH"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 5
+      },
+      {
+        "type": "ICE",
+        "value": 5
+      },
+      {
+        "type": "EARTH",
+        "value": 5
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 600,
+    "type": "ROD",
+    "vocations": [
+      "DRUID"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 20
+  },
+  {
+    "name": "Hailstorm Rod",
+    "image": "hailstorm_rod.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 65,
+        "type": "ICE"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 33,
+    "type": "ROD",
+    "vocations": [
+      "DRUID"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 13
+  },
+  {
+    "name": "Jungle Rod",
+    "image": "jungle_rod.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 80,
+        "type": "ICE"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 150,
+    "type": "ROD",
+    "vocations": [
+      "DRUID"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 19
+  },
+  {
+    "name": "Lion Rod",
+    "image": "lion_rod.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 85,
+        "type": "ICE"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 270,
+    "type": "ROD",
+    "vocations": [
+      "DRUID"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 20
+  },
+  {
+    "name": "Moonlight Rod",
+    "image": "moonlight_rod.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 19,
+        "type": "ICE"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 13,
+    "type": "ROD",
+    "vocations": [
+      "DRUID"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 3
+  },
+  {
+    "name": "Muck Rod",
+    "image": "muck_rod.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 85,
+        "type": "EARTH"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 0,
+    "level": 65,
+    "type": "ROD",
+    "vocations": [
+      "DRUID"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 17
+  },
+  {
+    "name": "Naga Rod",
+    "image": "naga_rod.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 90,
+        "type": "ICE"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 2
+      },
+      {
+        "type": "ICE",
+        "value": 2
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 250,
+    "type": "ROD",
+    "vocations": [
+      "DRUID"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 21
+  },
+  {
+    "name": "Necrotic Rod",
+    "image": "necrotic_rod.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 30,
+        "type": "DEATH"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 19,
+    "type": "ROD",
+    "vocations": [
+      "DRUID"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 5
+  },
+  {
+    "name": "Northwind Rod",
+    "image": "northwind_rod.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 30,
+        "type": "ICE"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 22,
+    "type": "ROD",
+    "vocations": [
+      "DRUID"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 5
+  },
+  {
+    "name": "Ogre Scepta",
+    "image": "ogre_scepta.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 65,
+        "type": "EARTH"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 37,
+    "type": "ROD",
+    "vocations": [
+      "DRUID"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 13
+  },
+  {
+    "name": "Rod of Destruction",
+    "image": "rod_of_destruction.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 88,
+        "type": "ICE"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 1
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 200,
+    "type": "ROD",
+    "vocations": [
+      "DRUID"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 18
+  },
+  {
+    "name": "Sanguine Rod",
+    "image": "sanguine_rod.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 112,
+        "type": "EARTH"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 5
+      },
+      {
+        "type": "ICE",
+        "value": 5
+      },
+      {
+        "type": "EARTH",
+        "value": 5
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 600,
+    "type": "ROD",
+    "vocations": [
+      "DRUID"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 20
+  },
+  {
+    "name": "Shimmer Rod",
+    "image": "shimmer_rod.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 65,
+        "type": "ICE"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 40,
+    "type": "ROD",
+    "vocations": [
+      "DRUID"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 13
+  },
+  {
+    "name": "Snakebite Rod",
+    "image": "snakebite_rod.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 13,
+        "type": "EARTH"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 6,
+    "type": "ROD",
+    "vocations": [
+      "DRUID"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 2
+  },
+  {
+    "name": "Soulhexer",
+    "image": "soulhexer.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 98,
+        "type": "ICE"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [
+      {
+        "type": "MAGIC",
+        "value": 5
+      }
+    ],
+    "maxEnchantmentSlots": 2,
+    "level": 400,
+    "type": "ROD",
+    "vocations": [
+      "DRUID"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 21
+  },
+  {
+    "name": "Springsprout Rod",
+    "image": "springsprout_rod.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 65,
+        "type": "EARTH"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 37,
+    "type": "ROD",
+    "vocations": [
+      "DRUID"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 13
+  },
+  {
+    "name": "Terra Rod",
+    "image": "terra_rod.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 45,
+        "type": "EARTH"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 26,
+    "type": "ROD",
+    "vocations": [
+      "DRUID"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 8
+  },
+  {
+    "name": "The Chiller",
+    "image": "the_chiller.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 6,
+        "type": "ICE"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 0,
+    "level": 0,
+    "type": "ROD",
+    "vocations": [
+      "DRUID"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 1
+  },
+  {
+    "name": "Underworld Rod",
+    "image": "underworld_rod.gif",
+    "baseAttack": 0,
+    "baseDefense": 0,
+    "twoHands": false,
+    "elementalDamage": [
+      {
+        "value": 65,
+        "type": "DEATH"
+      }
+    ],
+    "elementalProtection": [],
+    "attributeBuff": [],
+    "maxEnchantmentSlots": 2,
+    "level": 42,
+    "type": "ROD",
+    "vocations": [
+      "DRUID"
+    ],
+    "hitPercentageIncrease": 0,
+    "manaCost": 13
+  }
+]
