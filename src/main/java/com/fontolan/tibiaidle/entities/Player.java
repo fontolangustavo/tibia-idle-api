@@ -55,7 +55,7 @@ public class Player implements Serializable {
         }
     }
 
-    public void attack(Monster monster, int damage) {
+    public void attack(MonsterRespawn monster, int damage) {
         int effectiveDamage = Math.min(damage, monster.getHealth());
 
         log.info("{} deal {} damage to a {} - {}.", this.name, effectiveDamage, monster.getId(), monster.getName());

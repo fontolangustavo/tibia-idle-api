@@ -1,0 +1,61 @@
+[
+  {
+    "name": "Rat",
+    "maxHealth": "20",
+    "experience": "5",
+    "image": "mammals/Rat.gif",
+    "speed": "67",
+    "armor": "1",
+    "charms": "5",
+    "mitigation": "0.07",
+    "resistances": [
+      {
+        "type": "PHYSICAL",
+        "value": 100
+      },
+      {
+        "type": "EARTH",
+        "value": 80
+      },
+      {
+        "type": "FIRE",
+        "value": 100
+      },
+      {
+        "type": "DEATH",
+        "value": 110
+      },
+      {
+        "type": "ENERGY",
+        "value": 100
+      },
+      {
+        "type": "HOLY",
+        "value": 80
+      },
+      {
+        "type": "ICE",
+        "value": 110
+      },
+      {
+        "type": "HEALING",
+        "value": 100
+      }
+    ],
+    "abilities": [
+      {
+        "name": "melee",
+        "type": "PHYSICAL",
+        "value": 8
+      }
+    ],
+    "loots": [
+      {
+        "name": "Gold Coins",
+        "quantity_min": 0,
+        "quantity_max": 4,
+        "rarity": "COMMON"
+      }
+    ]
+  }
+]

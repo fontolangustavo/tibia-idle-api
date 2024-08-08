@@ -20,6 +20,9 @@ public class ItemService {
     }
 
     public void initialize() {
+        log.info("Init loading items: items.json");
+        this.loadFromJson("imports/items/items.json", "random");
+
         log.info("Init loading items: swords.json");
         this.loadFromJson("imports/items/swords.json", "swords");
 

@@ -1,9 +1,7 @@
 package com.fontolan.tibiaidle.services;
 
-import com.fontolan.tibiaidle.entities.DamageReceived;
-import com.fontolan.tibiaidle.entities.Monster;
-import com.fontolan.tibiaidle.entities.Player;
-import com.fontolan.tibiaidle.entities.Room;
+import com.fontolan.tibiaidle.entities.*;
+import com.fontolan.tibiaidle.repositories.MonsterRepository;
 import com.fontolan.tibiaidle.repositories.PlayerRepository;
 import com.fontolan.tibiaidle.utils.ArrayUtils;
 import lombok.extern.slf4j.Slf4j;
@@ -16,11 +14,13 @@ import java.util.*;
 @Service
 @Slf4j
 public class CombatService {
+    private final MonsterRepository monsterRepository;
     private final PlayerRepository playerRepository;
     private final FightService fightService;
     private final RoomService roomService;
 
-    public CombatService(PlayerRepository playerRepository, FightService fightService, RoomService roomService) {
+    public CombatService(MonsterRepository monsterRepository, PlayerRepository playerRepository, FightService fightService, RoomService roomService) {
+        this.monsterRepository = monsterRepository;
         this.playerRepository = playerRepository;
         this.fightService = fightService;
         this.roomService = roomService;
@@ -32,7 +32,10 @@ public class CombatService {
 
         for (Room room : rooms) {
             List<String> players = room.getPlayers();
-            List<Monster> monsters = room.getMonsters();
+            List<MonsterRespawn> monsters = room.getMonsters();
+
+            Collections.shuffle(players);
+            Collections.shuffle(monsters);
 
             log.info("Running a room {} with players count {} at {} - players inside", room.getId(), players.size(), new Date());
 
@@ -40,10 +43,10 @@ public class CombatService {
                 Player player = playerRepository.findById(playerId)
                         .orElseThrow();
 
-                Monster target = ArrayUtils.findById(monsters, player.getTargetId(), Monster::getId);
+                MonsterRespawn target = ArrayUtils.findById(monsters, player.getTargetId(), MonsterRespawn::getId);
 
-                List<Monster> justLiveMonsters = monsters.stream()
-                        .filter(Monster::isAlive)
+                List<MonsterRespawn> justLiveMonsters = monsters.stream()
+                        .filter(MonsterRespawn::isAlive)
                         .toList();
 
                 if ((target == null || (target != null && !target.isAlive())) && !justLiveMonsters.isEmpty()) {
@@ -68,7 +71,7 @@ public class CombatService {
                 }
             }
 
-            for (Monster monster : monsters) {
+            for (MonsterRespawn monster : monsters) {
                 Player target = null;
                 if (monster.getTargetId() != null) {
                     target = playerRepository.findById(monster.getTargetId())
@@ -90,7 +93,7 @@ public class CombatService {
                 }
             }
 
-            // Remover jogadores e monstros mortos
+            // Remove jogadores mortos
             players.removeIf(playerId -> {
                 Player player = playerRepository.findById(playerId)
                         .orElseThrow();
@@ -107,11 +110,19 @@ public class CombatService {
                 return isDead;
             });
 
-            for(Monster monster : monsters) {
+            for(MonsterRespawn monster : monsters) {
                 if(!monster.isAlive() && monster.getDiedAt() == null) {
                     monster.setDiedAt(new Date());
 
-                    int totalXP = monster.getExperience();
+                    Optional<Monster> realMonster = monsterRepository.findById(monster.getMonsterId());
+
+                    int totalXP = 0;
+                    if (realMonster.isPresent()) {
+                        totalXP = realMonster.get().getExperience();
+                    } else {
+                        log.warn("Monster {} not found experience.", "Dragon");
+                    }
+
 
                     List<DamageReceived> damageReceiveds = monster.getDamageReceived();
                     int totalDamage = damageReceiveds.stream().mapToInt(DamageReceived::getDamage).sum();
@@ -145,7 +156,7 @@ public class CombatService {
         }
     }
 
-    private List<Monster> respawnMonsters(List<Monster> deadMonsters) {
+    private List<MonsterRespawn> respawnMonsters(List<MonsterRespawn> deadMonsters) {
         return deadMonsters.stream()
                 .peek(deadMonster -> {
                     if (deadMonster.getDiedAt() != null) {
@@ -153,7 +164,11 @@ public class CombatService {
 
                         if (duration.getSeconds() >= deadMonster.getRespawnIn()) {
                             log.info("{} - {} respawned", deadMonster.getId(), deadMonster.getName());
-                            deadMonster.setHealth(deadMonster.getMaxHealth());
+
+                            Optional<Monster> realMonster = monsterRepository.findById(deadMonster.getMonsterId());
+
+                            realMonster.ifPresent(monster -> deadMonster.setHealth(monster.getMaxHealth()));
+
                             deadMonster.setTargetId(null);
                             deadMonster.setDiedAt(null);
                             deadMonster.setDamageReceived(new ArrayList<>());

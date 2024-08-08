@@ -1,0 +1,64 @@
+{
+  "title": "Sewer City",
+  "image": "dungeons/rookgaard/sewer-city.png",
+  "minLevel": 1,
+  "maxLevel": 5,
+  "minProfitPerHour": 400,
+  "maxProfitPerHour": 700,
+  "minXpPerHour": 200,
+  "maxXpPerHour": 1200,
+  "rooms": [
+    {
+      "monsters": [
+        {
+          "name": "Rat",
+          "respawnIn": 30
+        },
+        {
+          "name": "Rat",
+          "respawnIn": 30
+        }
+      ]
+    },
+    {
+      "monsters": [
+        {
+          "name": "Rat",
+          "respawnIn": 30
+        },
+        {
+          "name": "Rat",
+          "respawnIn": 30
+        },
+        {
+          "name": "Rat",
+          "respawnIn": 30
+        }
+      ]
+    },
+    {
+      "monsters": [
+        {
+          "name": "Rat",
+          "respawnIn": 30
+        },
+        {
+          "name": "Rat",
+          "respawnIn": 30
+        },
+        {
+          "name": "Rat",
+          "respawnIn": 30
+        },
+        {
+          "name": "Rat",
+          "respawnIn": 30
+        },
+        {
+          "name": "Rat",
+          "respawnIn": 30
+        }
+      ]
+    }
+  ]
+}

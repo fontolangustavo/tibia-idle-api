@@ -10,6 +10,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class ElementalDamage {
+    private String name;
     private int value;
     private String type;
 }

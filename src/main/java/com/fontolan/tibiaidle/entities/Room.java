@@ -23,7 +23,7 @@ public class Room implements Serializable {
 
     private String dungeonId;
 
-    private List<Monster> monsters = new ArrayList<>();
+    private List<MonsterRespawn> monsters = new ArrayList<>();
 
     private List<String> players = new ArrayList<>();
 }

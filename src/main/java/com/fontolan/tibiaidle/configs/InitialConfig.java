@@ -2,6 +2,7 @@ package com.fontolan.tibiaidle.configs;
 
 import com.fontolan.tibiaidle.services.DungeonService;
 import com.fontolan.tibiaidle.services.ItemService;
+import com.fontolan.tibiaidle.services.MonsterService;
 import jakarta.annotation.PostConstruct;
 import jakarta.transaction.Transactional;
 import lombok.extern.slf4j.Slf4j;
@@ -14,11 +15,13 @@ public class InitialConfig {
     private final RedisTemplate redisTemplate;
     private final DungeonService dungeonService;
     private final ItemService itemService;
+    private final MonsterService monsterService;
 
-    public InitialConfig(RedisTemplate redisTemplate, DungeonService dungeonService, ItemService itemService) {
+    public InitialConfig(RedisTemplate redisTemplate, DungeonService dungeonService, ItemService itemService, MonsterService monsterService) {
         this.redisTemplate = redisTemplate;
         this.dungeonService = dungeonService;
         this.itemService = itemService;
+        this.monsterService = monsterService;
     }
 
     @PostConstruct
@@ -31,9 +34,11 @@ public class InitialConfig {
         log.info("Loading items.json");
         this.itemService.initialize();
 
+        log.info("Loading mammals.json");
+        this.monsterService.initialize();
+
         log.info("Loading dungeons.json");
         this.dungeonService.initialize();
-
     }
 
     private void clearRedisCache() {

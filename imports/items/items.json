@@ -1,0 +1,7130 @@
+[
+  {
+    "name": "Albino Dragon Leather",
+    "image": "albino_dragon_leather.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Ankh",
+    "image": "ankh.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Ape Fur",
+    "image": "ape_fur.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Banana Staff",
+    "image": "banana_staff.gif",
+    "groupable": false,
+    "type": "ADDON"
+  },
+  {
+    "name": "Bat Wing",
+    "image": "bat_wing.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Bear Paw",
+    "image": "bear_paw.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Behemoth Claw",
+    "image": "behemoth_claw.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Blue Piece of Cloth",
+    "image": "blue_piece_of_cloth.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Bonelord Eye",
+    "image": "bonelord_eye.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Bottled Dragon Breath",
+    "image": "bottled_dragon_breath.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Brass Button",
+    "image": "brass_button.gif",
+    "groupable": false,
+    "type": "ADDON"
+  },
+  {
+    "name": "Broken Iks Cuirass",
+    "image": "broken_iks_cuirass.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Broken Iks Faulds",
+    "image": "broken_iks_faulds.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Broken Iks Headpiece",
+    "image": "broken_iks_headpiece.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Broken Iks Sandals",
+    "image": "broken_iks_sandals.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Brown Piece of Cloth",
+    "image": "brown_piece_of_cloth.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Brutus Bloodbeard's Hat",
+    "image": "brutus_bloodbeard_s_hat.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Chicken Feather",
+    "image": "chicken_feather.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Colourful Feathers",
+    "image": "colourful_feathers.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Cursed Wood",
+    "image": "cursed_wood.gif",
+    "groupable": false,
+    "type": "ADDON"
+  },
+  {
+    "name": "Darklight Geode",
+    "image": "darklight_geode.gif",
+    "groupable": false,
+    "type": "ADDON"
+  },
+  {
+    "name": "Deadeye Devious' Eye Patch",
+    "image": "deadeye_devious__eye_patch.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Decorative Plume",
+    "image": "decorative_plume.gif",
+    "groupable": false,
+    "type": "ADDON"
+  },
+  {
+    "name": "Demon Dust",
+    "image": "demon_dust.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Demonic Essence",
+    "image": "demonic_essence.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Dragon Claw",
+    "image": "dragon_claw.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Dream Warden Claw",
+    "image": "dream_warden_claw.gif",
+    "groupable": false,
+    "type": "ADDON"
+  },
+  {
+    "name": "Dream Warden Mask",
+    "image": "dream_warden_mask.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Dubious Piece of Cloth",
+    "image": "dubious_piece_of_cloth.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Elemental Spikes",
+    "image": "elemental_spikes.gif",
+    "groupable": false,
+    "type": "ADDON"
+  },
+  {
+    "name": "Enchanted Chicken Wing",
+    "image": "enchanted_chicken_wing.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Epaulette",
+    "image": "epaulette.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Eye Patch",
+    "image": "eye_patch.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Eye-Embroidered Veil",
+    "image": "eye_embroidered_veil.gif",
+    "groupable": false,
+    "type": "ADDON"
+  },
+  {
+    "name": "Ferumbras' Hat",
+    "image": "ferumbras__hat.gif",
+    "groupable": false,
+    "type": "ADDON"
+  },
+  {
+    "name": "Final Judgement",
+    "image": "final_judgement.gif",
+    "groupable": false,
+    "type": "ADDON"
+  },
+  {
+    "name": "Firefighting Axe",
+    "image": "firefighting_axe.gif",
+    "groupable": false,
+    "type": "ADDON"
+  },
+  {
+    "name": "Fish Fin",
+    "image": "fish_fin.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Flask of Warrior's Sweat",
+    "image": "flask_of_warrior_s_sweat.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Ghost Claw",
+    "image": "ghost_claw.gif",
+    "groupable": false,
+    "type": "ADDON"
+  },
+  {
+    "name": "Green Piece of Cloth",
+    "image": "green_piece_of_cloth.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Hardened Bone",
+    "image": "hardened_bone.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Heaven Blossom",
+    "image": "heaven_blossom.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Holy Orchid",
+    "image": "holy_orchid.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Honeycomb",
+    "image": "honeycomb.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Hook",
+    "image": "hook.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Huge Chunk of Crude Iron",
+    "image": "huge_chunk_of_crude_iron.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Ice Shield",
+    "image": "ice_shield.gif",
+    "groupable": false,
+    "type": "ADDON"
+  },
+  {
+    "name": "Iron Ore",
+    "image": "iron_ore.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Legion Helmet",
+    "image": "legion_helmet.gif",
+    "groupable": false,
+    "type": "ADDON"
+  },
+  {
+    "name": "Lizard Leather",
+    "image": "lizard_leather.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Lizard Scale",
+    "image": "lizard_scale.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Ludicrous Piece of Cloth",
+    "image": "ludicrous_piece_of_cloth.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Luminous Piece of Cloth",
+    "image": "luminous_piece_of_cloth.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Mage's Cap",
+    "image": "mage_s_cap.gif",
+    "groupable": false,
+    "type": "ADDON"
+  },
+  {
+    "name": "Magic Sulphur",
+    "image": "magic_sulphur.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Mandrake",
+    "image": "mandrake.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Minotaur Leather",
+    "image": "minotaur_leather.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Nose Ring",
+    "image": "nose_ring.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Obujos' Shell",
+    "image": "obujos__shell.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Obvious Piece of Cloth",
+    "image": "obvious_piece_of_cloth.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Ominous Piece of Cloth",
+    "image": "ominous_piece_of_cloth.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Peg Leg",
+    "image": "peg_leg.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Perfect Behemoth Fang",
+    "image": "perfect_behemoth_fang.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Petrified Leaf",
+    "image": "petrified_leaf.gif",
+    "groupable": false,
+    "type": "ADDON"
+  },
+  {
+    "name": "Piece of Draconian Steel",
+    "image": "piece_of_draconian_steel.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Piece of Hell Steel",
+    "image": "piece_of_hell_steel.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Piece of Royal Steel",
+    "image": "piece_of_royal_steel.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Plague Bell",
+    "image": "plague_bell.gif",
+    "groupable": false,
+    "type": "ADDON"
+  },
+  {
+    "name": "Plague Mask",
+    "image": "plague_mask.gif",
+    "groupable": false,
+    "type": "ADDON"
+  },
+  {
+    "name": "Pomegranate",
+    "image": "pomegranate.gif",
+    "groupable": false,
+    "type": "ADDON"
+  },
+  {
+    "name": "Porcelain Mask",
+    "image": "porcelain_mask.gif",
+    "groupable": false,
+    "type": "ADDON"
+  },
+  {
+    "name": "Portable Flame",
+    "image": "portable_flame.gif",
+    "groupable": false,
+    "type": "ADDON"
+  },
+  {
+    "name": "Red Dragon Leather",
+    "image": "red_dragon_leather.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Red Dragon Scale",
+    "image": "red_dragon_scale.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Red Piece of Cloth",
+    "image": "red_piece_of_cloth.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Ron the Ripper's Sabre",
+    "image": "ron_the_ripper_s_sabre.gif",
+    "groupable": false,
+    "type": "ADDON"
+  },
+  {
+    "name": "Shadow Cowl",
+    "image": "shadow_cowl.gif",
+    "groupable": false,
+    "type": "ADDON"
+  },
+  {
+    "name": "Shard",
+    "image": "shard.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Slime Mould",
+    "image": "slime_mould.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Sniper Gloves",
+    "image": "sniper_gloves.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Soap",
+    "image": "soap.gif",
+    "groupable": false,
+    "type": "ADDON"
+  },
+  {
+    "name": "Soul Stone",
+    "image": "soul_stone.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Spider Silk",
+    "image": "spider_silk.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Spirit Container (Fighting Spirit)",
+    "image": "spirit_container__fighting_spirit_.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Spooky Hood",
+    "image": "spooky_hood.gif",
+    "groupable": false,
+    "type": "ADDON"
+  },
+  {
+    "name": "Spool of Yarn",
+    "image": "spool_of_yarn.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Staff (Simon)",
+    "image": "staff__simon_.gif",
+    "groupable": false,
+    "type": "ADDON"
+  },
+  {
+    "name": "Strange Inedible Fruit",
+    "image": "strange_inedible_fruit.gif",
+    "groupable": false,
+    "type": "ADDON"
+  },
+  {
+    "name": "Sturdy Book",
+    "image": "sturdy_book.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Tagralt-Inlaid Scabbard",
+    "image": "tagralt_inlaid_scabbard.gif",
+    "groupable": false,
+    "type": "ADDON"
+  },
+  {
+    "name": "The Lethal Lissy's Shirt",
+    "image": "the_lethal_lissy_s_shirt.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Tribal Mask",
+    "image": "tribal_mask.gif",
+    "groupable": false,
+    "type": "ADDON"
+  },
+  {
+    "name": "Turtle Shell",
+    "image": "turtle_shell.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Vampire Dust",
+    "image": "vampire_dust.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Voluminous Piece of Cloth",
+    "image": "voluminous_piece_of_cloth.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Voodoo Doll",
+    "image": "voodoo_doll.gif",
+    "groupable": false,
+    "type": "ADDON"
+  },
+  {
+    "name": "White Piece of Cloth",
+    "image": "white_piece_of_cloth.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Wolf Paw",
+    "image": "wolf_paw.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Yellow Piece of Cloth",
+    "image": "yellow_piece_of_cloth.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Coral Comb",
+    "image": "coral_comb.gif",
+    "groupable": false,
+    "type": "ADDON"
+  },
+  {
+    "name": "Document of the Follower",
+    "image": "document_of_the_follower.gif",
+    "groupable": false,
+    "type": "ADDON"
+  },
+  {
+    "name": "Document of the Leader",
+    "image": "document_of_the_leader.gif",
+    "groupable": false,
+    "type": "ADDON"
+  },
+  {
+    "name": "Document of the Officer",
+    "image": "document_of_the_officer.gif",
+    "groupable": false,
+    "type": "ADDON"
+  },
+  {
+    "name": "Elane's Crossbow",
+    "image": "elane_s_crossbow.gif",
+    "groupable": false,
+    "type": "ADDON"
+  },
+  {
+    "name": "Gnomish Voucher Type CA1",
+    "image": "gnomish_voucher_type_ca1.gif",
+    "groupable": false,
+    "type": "ADDON"
+  },
+  {
+    "name": "Gnomish Voucher Type CA2",
+    "image": "gnomish_voucher_type_ca2.gif",
+    "groupable": false,
+    "type": "ADDON"
+  },
+  {
+    "name": "Gnomish Voucher Type CB",
+    "image": "gnomish_voucher_type_cb.gif",
+    "groupable": false,
+    "type": "ADDON"
+  },
+  {
+    "name": "Gnomish Voucher Type MA1",
+    "image": "gnomish_voucher_type_ma1.gif",
+    "groupable": false,
+    "type": "ADDON"
+  },
+  {
+    "name": "Gnomish Voucher Type MA2",
+    "image": "gnomish_voucher_type_ma2.gif",
+    "groupable": false,
+    "type": "ADDON"
+  },
+  {
+    "name": "Gnomish Voucher Type MB",
+    "image": "gnomish_voucher_type_mb.gif",
+    "groupable": false,
+    "type": "ADDON"
+  },
+  {
+    "name": "Jaul's Pearl",
+    "image": "jaul_s_pearl.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Tanjis' Sight",
+    "image": "tanjis__sight.gif",
+    "groupable": true,
+    "type": "ADDON"
+  },
+  {
+    "name": "Winning Lottery Ticket",
+    "image": "winning_lottery_ticket.gif",
+    "groupable": false,
+    "type": "ADDON"
+  },
+  {
+    "name": "Antidote Potion",
+    "image": "antidote_potion.gif",
+    "groupable": true,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Beer",
+    "image": "beer.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Beer Mug",
+    "image": "beer_mug.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Berserk Potion",
+    "image": "berserk_potion.gif",
+    "groupable": true,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Bestiary Betterment",
+    "image": "bestiary_betterment.gif",
+    "groupable": true,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Blood",
+    "image": "blood.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Bullseye Potion",
+    "image": "bullseye_potion.gif",
+    "groupable": true,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Charm Upgrade",
+    "image": "charm_upgrade.gif",
+    "groupable": true,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Coconut Milk",
+    "image": "coconut_milk.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Death Amplification",
+    "image": "death_amplification.gif",
+    "groupable": true,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Death Resilience",
+    "image": "death_resilience.gif",
+    "groupable": true,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Earth Amplification",
+    "image": "earth_amplification.gif",
+    "groupable": true,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Earth Resilience",
+    "image": "earth_resilience.gif",
+    "groupable": true,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Energy Amplification",
+    "image": "energy_amplification.gif",
+    "groupable": true,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Energy Resilience",
+    "image": "energy_resilience.gif",
+    "groupable": true,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Essence of Dread",
+    "image": "essence_of_dread.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Essence of Wishful Thinking",
+    "image": "essence_of_wishful_thinking.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Fire Amplification",
+    "image": "fire_amplification.gif",
+    "groupable": true,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Fire Resilience",
+    "image": "fire_resilience.gif",
+    "groupable": true,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Flask of Demonic Blood",
+    "image": "flask_of_demonic_blood.gif",
+    "groupable": true,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Flask of Rust Remover",
+    "image": "flask_of_rust_remover.gif",
+    "groupable": true,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Fresh Mushroom Beer",
+    "image": "fresh_mushroom_beer.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Fruit Juice",
+    "image": "fruit_juice.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Great Health Potion",
+    "image": "great_health_potion.gif",
+    "groupable": true,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Great Mana Potion",
+    "image": "great_mana_potion.gif",
+    "groupable": true,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Great Spirit Potion",
+    "image": "great_spirit_potion.gif",
+    "groupable": true,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Health Potion",
+    "image": "health_potion.gif",
+    "groupable": true,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Holy Amplification",
+    "image": "holy_amplification.gif",
+    "groupable": true,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Holy Resilience",
+    "image": "holy_resilience.gif",
+    "groupable": true,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Ice Amplification",
+    "image": "ice_amplification.gif",
+    "groupable": true,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Ice Resilience",
+    "image": "ice_resilience.gif",
+    "groupable": true,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Kooldown-Aid",
+    "image": "kooldown_aid.gif",
+    "groupable": true,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Lemonade",
+    "image": "lemonade.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Lifefluid",
+    "image": "lifefluid.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Magic Shield Potion",
+    "image": "magic_shield_potion.gif",
+    "groupable": true,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Mana Potion",
+    "image": "mana_potion.gif",
+    "groupable": true,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Manafluid",
+    "image": "manafluid.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Mastermind Potion",
+    "image": "mastermind_potion.gif",
+    "groupable": true,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Mead",
+    "image": "mead.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Milk",
+    "image": "milk.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Muck Remover",
+    "image": "muck_remover.gif",
+    "groupable": true,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Mud",
+    "image": "mud.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Oil",
+    "image": "oil.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Physical Amplification",
+    "image": "physical_amplification.gif",
+    "groupable": true,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Physical Resilience",
+    "image": "physical_resilience.gif",
+    "groupable": true,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Rum",
+    "image": "rum.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Slime (Líquido)",
+    "image": "slime__l_quido_.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Small Health Potion",
+    "image": "small_health_potion.gif",
+    "groupable": true,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Stale Mushroom Beer",
+    "image": "stale_mushroom_beer.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Stamina Extension",
+    "image": "stamina_extension.gif",
+    "groupable": true,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Strike Enhancement",
+    "image": "strike_enhancement.gif",
+    "groupable": true,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Strong Health Potion",
+    "image": "strong_health_potion.gif",
+    "groupable": true,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Strong Mana Potion",
+    "image": "strong_mana_potion.gif",
+    "groupable": true,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Supreme Health Potion",
+    "image": "supreme_health_potion.gif",
+    "groupable": true,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Tea",
+    "image": "tea.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Ultimate Health Potion",
+    "image": "ultimate_health_potion.gif",
+    "groupable": true,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Ultimate Mana Potion",
+    "image": "ultimate_mana_potion.gif",
+    "groupable": true,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Ultimate Spirit Potion",
+    "image": "ultimate_spirit_potion.gif",
+    "groupable": true,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Urine",
+    "image": "urine.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Water (Líquido)",
+    "image": "water__l_quido_.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Wealth Duplex",
+    "image": "wealth_duplex.gif",
+    "groupable": true,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Wine",
+    "image": "wine.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Aggressive Fluid",
+    "image": "aggressive_fluid.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Animal Cure",
+    "image": "animal_cure.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Barrel of Beer",
+    "image": "barrel_of_beer.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Beer Bottle",
+    "image": "beer_bottle.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Blessed Water",
+    "image": "blessed_water.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Bottle of Bug Milk",
+    "image": "bottle_of_bug_milk.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Bottle of Sun Fruit Juice",
+    "image": "bottle_of_sun_fruit_juice.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Bottle of Sun Fruit Juice (Sapphire)",
+    "image": "bottle_of_sun_fruit_juice__sapphire_.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Bottle of Whisper Beer",
+    "image": "bottle_of_whisper_beer.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Bottle with Rat Urine",
+    "image": "bottle_with_rat_urine.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Bottled Yolk",
+    "image": "bottled_yolk.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Box with Balm",
+    "image": "box_with_balm.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Box with Waterproof Balm",
+    "image": "box_with_waterproof_balm.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Cool Gloothy Mixture",
+    "image": "cool_gloothy_mixture.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Cure for Sick Beavers",
+    "image": "cure_for_sick_beavers.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Distilled Water",
+    "image": "distilled_water.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Empty Receptacle",
+    "image": "empty_receptacle.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Empty Ritual Flask",
+    "image": "empty_ritual_flask.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Empty Storage Flask",
+    "image": "empty_storage_flask.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Ewer with Holy Water",
+    "image": "ewer_with_holy_water.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Filled Elven Vial",
+    "image": "filled_elven_vial.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Filled Receptacle",
+    "image": "filled_receptacle.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Fitzwilliam's Special Reserve",
+    "image": "fitzwilliam_s_special_reserve.gif",
+    "groupable": true,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Flask Mushroom Fertilizer",
+    "image": "flask_mushroom_fertilizer.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Flask of Chitin Dissolver",
+    "image": "flask_of_chitin_dissolver.gif",
+    "groupable": true,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Flask of Cough Syrup",
+    "image": "flask_of_cough_syrup.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Flask of Crown Polisher",
+    "image": "flask_of_crown_polisher.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Flask of Dissolved Chitin",
+    "image": "flask_of_dissolved_chitin.gif",
+    "groupable": true,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Flask of Extra Greasy Oil",
+    "image": "flask_of_extra_greasy_oil.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Flask of Greasy Red Oil",
+    "image": "flask_of_greasy_red_oil.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Flask of Hallucinogen",
+    "image": "flask_of_hallucinogen.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Flask of Mango Honey Juice",
+    "image": "flask_of_mango_honey_juice.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Flask of Mango Juice",
+    "image": "flask_of_mango_juice.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Flask of Plant Poison",
+    "image": "flask_of_plant_poison.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Flask of Poison",
+    "image": "flask_of_poison.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Flask of Wasp Poison",
+    "image": "flask_of_wasp_poison.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Flask with Anti-Mutagen",
+    "image": "flask_with_anti_mutagen.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Flask with Beaver Bait",
+    "image": "flask_with_beaver_bait.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Flask with Lamp Oil",
+    "image": "flask_with_lamp_oil.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Flask with Lemon Sirup",
+    "image": "flask_with_lemon_sirup.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Flask with Magical Oil",
+    "image": "flask_with_magical_oil.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Flask with Moon Melon Sirup",
+    "image": "flask_with_moon_melon_sirup.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Flask with Oil and Blood",
+    "image": "flask_with_oil_and_blood.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Flask with Paint",
+    "image": "flask_with_paint.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Flask with Raspberry Sirup",
+    "image": "flask_with_raspberry_sirup.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Flask with Snake Poison",
+    "image": "flask_with_snake_poison.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Foam Stalker Spume",
+    "image": "foam_stalker_spume.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Gloo",
+    "image": "gloo.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Glooth Plasma",
+    "image": "glooth_plasma.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Glooth Potion",
+    "image": "glooth_potion.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Glooth Vinegar",
+    "image": "glooth_vinegar.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Interdimensional Potion",
+    "image": "interdimensional_potion.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Jug of Embalming Fluid",
+    "image": "jug_of_embalming_fluid.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Phial of Fresh Water",
+    "image": "phial_of_fresh_water.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Reagent Flask",
+    "image": "reagent_flask.gif",
+    "groupable": true,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Vial of Cactus Milk",
+    "image": "vial_of_cactus_milk.gif",
+    "groupable": true,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Vial of Coloured Glooth",
+    "image": "vial_of_coloured_glooth.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Vial of Ink",
+    "image": "vial_of_ink.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Vial of LIQUID Silver",
+    "image": "vial_of_LIQUID_silver.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Vial of Milk",
+    "image": "vial_of_milk.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Vial of Mushroom Distillate",
+    "image": "vial_of_mushroom_distillate.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Vial of Potent Holy Water",
+    "image": "vial_of_potent_holy_water.gif",
+    "groupable": false,
+    "type": "LIQUID"
+  },
+  {
+    "name": "Cultish Mask",
+    "image": "cultish_mask.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Book of Prayers",
+    "image": "book_of_prayers.gif",
+    "groupable": false,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Acorn",
+    "image": "acorn.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Banana Sash",
+    "image": "banana_sash.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Ancient Stone",
+    "image": "ancient_stone.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Antlers",
+    "image": "antlers.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Badger Fur",
+    "image": "badger_fur.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Bamboo Stick",
+    "image": "bamboo_stick.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Bat Wing",
+    "image": "bat_wing.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Battle Stone",
+    "image": "battle_stone.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Bear Paw",
+    "image": "bear_paw.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Behemoth Claw",
+    "image": "behemoth_claw.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Black Hood",
+    "image": "black_hood.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Black Wool",
+    "image": "black_wool.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Bloody Pincers",
+    "image": "bloody_pincers.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Boggy Dreads",
+    "image": "boggy_dreads.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Bone Shoulderplate",
+    "image": "bone_shoulderplate.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Bonelord Eye",
+    "image": "bonelord_eye.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Bony Tail",
+    "image": "bony_tail.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Book of Necromantic Rituals",
+    "image": "book_of_necromantic_rituals.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Brimstone Fangs",
+    "image": "brimstone_fangs.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Brimstone Shell",
+    "image": "brimstone_shell.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Broken Crossbow",
+    "image": "broken_crossbow.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Broken Draken Mail",
+    "image": "broken_draken_mail.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Broken Gladiator Shield",
+    "image": "broken_gladiator_shield.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Broken Halberd",
+    "image": "broken_halberd.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Broken Helmet",
+    "image": "broken_helmet.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Broken Shamanic Staff",
+    "image": "broken_shamanic_staff.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Bunch of Troll Hair",
+    "image": "bunch_of_troll_hair.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Bundle of Cursed Straw",
+    "image": "bundle_of_cursed_straw.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Carniphila Seeds",
+    "image": "carniphila_seeds.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Carrion Worm Fang",
+    "image": "carrion_worm_fang.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Cavebear Skull",
+    "image": "cavebear_skull.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Cobra Tongue",
+    "image": "cobra_tongue.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Colourful Feather",
+    "image": "colourful_feather.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Compass",
+    "image": "compass.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Corrupted Flag",
+    "image": "corrupted_flag.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Crab Pincers",
+    "image": "crab_pincers.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Cultish Robe",
+    "image": "cultish_robe.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Cultish Symbol",
+    "image": "cultish_symbol.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Cursed Shoulder Spikes",
+    "image": "cursed_shoulder_spikes.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Cyclops Toe",
+    "image": "cyclops_toe.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Dark Rosary",
+    "image": "dark_rosary.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Demon Dust",
+    "image": "demon_dust.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Demon Horn",
+    "image": "demon_horn.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Demonic Skeletal Hand",
+    "image": "demonic_skeletal_hand.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Dirty Turban",
+    "image": "dirty_turban.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Downy Feather",
+    "image": "downy_feather.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Dracola's Eye",
+    "image": "dracola_s_eye.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Dragon's Tail",
+    "image": "dragon_s_tail.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Dragon Claw",
+    "image": "dragon_claw.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Dragon Priest's Wandtip",
+    "image": "dragon_priest_s_wandtip.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Draken Sulphur",
+    "image": "draken_sulphur.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Draken Wristbands",
+    "image": "draken_wristbands.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Draptor Scales",
+    "image": "draptor_scales.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Elder Bonelord Tentacle",
+    "image": "elder_bonelord_tentacle.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Elven Astral Observer",
+    "image": "elven_astral_observer.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Elven Scouting Glass",
+    "image": "elven_scouting_glass.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Elvish Talisman",
+    "image": "elvish_talisman.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Essence of a Bad Dream",
+    "image": "essence_of_a_bad_dream.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Eye of Corruption",
+    "image": "eye_of_corruption.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Fiery Heart",
+    "image": "fiery_heart.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Fish Fin",
+    "image": "fish_fin.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Flask of Embalming Fluid",
+    "image": "flask_of_embalming_fluid.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Ghastly Dragon Head",
+    "image": "ghastly_dragon_head.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Frost Giant Pelt",
+    "image": "frost_giant_pelt.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Frosty Ear of a Troll",
+    "image": "frosty_ear_of_a_troll.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Frosty Heart",
+    "image": "frosty_heart.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Gauze Bandage",
+    "image": "gauze_bandage.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Gear Crystal",
+    "image": "gear_crystal.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Geomancer's Staff",
+    "image": "geomancer_s_staff.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Ghostly Tissue",
+    "image": "ghostly_tissue.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Ghoul Snack",
+    "image": "ghoul_snack.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Giant Crab Pincer",
+    "image": "giant_crab_pincer.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Giant Eye",
+    "image": "giant_eye.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Girlish Hair Decoration",
+    "image": "girlish_hair_decoration.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Gland",
+    "image": "gland.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Glob of Acid Slime",
+    "image": "glob_of_acid_slime.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Glob of Mercury",
+    "image": "glob_of_mercury.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Glob of Tar",
+    "image": "glob_of_tar.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Goblin Ear",
+    "image": "goblin_ear.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Green Dragon Leather",
+    "image": "green_dragon_leather.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Green Dragon Scale",
+    "image": "green_dragon_scale.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "High Guard Flag",
+    "image": "high_guard_flag.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Hellspawn Tail",
+    "image": "hellspawn_tail.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Hair of a Banshee",
+    "image": "hair_of_a_banshee.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Half-Digested Piece of Meat",
+    "image": "half_digested_piece_of_meat.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Half-Eaten Brain",
+    "image": "half_eaten_brain.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Hardened Bone",
+    "image": "hardened_bone.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Haunted Piece of Wood",
+    "image": "haunted_piece_of_wood.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Hellhound Slobber",
+    "image": "hellhound_slobber.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "High Guard Shoulderplates",
+    "image": "high_guard_shoulderplates.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Hunter's Quiver",
+    "image": "hunter_s_quiver.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Hollow Stampor Hoof",
+    "image": "hollow_stampor_hoof.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Honeycomb",
+    "image": "honeycomb.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Hydra Egg",
+    "image": "hydra_egg.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Hydra Head",
+    "image": "hydra_head.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Jewelled Belt",
+    "image": "jewelled_belt.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Kongra's Shoulderpad",
+    "image": "kongra_s_shoulderpad.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Lancer Beetle Shell",
+    "image": "lancer_beetle_shell.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Legionnaire Flags",
+    "image": "legionnaire_flags.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Lion's Mane",
+    "image": "lion_s_mane.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Lizard Essence",
+    "image": "lizard_essence.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Lizard Leather",
+    "image": "lizard_leather.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Lizard Scale",
+    "image": "lizard_scale.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Zaogun Shoulderplates",
+    "image": "zaogun_shoulderplates.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Zaogun Flag",
+    "image": "zaogun_flag.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Wyvern Talisman",
+    "image": "wyvern_talisman.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Wyrm Scale",
+    "image": "wyrm_scale.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Wool",
+    "image": "wool.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Wood",
+    "image": "wood.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Wolf Paw",
+    "image": "wolf_paw.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Witch Broom",
+    "image": "witch_broom.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Winter Wolf Fur",
+    "image": "winter_wolf_fur.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Winged Tail",
+    "image": "winged_tail.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Widow's Mandibles",
+    "image": "widow_s_mandibles.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Werewolf Fur",
+    "image": "werewolf_fur.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Weaver's Wandtip",
+    "image": "weaver_s_wandtip.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Warwolf Fur",
+    "image": "warwolf_fur.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Warmaster's Wristguards",
+    "image": "warmaster_s_wristguards.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "War Crystal",
+    "image": "war_crystal.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Vampire Teeth",
+    "image": "vampire_teeth.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Vampire Dust",
+    "image": "vampire_dust.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Unholy Bone",
+    "image": "unholy_bone.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Undead Heart",
+    "image": "undead_heart.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Tusk",
+    "image": "tusk.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Turtle Shell",
+    "image": "turtle_shell.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Trollroot",
+    "image": "trollroot.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Thorn",
+    "image": "thorn.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Thick Fur",
+    "image": "thick_fur.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "The Plasmother's Remains",
+    "image": "the_plasmother_s_remains.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Terrorbird Beak",
+    "image": "terrorbird_beak.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Tarantula Egg",
+    "image": "tarantula_egg.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Luminous Orb",
+    "image": "luminous_orb.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Lump of Earth",
+    "image": "lump_of_earth.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Lump of Dirt",
+    "image": "lump_of_dirt.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Mammoth Tusk",
+    "image": "mammoth_tusk.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Mantassin Tail",
+    "image": "mantassin_tail.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Maxilla",
+    "image": "maxilla.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Minotaur Horn",
+    "image": "minotaur_horn.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Minotaur Leather",
+    "image": "minotaur_leather.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Miraculum",
+    "image": "miraculum.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Mutated Bat Ear",
+    "image": "mutated_bat_ear.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Mutated Flesh",
+    "image": "mutated_flesh.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Mutated Rat Tail",
+    "image": "mutated_rat_tail.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Mystical Hourglass",
+    "image": "mystical_hourglass.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Necromantic Robe",
+    "image": "necromantic_robe.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Nettle Blossom",
+    "image": "nettle_blossom.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Nettle Spit",
+    "image": "nettle_spit.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Noble Turban",
+    "image": "noble_turban.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Orc Leather",
+    "image": "orc_leather.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Orc Tooth",
+    "image": "orc_tooth.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Orcish Gear",
+    "image": "orcish_gear.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Orshabaal's Brain",
+    "image": "orshabaal_s_brain.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Panther Head",
+    "image": "panther_head.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Panther Paw",
+    "image": "panther_paw.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Pelvis Bone",
+    "image": "pelvis_bone.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Perfect Behemoth Fang",
+    "image": "perfect_behemoth_fang.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Piece of Archer Armor",
+    "image": "piece_of_archer_armor.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Piece of Crocodile Leather",
+    "image": "piece_of_crocodile_leather.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Piece of Dead Brain",
+    "image": "piece_of_dead_brain.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Piece of Hellfire Armor",
+    "image": "piece_of_hellfire_armor.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Piece of Massacre's Shell",
+    "image": "piece_of_massacre_s_shell.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Broken Slicer",
+    "image": "broken_slicer.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Ape Fur",
+    "image": "ape_fur.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Centipede Leg",
+    "image": "centipede_leg.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Metal Spike",
+    "image": "metal_spike.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Piece of Scarab Shell",
+    "image": "piece_of_scarab_shell.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Piece of Warrior Armor",
+    "image": "piece_of_warrior_armor.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Pig Foot",
+    "image": "pig_foot.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Pile of Grave Earth",
+    "image": "pile_of_grave_earth.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Poison Spider Shell",
+    "image": "poison_spider_shell.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Poisonous Slime",
+    "image": "poisonous_slime.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Polar Bear Paw",
+    "image": "polar_bear_paw.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Protective Charm",
+    "image": "protective_charm.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Purple Robe",
+    "image": "purple_robe.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Quara Bone",
+    "image": "quara_bone.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Quara Eye",
+    "image": "quara_eye.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Quara Pincers",
+    "image": "quara_pincers.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Quara Tentacle",
+    "image": "quara_tentacle.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Red Dragon Leather",
+    "image": "red_dragon_leather.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Red Dragon Scale",
+    "image": "red_dragon_scale.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Rope Belt",
+    "image": "rope_belt.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Rotten Piece of Cloth",
+    "image": "rotten_piece_of_cloth.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Sabretooth (Item)",
+    "image": "sabretooth__item_.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Safety Pin",
+    "image": "safety_pin.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Sandcrawler Shell",
+    "image": "sandcrawler_shell.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Scale of Corruption",
+    "image": "scale_of_corruption.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Scarab Pincers",
+    "image": "scarab_pincers.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Scorpion Tail",
+    "image": "scorpion_tail.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Scroll of Heroic Deeds",
+    "image": "scroll_of_heroic_deeds.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Scythe Leg",
+    "image": "scythe_leg.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Sea Serpent Scale",
+    "image": "sea_serpent_scale.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Shaggy Tail",
+    "image": "shaggy_tail.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Shamanic Hood",
+    "image": "shamanic_hood.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Shard",
+    "image": "shard.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Silky Fur",
+    "image": "silky_fur.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Skull Belt",
+    "image": "skull_belt.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Skunk Tail",
+    "image": "skunk_tail.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Small Flask of Eyedrops",
+    "image": "small_flask_of_eyedrops.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Small Notebook",
+    "image": "small_notebook.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Small Pitchfork",
+    "image": "small_pitchfork.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Snake Skin",
+    "image": "snake_skin.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Spider Fangs",
+    "image": "spider_fangs.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Spider Silk",
+    "image": "spider_silk.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Spiked Iron Ball",
+    "image": "spiked_iron_ball.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Spooky Blue Eye",
+    "image": "spooky_blue_eye.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Stampor Horn",
+    "image": "stampor_horn.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Stampor Talons",
+    "image": "stampor_talons.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Stone Wing",
+    "image": "stone_wing.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Strand of Medusa Hair",
+    "image": "strand_of_medusa_hair.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Striped Fur",
+    "image": "striped_fur.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Sulphurous Stone",
+    "image": "sulphurous_stone.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Swamp Grass",
+    "image": "swamp_grass.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Tail of Corruption",
+    "image": "tail_of_corruption.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Tattered Piece of Robe",
+    "image": "tattered_piece_of_robe.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Tentacle Piece",
+    "image": "tentacle_piece.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Terramite Legs",
+    "image": "terramite_legs.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Terramite Shell",
+    "image": "terramite_shell.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Coal",
+    "image": "coal.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Yielowax",
+    "image": "yielowax.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "White Deer Skin",
+    "image": "white_deer_skin.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "White Deer Antlers",
+    "image": "white_deer_antlers.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Yielocks",
+    "image": "yielocks.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Eye of a Deepling",
+    "image": "eye_of_a_deepling.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Demonic Finger",
+    "image": "demonic_finger.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Flintstone",
+    "image": "flintstone.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Compound Eye",
+    "image": "compound_eye.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Deepling Breaktime Snack",
+    "image": "deepling_breaktime_snack.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Deepling Guard Belt Buckle",
+    "image": "deepling_guard_belt_buckle.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Deepling Ridge",
+    "image": "deepling_ridge.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Deepling Claw",
+    "image": "deepling_claw.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Deepling Warts",
+    "image": "deepling_warts.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Crawler Head Plating",
+    "image": "crawler_head_plating.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Deeptags",
+    "image": "deeptags.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Deepling Scales",
+    "image": "deepling_scales.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Dung Ball",
+    "image": "dung_ball.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Kollos Shell",
+    "image": "kollos_shell.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Spellsinger's Seal",
+    "image": "spellsinger_s_seal.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Spidris Mandible",
+    "image": "spidris_mandible.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Spitter Nose",
+    "image": "spitter_nose.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Swarmer Antenna",
+    "image": "swarmer_antenna.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Waspoid Claw",
+    "image": "waspoid_claw.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Waspoid Wing",
+    "image": "waspoid_wing.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Morgaroth's Heart",
+    "image": "morgaroth_s_heart.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Orc Tusk",
+    "image": "orc_tusk.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Red Lantern",
+    "image": "red_lantern.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Cockroach Leg",
+    "image": "cockroach_leg.gif",
+    "groupable": false,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Geomancer's Robe",
+    "image": "geomancer_s_robe.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Mr. Punish's Handcuffs",
+    "image": "mr__punish_s_handcuffs.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Countess Sorrow's Frozen Tear",
+    "image": "countess_sorrow_s_frozen_tear.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Cat's Paw",
+    "image": "cat_s_paw.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Broken Key Ring",
+    "image": "broken_key_ring.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Gear Wheel",
+    "image": "gear_wheel.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Energy Soil",
+    "image": "energy_soil.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Glimmering Soil",
+    "image": "glimmering_soil.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Iced Soil",
+    "image": "iced_soil.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Mother Soil",
+    "image": "mother_soil.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Natural Soil",
+    "image": "natural_soil.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Flawless Ice Crystal",
+    "image": "flawless_ice_crystal.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Key to the Drowned Library",
+    "image": "key_to_the_drowned_library.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Medicine Pouch",
+    "image": "medicine_pouch.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Rabbit's Foot",
+    "image": "rabbit_s_foot.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Pure Energy",
+    "image": "pure_energy.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Blood Preservation",
+    "image": "blood_preservation.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Abyssador's Lash",
+    "image": "abyssador_s_lash.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Blazing Bone",
+    "image": "blazing_bone.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Cliff Strider Claw",
+    "image": "cliff_strider_claw.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Crystalline Spikes",
+    "image": "crystalline_spikes.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Deathstrike's Snippet",
+    "image": "deathstrike_s_snippet.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Eye of a Weeper",
+    "image": "eye_of_a_weeper.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Gnomevil's Hat",
+    "image": "gnomevil_s_hat.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Hideous Chunk",
+    "image": "hideous_chunk.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Humongous Chunk",
+    "image": "humongous_chunk.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Magma Clump",
+    "image": "magma_clump.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Pulverized Ore",
+    "image": "pulverized_ore.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Stone Nose",
+    "image": "stone_nose.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Vein of Ore",
+    "image": "vein_of_ore.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "The Imperor's Trident",
+    "image": "the_imperor_s_trident.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "The Handmaiden's Protector",
+    "image": "the_handmaiden_s_protector.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Eternal Flames",
+    "image": "eternal_flames.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Shiny Stone",
+    "image": "shiny_stone.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Petrified Scream",
+    "image": "petrified_scream.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Demonic Essence",
+    "image": "demonic_essence.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Eye Patch",
+    "image": "eye_patch.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Heaven Blossom",
+    "image": "heaven_blossom.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Holy Orchid",
+    "image": "holy_orchid.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Hook",
+    "image": "hook.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Bloody Dwarven Beard",
+    "image": "bloody_dwarven_beard.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Earflap",
+    "image": "earflap.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Broken Throwing Axe",
+    "image": "broken_throwing_axe.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Mad Froth",
+    "image": "mad_froth.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Piece of Swampling Wood",
+    "image": "piece_of_swampling_wood.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Lost Basher's Spike",
+    "image": "lost_basher_s_spike.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Lost Bracers",
+    "image": "lost_bracers.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Red Hair Dye",
+    "image": "red_hair_dye.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Damselfly Wing",
+    "image": "damselfly_wing.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Marsh Stalker Beak",
+    "image": "marsh_stalker_beak.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Skull Shatterer",
+    "image": "skull_shatterer.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Swampling Moss",
+    "image": "swampling_moss.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Marsh Stalker Feather",
+    "image": "marsh_stalker_feather.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Damselfly Eye",
+    "image": "damselfly_eye.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Bola",
+    "image": "bola.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Bonecarving Knife",
+    "image": "bonecarving_knife.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Bone Fetish",
+    "image": "bone_fetish.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Cheese Cutter",
+    "image": "cheese_cutter.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Cheesy Figurine",
+    "image": "cheesy_figurine.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Holy Ash",
+    "image": "holy_ash.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Lost Husher's Staff",
+    "image": "lost_husher_s_staff.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Wimp Tooth Chain",
+    "image": "wimp_tooth_chain.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Basalt Fetish",
+    "image": "basalt_fetish.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Basalt Figurine",
+    "image": "basalt_figurine.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Soul Orb",
+    "image": "soul_orb.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Sniper Gloves",
+    "image": "sniper_gloves.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Old Parchment",
+    "image": "old_parchment.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Rorc Feather",
+    "image": "rorc_feather.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Rorc Egg",
+    "image": "rorc_egg.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Venison",
+    "image": "venison.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Vampire's Cape Chain",
+    "image": "vampire_s_cape_chain.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Elven Hoof",
+    "image": "elven_hoof.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Hatched Rorc Egg",
+    "image": "hatched_rorc_egg.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Dowser",
+    "image": "dowser.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Fir Cone",
+    "image": "fir_cone.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Lancet",
+    "image": "lancet.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Tooth File",
+    "image": "tooth_file.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Blood Tincture in a Vial",
+    "image": "blood_tincture_in_a_vial.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Incantation Notes",
+    "image": "incantation_notes.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Horoscope",
+    "image": "horoscope.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Pieces of Magic Chalk",
+    "image": "pieces_of_magic_chalk.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Broken Visor",
+    "image": "broken_visor.gif",
+    "groupable": false,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Frazzle Tongue",
+    "image": "frazzle_tongue.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Sight of Surrender's Eye",
+    "image": "sight_of_surrender_s_eye.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Frazzle Skin",
+    "image": "frazzle_skin.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Silencer Claws",
+    "image": "silencer_claws.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Silencer Resonating Chamber",
+    "image": "silencer_resonating_chamber.gif",
+    "groupable": false,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Dead Weight",
+    "image": "dead_weight.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Trapped Bad Dream Monster",
+    "image": "trapped_bad_dream_monster.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Goosebump Leather",
+    "image": "goosebump_leather.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Hemp Rope",
+    "image": "hemp_rope.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Pool of Chitinous Glue",
+    "image": "pool_of_chitinous_glue.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Dream Matter",
+    "image": "dream_matter.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Bowl of Terror Sweat",
+    "image": "bowl_of_terror_sweat.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Glooth Injection Tube",
+    "image": "glooth_injection_tube.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Metal Jaw",
+    "image": "metal_jaw.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Slime Heart",
+    "image": "slime_heart.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Poisoned Fang",
+    "image": "poisoned_fang.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Necromantic Rust",
+    "image": "necromantic_rust.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Slimy Leaf Tentacle",
+    "image": "slimy_leaf_tentacle.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Metal Toe",
+    "image": "metal_toe.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Giant Pacifier",
+    "image": "giant_pacifier.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Moohtant Horn",
+    "image": "moohtant_horn.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Execowtioner Mask",
+    "image": "execowtioner_mask.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Mooh'tah Shell",
+    "image": "mooh_tah_shell.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Cowbell",
+    "image": "cowbell.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Glob of Glooth",
+    "image": "glob_of_glooth.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Seacrest Scale",
+    "image": "seacrest_scale.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Seacrest Hair",
+    "image": "seacrest_hair.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Wereboar Tusk",
+    "image": "wereboar_tusk.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Wereboar Hooves",
+    "image": "wereboar_hooves.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Werebadger Skull",
+    "image": "werebadger_skull.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Werebear Skull",
+    "image": "werebear_skull.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Werebear Fur",
+    "image": "werebear_fur.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Werewolf Fang",
+    "image": "werewolf_fang.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Werebadger Claws",
+    "image": "werebadger_claws.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Gloom Wolf Fur",
+    "image": "gloom_wolf_fur.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Peacock Feather Fan",
+    "image": "peacock_feather_fan.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Golden Lotus Brooch",
+    "image": "golden_lotus_brooch.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Shamanic Talisman",
+    "image": "shamanic_talisman.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Raw Meat",
+    "image": "raw_meat.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Ogre Ear Stud",
+    "image": "ogre_ear_stud.gif",
+    "groupable": false,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Ogre Nose Ring",
+    "image": "ogre_nose_ring.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Skull Fetish",
+    "image": "skull_fetish.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Vexclaw Talon",
+    "image": "vexclaw_talon.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Pair of Hellflayer Horns",
+    "image": "pair_of_hellflayer_horns.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Some Grimeleech Wings",
+    "image": "some_grimeleech_wings.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Ferumbras' Mana Keg",
+    "image": "ferumbras__mana_keg.gif",
+    "groupable": false,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Sparkion Claw",
+    "image": "sparkion_claw.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Sparkion Tail",
+    "image": "sparkion_tail.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Sparkion Legs",
+    "image": "sparkion_legs.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Sparkion Stings",
+    "image": "sparkion_stings.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Condensed Energy",
+    "image": "condensed_energy.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Crystallized Anger",
+    "image": "crystallized_anger.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Energy Vein",
+    "image": "energy_vein.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Odd Organ",
+    "image": "odd_organ.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Curious Matter",
+    "image": "curious_matter.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Strange Proto Matter",
+    "image": "strange_proto_matter.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Volatile Proto Matter",
+    "image": "volatile_proto_matter.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Dangerous Proto Matter",
+    "image": "dangerous_proto_matter.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Instable Proto Matter",
+    "image": "instable_proto_matter.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Solid Rage",
+    "image": "solid_rage.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Spark Sphere",
+    "image": "spark_sphere.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Frozen Lightning",
+    "image": "frozen_lightning.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Plasmatic Lightning",
+    "image": "plasmatic_lightning.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Crystal Bone",
+    "image": "crystal_bone.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Glistening Bone",
+    "image": "glistening_bone.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Energy Ball",
+    "image": "energy_ball.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Small Energy Ball",
+    "image": "small_energy_ball.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Plasma Pearls",
+    "image": "plasma_pearls.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Ancient Belt Buckle",
+    "image": "ancient_belt_buckle.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Ancient Watch",
+    "image": "ancient_watch.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Astral Glyph",
+    "image": "astral_glyph.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Astral Source",
+    "image": "astral_source.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Beetle Carapace",
+    "image": "beetle_carapace.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Bone Toothpick",
+    "image": "bone_toothpick.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Coal Eyes",
+    "image": "coal_eyes.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Cracked Alabaster Vase",
+    "image": "cracked_alabaster_vase.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Dragon Crown",
+    "image": "dragon_crown.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Frozen Time",
+    "image": "frozen_time.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Key to Knowledge",
+    "image": "key_to_knowledge.gif",
+    "groupable": false,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Rhino Hide",
+    "image": "rhino_hide.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Rhino Horn",
+    "image": "rhino_horn.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Rhino Horn Carving",
+    "image": "rhino_horn_carving.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Shadow Mask",
+    "image": "shadow_mask.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Shadow Paint",
+    "image": "shadow_paint.gif",
+    "groupable": false,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Tarnished Rhino Figurine",
+    "image": "tarnished_rhino_figurine.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Thorn Seed",
+    "image": "thorn_seed.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Glowing Carrot",
+    "image": "glowing_carrot.gif",
+    "groupable": false,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Golden Talon",
+    "image": "golden_talon.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Dragon Tongue",
+    "image": "dragon_tongue.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Dragon Blood",
+    "image": "dragon_blood.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Bed of Nails",
+    "image": "bed_of_nails.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Dandelion Seeds",
+    "image": "dandelion_seeds.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Colourful Snail Shell",
+    "image": "colourful_snail_shell.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Fairy Wings",
+    "image": "fairy_wings.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Green Bandage",
+    "image": "green_bandage.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Guidebook",
+    "image": "guidebook.gif",
+    "groupable": false,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Little Bowl of Myrrh",
+    "image": "little_bowl_of_myrrh.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Shimmering Beetles",
+    "image": "shimmering_beetles.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Single Human Eye",
+    "image": "single_human_eye.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Wild Flowers",
+    "image": "wild_flowers.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Torn Shirt",
+    "image": "torn_shirt.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Fig Leaf",
+    "image": "fig_leaf.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Half-Digested Stones",
+    "image": "half_digested_stones.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Rare Earth",
+    "image": "rare_earth.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Diremaw Brainpan",
+    "image": "diremaw_brainpan.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Fox Paw",
+    "image": "fox_paw.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Cave Devourer Eyes",
+    "image": "cave_devourer_eyes.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Cave Devourer Legs",
+    "image": "cave_devourer_legs.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Cave Devourer Maw",
+    "image": "cave_devourer_maw.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Diremaw Legs",
+    "image": "diremaw_legs.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Werefox Tail",
+    "image": "werefox_tail.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Chasm Spawn Abdomen",
+    "image": "chasm_spawn_abdomen.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Chasm Spawn Head",
+    "image": "chasm_spawn_head.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Chasm Spawn Tail",
+    "image": "chasm_spawn_tail.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Deepworm Spikes",
+    "image": "deepworm_spikes.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Deepworm Spike Roots",
+    "image": "deepworm_spike_roots.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Deepworm Jaws",
+    "image": "deepworm_jaws.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Tunnel Tyrant Head",
+    "image": "tunnel_tyrant_head.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Tunnel Tyrant Shell",
+    "image": "tunnel_tyrant_shell.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Harpoon of a Giant Snail",
+    "image": "harpoon_of_a_giant_snail.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Huge Shell",
+    "image": "huge_shell.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Huge Spiky Snail Shell",
+    "image": "huge_spiky_snail_shell.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Longing Eyes",
+    "image": "longing_eyes.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Giant Tentacle",
+    "image": "giant_tentacle.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Damaged Worm Head",
+    "image": "damaged_worm_head.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Chitinous Mouth (Baron from Below)",
+    "image": "chitinous_mouth__baron_from_below_.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Chitinous Mouth (Count of the Core)",
+    "image": "chitinous_mouth__count_of_the_core_.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Stonerefiner's Skull",
+    "image": "stonerefiner_s_skull.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Slimy Leg",
+    "image": "slimy_leg.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Pristine Worm Head",
+    "image": "pristine_worm_head.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Withered Pauldrons",
+    "image": "withered_pauldrons.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Withered Scalp",
+    "image": "withered_scalp.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Falcon Crest",
+    "image": "falcon_crest.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Silken Bookmark",
+    "image": "silken_bookmark.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Quill",
+    "image": "quill.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Damaged Armor Plates",
+    "image": "damaged_armor_plates.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Grant of Arms",
+    "image": "grant_of_arms.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Book Page",
+    "image": "book_page.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Glowing Rune",
+    "image": "glowing_rune.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Inkwell (Black)",
+    "image": "inkwell__black_.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Patch of Fine Cloth",
+    "image": "patch_of_fine_cloth.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Dream Essence Egg",
+    "image": "dream_essence_egg.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Maxxenius Head",
+    "image": "maxxenius_head.gif",
+    "groupable": false,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Alptramun's Toothbrush",
+    "image": "alptramun_s_toothbrush.gif",
+    "groupable": false,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Beast's Nightmare-Cushion",
+    "image": "beast_s_nightmare_cushion.gif",
+    "groupable": false,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Plagueroot Offshoot",
+    "image": "plagueroot_offshoot.gif",
+    "groupable": false,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Malofur's Lunchbox",
+    "image": "malofur_s_lunchbox.gif",
+    "groupable": false,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Izcandar's Snow Globe",
+    "image": "izcandar_s_snow_globe.gif",
+    "groupable": false,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Izcandar's Sundial",
+    "image": "izcandar_s_sundial.gif",
+    "groupable": false,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Ice Flower",
+    "image": "ice_flower.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Percht Broom",
+    "image": "percht_broom.gif",
+    "groupable": false,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Percht Horns",
+    "image": "percht_horns.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Percht Queen's Frozen Heart",
+    "image": "percht_queen_s_frozen_heart.gif",
+    "groupable": false,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Percht Handkerchief",
+    "image": "percht_handkerchief.gif",
+    "groupable": false,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Dark Bell",
+    "image": "dark_bell.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Bright Bell",
+    "image": "bright_bell.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Frozen Chain",
+    "image": "frozen_chain.gif",
+    "groupable": false,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Fly Agaric",
+    "image": "fly_agaric.gif",
+    "groupable": false,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Golden Cotton Reel",
+    "image": "golden_cotton_reel.gif",
+    "groupable": false,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Flames of the Percht Queen",
+    "image": "flames_of_the_percht_queen.gif",
+    "groupable": false,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Twig Arms",
+    "image": "twig_arms.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Icicle (The Percht Queen)",
+    "image": "icicle__the_percht_queen_.gif",
+    "groupable": false,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Horseshoe",
+    "image": "horseshoe.gif",
+    "groupable": false,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Golden Horseshoe",
+    "image": "golden_horseshoe.gif",
+    "groupable": false,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Cobra Crest",
+    "image": "cobra_crest.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Sphinx Feather",
+    "image": "sphinx_feather.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Fafnar Symbol",
+    "image": "fafnar_symbol.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Lizard Heart",
+    "image": "lizard_heart.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Lamassu Hoof",
+    "image": "lamassu_hoof.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Lamassu Horn",
+    "image": "lamassu_horn.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Frozen Carrot",
+    "image": "frozen_carrot.gif",
+    "groupable": true,
+    "type": "CREATURE_DROP"
+  },
+  {
+    "name": "Abridged Promotion Scroll",
+    "image": "abridged_promotion_scroll.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Advanced Promotion Scroll",
+    "image": "advanced_promotion_scroll.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Alptramun's Toothbrush",
+    "image": "alptramun_s_toothbrush.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Amber (Item)",
+    "image": "amber__item_.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Amber with a Bug",
+    "image": "amber_with_a_bug.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Amber with a Dragonfly",
+    "image": "amber_with_a_dragonfly.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Ancient Coin",
+    "image": "ancient_coin.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Ancient Liche Bone",
+    "image": "ancient_liche_bone.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Bag You Covet",
+    "image": "bag_you_covet.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Bag You Desire",
+    "image": "bag_you_desire.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Bar of Gold",
+    "image": "bar_of_gold.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Basic Promotion Scroll",
+    "image": "basic_promotion_scroll.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Beast's Nightmare-Cushion",
+    "image": "beast_s_nightmare_cushion.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Behemoth Taming Stone",
+    "image": "behemoth_taming_stone.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Black Pearl",
+    "image": "black_pearl.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Bladespark Figurine",
+    "image": "bladespark_figurine.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Blank Rune",
+    "image": "blank_rune.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Blood of the Mountain Charm",
+    "image": "blood_of_the_mountain_charm.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Blue Crystal Shard",
+    "image": "blue_crystal_shard.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Blue Crystal Splinter",
+    "image": "blue_crystal_splinter.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Blue Gem",
+    "image": "blue_gem.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Bracelet of Strengthening",
+    "image": "bracelet_of_strengthening.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Brass Button",
+    "image": "brass_button.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Brooch of Embracement",
+    "image": "brooch_of_embracement.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Brown Crystal Splinter",
+    "image": "brown_crystal_splinter.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Cerulean Abyss",
+    "image": "cerulean_abyss.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Christmas Token",
+    "image": "christmas_token.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Cluster of Solace",
+    "image": "cluster_of_solace.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Colbalt Ridge",
+    "image": "colbalt_ridge.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Copper Token",
+    "image": "copper_token.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Coral Brooch",
+    "image": "coral_brooch.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Cruelty's Chest",
+    "image": "cruelty_s_chest.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Cruelty's Claw",
+    "image": "cruelty_s_claw.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Crunor Idol",
+    "image": "crunor_idol.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Crystal Coin",
+    "image": "crystal_coin.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Crystal Wand",
+    "image": "crystal_wand.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Cursed Bone",
+    "image": "cursed_bone.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Cursed Wood",
+    "image": "cursed_wood.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Cyan Crystal Fragment",
+    "image": "cyan_crystal_fragment.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Dark Bell (Sino)",
+    "image": "dark_bell__sino_.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Darklight Geode",
+    "image": "darklight_geode.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Death Toll",
+    "image": "death_toll.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Decorative Plume",
+    "image": "decorative_plume.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Diabolic Skull",
+    "image": "diabolic_skull.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Diamond",
+    "image": "diamond.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Dragon Figurine",
+    "image": "dragon_figurine.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Dragonfetish",
+    "image": "dragonfetish.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Dream Matter",
+    "image": "dream_matter.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Drome Cube",
+    "image": "drome_cube.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Dust",
+    "image": "dust.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Eldritch Casket",
+    "image": "eldritch_casket.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Eldritch Crystal",
+    "image": "eldritch_crystal.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Emerald Bangle",
+    "image": "emerald_bangle.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Empty Surprise Cube",
+    "image": "empty_surprise_cube.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Essence of Dread",
+    "image": "essence_of_dread.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Essence of Wishful Thinking",
+    "image": "essence_of_wishful_thinking.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Exalted Core",
+    "image": "exalted_core.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Extended Promotion Scroll",
+    "image": "extended_promotion_scroll.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Eye of the Chasm",
+    "image": "eye_of_the_chasm.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Eye-Embroidered Veil",
+    "image": "eye_embroidered_veil.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Fiery Horseshoe",
+    "image": "fiery_horseshoe.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Fiery Tear",
+    "image": "fiery_tear.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Figurine of Cruelty",
+    "image": "figurine_of_cruelty.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Figurine of Greed",
+    "image": "figurine_of_greed.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Figurine of Hatred",
+    "image": "figurine_of_hatred.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Figurine of Malice",
+    "image": "figurine_of_malice.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Figurine of Megalomania",
+    "image": "figurine_of_megalomania.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Figurine of Spite",
+    "image": "figurine_of_spite.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Final Judgement",
+    "image": "final_judgement.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Firefighting Axe",
+    "image": "firefighting_axe.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Fireproof Horn",
+    "image": "fireproof_horn.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Flames of the Percht Queen",
+    "image": "flames_of_the_percht_queen.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Gemmed Figurine",
+    "image": "gemmed_figurine.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Ghost Claw",
+    "image": "ghost_claw.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Giant Amethyst",
+    "image": "giant_amethyst.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Giant Emerald",
+    "image": "giant_emerald.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Giant Ruby",
+    "image": "giant_ruby.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Giant Sapphire",
+    "image": "giant_sapphire.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Giant Shimmering Pearl",
+    "image": "giant_shimmering_pearl.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Giant Topaz",
+    "image": "giant_topaz.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Glooth Bag",
+    "image": "glooth_bag.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Goblet of Gloom",
+    "image": "goblet_of_gloom.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Gold Coins",
+    "image": "gold_coin.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Gold Ingot",
+    "image": "gold_ingot.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Gold Nugget",
+    "image": "gold_nugget.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Gold Token",
+    "image": "gold_token.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Golden Cheese Wedge",
+    "image": "golden_cheese_wedge.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Golden Dustbin",
+    "image": "golden_dustbin.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Golden Horseshoe",
+    "image": "golden_horseshoe.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Golden Mask",
+    "image": "golden_mask.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Golden Raid Token",
+    "image": "golden_raid_token.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Golden Sea Horse Figurine",
+    "image": "golden_sea_horse_figurine.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Golden Skull",
+    "image": "golden_skull.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Golden Sun Coin",
+    "image": "golden_sun_coin.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Golden Tiger Coin",
+    "image": "golden_tiger_coin.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Gooey Mass",
+    "image": "gooey_mass.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Greater Guardian Gem",
+    "image": "greater_guardian_gem.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Greater Marksman Gem",
+    "image": "greater_marksman_gem.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Greater Mystic Gem",
+    "image": "greater_mystic_gem.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Greater Sage Gem",
+    "image": "greater_sage_gem.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Greed's Arm",
+    "image": "greed_s_arm.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Green Crystal Fragment",
+    "image": "green_crystal_fragment.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Green Crystal Shard",
+    "image": "green_crystal_shard.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Green Crystal Splinter",
+    "image": "green_crystal_splinter.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Green Gem",
+    "image": "green_gem.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Gruesome Fan",
+    "image": "gruesome_fan.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Guardian Gem",
+    "image": "guardian_gem.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Heart of the Mountain Charm",
+    "image": "heart_of_the_mountain_charm.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Heavily Rusted Armor",
+    "image": "heavily_rusted_armor.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Heavily Rusted Helmet",
+    "image": "heavily_rusted_helmet.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Heavily Rusted Legs",
+    "image": "heavily_rusted_legs.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Heavily Rusted Shield",
+    "image": "heavily_rusted_shield.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Herald's Insignia",
+    "image": "herald_s_insignia.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Herald's Wings",
+    "image": "herald_s_wings.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Hexagonal Ruby",
+    "image": "hexagonal_ruby.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Horseshoe",
+    "image": "horseshoe.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Ice Shield",
+    "image": "ice_shield.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Icicle (The Percht Queen)",
+    "image": "icicle__the_percht_queen_.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Iron Token",
+    "image": "iron_token.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Ivory Comb",
+    "image": "ivory_comb.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Izcandar's Snow Globe",
+    "image": "izcandar_s_snow_globe.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Izcandar's Sundial",
+    "image": "izcandar_s_sundial.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Jagged Sickle",
+    "image": "jagged_sickle.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Lesser Guardian Gem",
+    "image": "lesser_guardian_gem.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Lesser Marksman Gem",
+    "image": "lesser_marksman_gem.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Lesser Mystic Gem",
+    "image": "lesser_mystic_gem.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Lesser Sage Gem",
+    "image": "lesser_sage_gem.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Lion Figurine",
+    "image": "lion_figurine.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Lots",
+    "image": "lots.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Major Crystalline Token",
+    "image": "major_crystalline_token.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Malice's Horn",
+    "image": "malice_s_horn.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Malice's Spine",
+    "image": "malice_s_spine.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Malofur's Lunchbox",
+    "image": "malofur_s_lunchbox.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Marksman Gem",
+    "image": "marksman_gem.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Maxxenius Head",
+    "image": "maxxenius_head.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Medal of Valiance",
+    "image": "medal_of_valiance.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Megalomania's Essence",
+    "image": "megalomania_s_essence.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Megalomania's Skull",
+    "image": "megalomania_s_skull.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Mind Stone",
+    "image": "mind_stone.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Minor Crystalline Token",
+    "image": "minor_crystalline_token.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Moon Pin",
+    "image": "moon_pin.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Moonlight Crystals",
+    "image": "moonlight_crystals.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Moonstone",
+    "image": "moonstone.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Morshabaal's Extract",
+    "image": "morshabaal_s_extract.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Mossmasher Figurine",
+    "image": "mossmasher_figurine.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Mucus Plug",
+    "image": "mucus_plug.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Mysterious Remains",
+    "image": "mysterious_remains.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Mystery Box",
+    "image": "mystery_box.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Mystic Gem",
+    "image": "mystic_gem.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Noble Amulet",
+    "image": "noble_amulet.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Onyx Chip",
+    "image": "onyx_chip.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Opal",
+    "image": "opal.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Orichalcum Pearl",
+    "image": "orichalcum_pearl.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Ornate Locket",
+    "image": "ornate_locket.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Percht Broom",
+    "image": "percht_broom.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Percht Handkerchief",
+    "image": "percht_handkerchief.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Percht Queen's Frozen Heart",
+    "image": "percht_queen_s_frozen_heart.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Petrified Leaf",
+    "image": "petrified_leaf.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Phoenix Charm",
+    "image": "phoenix_charm.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Phoenix Egg",
+    "image": "phoenix_egg.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Plagueroot Offshoot",
+    "image": "plagueroot_offshoot.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Platinum Coin",
+    "image": "platinum_coin.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Platinum Token",
+    "image": "platinum_token.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Pomegranate",
+    "image": "pomegranate.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Portable Flame",
+    "image": "portable_flame.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Primal Bag",
+    "image": "primal_bag.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Prismatic Quartz",
+    "image": "prismatic_quartz.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Rainbow Opal",
+    "image": "rainbow_opal.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Rainbow Quartz",
+    "image": "rainbow_quartz.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Raw Eye of the Chasm",
+    "image": "raw_eye_of_the_chasm.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Raw Watermelon Tourmaline",
+    "image": "raw_watermelon_tourmaline.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Red Crystal Fragment",
+    "image": "red_crystal_fragment.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Red Gem",
+    "image": "red_gem.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Revised Promotion Scroll",
+    "image": "revised_promotion_scroll.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Royal Almandine",
+    "image": "royal_almandine.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Rusted Armor",
+    "image": "rusted_armor.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Rusted Helmet",
+    "image": "rusted_helmet.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Rusted Legs",
+    "image": "rusted_legs.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Rusted Shield",
+    "image": "rusted_shield.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Sage Gem",
+    "image": "sage_gem.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Sandscourge Figurine",
+    "image": "sandscourge_figurine.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Scarab Coin",
+    "image": "scarab_coin.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Scrubbing Brush",
+    "image": "scrubbing_brush.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Sea Horse Figurine",
+    "image": "sea_horse_figurine.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Shadow Cowl",
+    "image": "shadow_cowl.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Shaggy Ogre Bag",
+    "image": "shaggy_ogre_bag.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Signet Ring (Valioso)",
+    "image": "signet_ring__valioso_.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Silver Brooch",
+    "image": "silver_brooch.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Silver Foxmouse Coin",
+    "image": "silver_foxmouse_coin.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Silver Hand Mirror",
+    "image": "silver_hand_mirror.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Silver Moon Coin",
+    "image": "silver_moon_coin.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Silver Raid Token",
+    "image": "silver_raid_token.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Silver Token",
+    "image": "silver_token.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Skull Coin",
+    "image": "skull_coin.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Slightly Rusted Armor",
+    "image": "slightly_rusted_armor.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Slightly Rusted Helmet",
+    "image": "slightly_rusted_helmet.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Slightly Rusted Legs",
+    "image": "slightly_rusted_legs.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Slightly Rusted Shield",
+    "image": "slightly_rusted_shield.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Sliver",
+    "image": "sliver.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Small Amethyst",
+    "image": "small_amethyst.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Small Diamond",
+    "image": "small_diamond.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Small Emerald",
+    "image": "small_emerald.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Small Enchanted Amethyst",
+    "image": "small_enchanted_amethyst.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Small Enchanted Emerald",
+    "image": "small_enchanted_emerald.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Small Enchanted Ruby",
+    "image": "small_enchanted_ruby.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Small Enchanted Sapphire",
+    "image": "small_enchanted_sapphire.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Small Ruby",
+    "image": "small_ruby.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Small Sapphire",
+    "image": "small_sapphire.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Small Topaz",
+    "image": "small_topaz.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Snowbash Figurine",
+    "image": "snowbash_figurine.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Soap",
+    "image": "soap.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Solitude Charm",
+    "image": "solitude_charm.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Soul Prism",
+    "image": "soul_prism.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Spectral Gold Nugget",
+    "image": "spectral_gold_nugget.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Spectral Horse Tack",
+    "image": "spectral_horse_tack.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Spectral Horseshoe",
+    "image": "spectral_horseshoe.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Spectral Saddle",
+    "image": "spectral_saddle.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Spectral Scrap of Cloth",
+    "image": "spectral_scrap_of_cloth.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Spectral Silver Nugget",
+    "image": "spectral_silver_nugget.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Spiritual Charm",
+    "image": "spiritual_charm.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Spiritual Horseshoe",
+    "image": "spiritual_horseshoe.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Spite's Spirit",
+    "image": "spite_s_spirit.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Stone of Insight",
+    "image": "stone_of_insight.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Stone of Wisdom",
+    "image": "stone_of_wisdom.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Strange Inedible Fruit",
+    "image": "strange_inedible_fruit.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "String of Mending",
+    "image": "string_of_mending.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Sun Brooch",
+    "image": "sun_brooch.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Surprise Jar",
+    "image": "surprise_jar.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Tagralt-Inlaid Scabbard",
+    "image": "tagralt_inlaid_scabbard.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Talon",
+    "image": "talon.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "The Heart of the Sea",
+    "image": "the_heart_of_the_sea.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "The Skull of a Beast",
+    "image": "the_skull_of_a_beast.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "The Vampire Count's Medal",
+    "image": "the_vampire_count_s_medal.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Tiara",
+    "image": "tiara.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Tibia Coins",
+    "image": "tibia_coins.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Tiger Eye",
+    "image": "tiger_eye.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Tinder Box",
+    "image": "tinder_box.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Titanium Token",
+    "image": "titanium_token.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Token of Love",
+    "image": "token_of_love.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Twin Sun Charm",
+    "image": "twin_sun_charm.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Unicorn Figurine",
+    "image": "unicorn_figurine.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Unicorn Weisswurst",
+    "image": "unicorn_weisswurst.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Unity Charm",
+    "image": "unity_charm.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Unrealized Dream",
+    "image": "unrealized_dream.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Vampire Lord Token",
+    "image": "vampire_lord_token.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Vial of Hatred",
+    "image": "vial_of_hatred.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Violet Crystal Shard",
+    "image": "violet_crystal_shard.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Violet Gem",
+    "image": "violet_gem.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Watermelon Tourmaline (Fatia)",
+    "image": "watermelon_tourmaline__fatia_.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Watermelon Tourmaline (Lapidada)",
+    "image": "watermelon_tourmaline__lapidada_.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "White Gem",
+    "image": "white_gem.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "White Pearl",
+    "image": "white_pearl.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "White Silk Flower",
+    "image": "white_silk_flower.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Wind-Up Key",
+    "image": "wind_up_key.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Wind-Up Loco",
+    "image": "wind_up_loco.gif",
+    "groupable": false,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Yellow Gem",
+    "image": "yellow_gem.gif",
+    "groupable": true,
+    "type": "PRICELESS"
+  },
+  {
+    "name": "Amber Souvenir",
+    "image": "amber_souvenir.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Anniversary Cake",
+    "image": "anniversary_cake.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Aubergine",
+    "image": "aubergine.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Banana",
+    "image": "banana.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Bar of Chocolate",
+    "image": "bar_of_chocolate.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Bass",
+    "image": "bass.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Beetroot",
+    "image": "beetroot.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Birthday Cake",
+    "image": "birthday_cake.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Birthday Layer Cake",
+    "image": "birthday_layer_cake.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Blue Gingerbread Heart",
+    "image": "blue_gingerbread_heart.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Blueberry",
+    "image": "blueberry.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Bottle of Champagne",
+    "image": "bottle_of_champagne.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Bottle of Glooth Wine",
+    "image": "bottle_of_glooth_wine.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Bottle of Tibian Wine",
+    "image": "bottle_of_tibian_wine.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Bowl of Glooth Soup",
+    "image": "bowl_of_glooth_soup.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Bread",
+    "image": "bread.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Broccoli",
+    "image": "broccoli.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Brown Bread",
+    "image": "brown_bread.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Brown Mushroom",
+    "image": "brown_mushroom.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Bug Meat",
+    "image": "bug_meat.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Bulb of Garlic",
+    "image": "bulb_of_garlic.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Cake",
+    "image": "cake.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Candy",
+    "image": "candy.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Candy Cane",
+    "image": "candy_cane.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Candy Floss (25 Anos)",
+    "image": "candy_floss__25_anos_.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Candy Floss (Orcsoberfest)",
+    "image": "candy_floss__orcsoberfest_.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Carrot",
+    "image": "carrot.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Cauliflower",
+    "image": "cauliflower.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Cave Turnip",
+    "image": "cave_turnip.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Cheese",
+    "image": "cheese.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Cheese Cookie",
+    "image": "cheese_cookie.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Cherry",
+    "image": "cherry.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Chocolate Cake",
+    "image": "chocolate_cake.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Christmas Cookie Tray",
+    "image": "christmas_cookie_tray.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Coconut",
+    "image": "coconut.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Coloured Egg (Blue)",
+    "image": "coloured_egg__blue_.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Coloured Egg (Green)",
+    "image": "coloured_egg__green_.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Coloured Egg (Purple)",
+    "image": "coloured_egg__purple_.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Coloured Egg (Red)",
+    "image": "coloured_egg__red_.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Coloured Egg (Yellow)",
+    "image": "coloured_egg__yellow_.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Cookie",
+    "image": "cookie.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Corncob",
+    "image": "corncob.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Cream Cake",
+    "image": "cream_cake.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Crocodile Steak",
+    "image": "crocodile_steak.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Cucumber",
+    "image": "cucumber.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Dark Mushroom",
+    "image": "dark_mushroom.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Decorated Cake",
+    "image": "decorated_cake.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Deepling Filet",
+    "image": "deepling_filet.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Dewberries",
+    "image": "dewberries.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Dragon Ham",
+    "image": "dragon_ham.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Dragonfruit",
+    "image": "dragonfruit.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Ectoplasmic Sushi",
+    "image": "ectoplasmic_sushi.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Egg",
+    "image": "egg.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Energy Bar",
+    "image": "energy_bar.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Energy Drink",
+    "image": "energy_drink.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Filled Milk Churn",
+    "image": "filled_milk_churn.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Fire Mushroom",
+    "image": "fire_mushroom.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Fish",
+    "image": "fish.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Forbidden Fruit",
+    "image": "forbidden_fruit.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Fresh Fruit",
+    "image": "fresh_fruit.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Gingerbreadman",
+    "image": "gingerbreadman.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Glooth Sandwich",
+    "image": "glooth_sandwich.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Glooth Steak",
+    "image": "glooth_steak.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Grapes",
+    "image": "grapes.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Green Gingerbread Heart",
+    "image": "green_gingerbread_heart.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Green Mushroom",
+    "image": "green_mushroom.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Green Perch",
+    "image": "green_perch.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Gummy Rotworm",
+    "image": "gummy_rotworm.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Ham",
+    "image": "ham.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Haunch of Boar",
+    "image": "haunch_of_boar.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Ice Cream Cone (Blue-Barian)",
+    "image": "ice_cream_cone__blue_barian_.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Ice Cream Cone (Chilly Cherry)",
+    "image": "ice_cream_cone__chilly_cherry_.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Ice Cream Cone (Crispy Chocolate Chips)",
+    "image": "ice_cream_cone__crispy_chocolate_chips_.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Ice Cream Cone (Mellow Melon)",
+    "image": "ice_cream_cone__mellow_melon_.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Ice Cream Cone (Sprinkles)",
+    "image": "ice_cream_cone__sprinkles_.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Ice Cream Cone (Sweet Strawberry)",
+    "image": "ice_cream_cone__sweet_strawberry_.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Ice Cream Cone (Velvet Vanilla)",
+    "image": "ice_cream_cone__velvet_vanilla_.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Insectoid Egg (FOOD)",
+    "image": "insectoid_egg__FOOD_.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Jalapeño Pepper",
+    "image": "jalape_o_pepper.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Larvae",
+    "image": "larvae.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Leberkassemmel",
+    "image": "leberkassemmel.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Lemon",
+    "image": "lemon.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Mango",
+    "image": "mango.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Marlin",
+    "image": "marlin.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Meat",
+    "image": "meat.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Melon",
+    "image": "melon.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Meringue Cake",
+    "image": "meringue_cake.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Moon Melon",
+    "image": "moon_melon.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Moon-Touched Dewberries",
+    "image": "moon_touched_dewberries.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Mushroom Pie",
+    "image": "mushroom_pie.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Northern Pike",
+    "image": "northern_pike.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Onion",
+    "image": "onion.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Orange",
+    "image": "orange.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Orange Mushroom",
+    "image": "orange_mushroom.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Party Cake",
+    "image": "party_cake.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Peanut",
+    "image": "peanut.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Pear",
+    "image": "pear.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Peas",
+    "image": "peas.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Pineapple",
+    "image": "pineapple.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Plum",
+    "image": "plum.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Potato",
+    "image": "potato.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Prickly Pear",
+    "image": "prickly_pear.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Pumpkin",
+    "image": "pumpkin.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Rainbow Trout",
+    "image": "rainbow_trout.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Raspberry",
+    "image": "raspberry.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Rat Cheese",
+    "image": "rat_cheese.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Red Apple",
+    "image": "red_apple.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Red Gingerbread Heart",
+    "image": "red_gingerbread_heart.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Red Mushroom",
+    "image": "red_mushroom.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Rice Ball",
+    "image": "rice_ball.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Roasted Meat",
+    "image": "roasted_meat.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Roll",
+    "image": "roll.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Salmon",
+    "image": "salmon.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Sandfish",
+    "image": "sandfish.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Shell",
+    "image": "shell.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Shrimp",
+    "image": "shrimp.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Small Bass",
+    "image": "small_bass.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Soft Cheese",
+    "image": "soft_cheese.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Some Mushrooms",
+    "image": "some_mushrooms.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Some Mushrooms (Brown)",
+    "image": "some_mushrooms__brown_.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Stockfish",
+    "image": "stockfish.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Strawberry",
+    "image": "strawberry.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Sun Fruit",
+    "image": "sun_fruit.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Terramite Eggs",
+    "image": "terramite_eggs.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "The Carrot of Doom",
+    "image": "the_carrot_of_doom.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Tiny Bass",
+    "image": "tiny_bass.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Tomato",
+    "image": "tomato.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Tortoise Egg",
+    "image": "tortoise_egg.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Valentine's Cake",
+    "image": "valentine_s_cake.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Veal",
+    "image": "veal.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Walnut",
+    "image": "walnut.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "White Mushroom",
+    "image": "white_mushroom.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Winterberry Liquor",
+    "image": "winterberry_liquor.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Wood Mushroom",
+    "image": "wood_mushroom.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Yummy Gummy Worm",
+    "image": "yummy_gummy_worm.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Banana Chocolate Shake",
+    "image": "banana_chocolate_shake.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Blessed Acorn",
+    "image": "blessed_acorn.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Blessed Steak",
+    "image": "blessed_steak.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Blueberry Cupcake",
+    "image": "blueberry_cupcake.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Carrion Casserole",
+    "image": "carrion_casserole.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Carrot Cake",
+    "image": "carrot_cake.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Carrot Pie",
+    "image": "carrot_pie.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Chilli Con Carniphila",
+    "image": "chilli_con_carniphila.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Coconut Shrimp Bake",
+    "image": "coconut_shrimp_bake.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Consecrated Beef",
+    "image": "consecrated_beef.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Delicatessen Salad",
+    "image": "delicatessen_salad.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Demonic Candy Ball",
+    "image": "demonic_candy_ball.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Filled Jalapeño Peppers",
+    "image": "filled_jalape_o_peppers.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Hydra Tongue Salad",
+    "image": "hydra_tongue_salad.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Lemon Cupcake",
+    "image": "lemon_cupcake.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Northern Fishburger",
+    "image": "northern_fishburger.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Overcooked Noodles",
+    "image": "overcooked_noodles.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Pot of Blackjack",
+    "image": "pot_of_blackjack.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Roasted Dragon Wings",
+    "image": "roasted_dragon_wings.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Roasted Wyvern Wings",
+    "image": "roasted_wyvern_wings.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Rotworm Stew",
+    "image": "rotworm_stew.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Strawberry Cupcake",
+    "image": "strawberry_cupcake.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Svargrond Salmon Filet",
+    "image": "svargrond_salmon_filet.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Sweet Mangonaise Elixir",
+    "image": "sweet_mangonaise_elixir.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Tropical Fried Terrorbird",
+    "image": "tropical_fried_terrorbird.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Tropical Marinated Tiger",
+    "image": "tropical_marinated_tiger.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Veggie Casserole",
+    "image": "veggie_casserole.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Garlic Bread",
+    "image": "garlic_bread.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Garlic Cookie",
+    "image": "garlic_cookie.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Ice Cream Cone (Venorean Dream)",
+    "image": "ice_cream_cone__venorean_dream_.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Meaty Vortex",
+    "image": "meaty_vortex.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Rotten Witches' Cauldron Seed",
+    "image": "rotten_witches__cauldron_seed.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Scarab Cheese",
+    "image": "scarab_cheese.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Screaming Cherry",
+    "image": "screaming_cherry.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Sprocketwhip Cone",
+    "image": "sprocketwhip_cone.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Tonguefruit",
+    "image": "tonguefruit.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Tortoise Egg from Nargor",
+    "image": "tortoise_egg_from_nargor.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Toxic Tulip Seed",
+    "image": "toxic_tulip_seed.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Witherblossom",
+    "image": "witherblossom.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Baking Tray (With Dough)",
+    "image": "baking_tray__with_dough_.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Baking Tray (With Reed)",
+    "image": "baking_tray__with_reed_.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Bone Meal",
+    "image": "bone_meal.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Bunch of Reed",
+    "image": "bunch_of_reed.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Bunch of Ripe Rice",
+    "image": "bunch_of_ripe_rice.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Bunch of Sugar Cane",
+    "image": "bunch_of_sugar_cane.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Bunch of Wheat",
+    "image": "bunch_of_wheat.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Flour",
+    "image": "flour.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Grave Flower Extract",
+    "image": "grave_flower_extract.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Ground Reed",
+    "image": "ground_reed.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Lump of Cake Dough",
+    "image": "lump_of_cake_dough.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Lump of Chocolate Dough",
+    "image": "lump_of_chocolate_dough.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Lump of Dough",
+    "image": "lump_of_dough.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Lump of Garlic Dough",
+    "image": "lump_of_garlic_dough.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Lump of Holy Water Dough",
+    "image": "lump_of_holy_water_dough.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Lump of Reed Flour Dough",
+    "image": "lump_of_reed_flour_dough.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Reed Balls",
+    "image": "reed_balls.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Sugar",
+    "image": "sugar.gif",
+    "groupable": false,
+    "type": "FOOD"
+  },
+  {
+    "name": "Vial with a Skull Cork",
+    "image": "vial_with_a_skull_cork.gif",
+    "groupable": false,
+    "type": "FOOD"
+  }
+]

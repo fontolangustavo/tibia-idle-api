@@ -16,5 +16,10 @@ public enum ItemType {
     LEGS,
     BOOTS,
     ARROW,
-    BOLT
+    BOLT,
+    ADDON,
+    LIQUID,
+    PRICELESS,
+    CREATURE_DROP,
+    FOOD
 }
