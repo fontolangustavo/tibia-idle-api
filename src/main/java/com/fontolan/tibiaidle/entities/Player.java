@@ -92,6 +92,24 @@ public class Player implements Serializable {
                 .orElse(null);
     }
 
+    public PlayerItem getItemFromBackpack(String itemId) {
+        return StreamSupport.stream(playerItems.spliterator(), false)
+                .filter(item -> item.getItemId().equals(itemId) && item.getSlotType().equals(SlotType.BACKPACK))
+                .findFirst()
+                .orElse(null);
+    }
+
+    public int getIndexItemFromBackpack(String itemId) {
+        for (int i = 0; i < playerItems.size(); i++) {
+            PlayerItem item = playerItems.get(i);
+            if (item.getItemId().equals(itemId) && item.getSlotType().equals(SlotType.BACKPACK)) {
+                return i;
+            }
+        }
+
+        return -1;
+    }
+
     public boolean equipItem(Item item, SlotType slotType) {
         Optional<PlayerItem> hasItem = this.checkSlotType(slotType);
 

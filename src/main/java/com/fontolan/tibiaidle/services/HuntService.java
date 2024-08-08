@@ -81,22 +81,9 @@ public class HuntService {
 
         player.setLevel(player.getLevel());
 
-        Item rightHand = itemRepository.save(Item.builder()
-                .name("Spike Sword")
-                .baseAttack(24)
-                .type(ItemType.SWORD)
-                .build()
-        );
+        Optional<Item> rightHand = itemRepository.findByName("Club");
 
-        Item leftHand = itemRepository.save(Item.builder()
-                .name("Wooden Shield")
-                .baseAttack(14)
-                .type(ItemType.SHIELD)
-                .build()
-        );
-
-        player.equipItem(rightHand, SlotType.RIGHT_HAND);
-        player.equipItem(leftHand, SlotType.LEFT_HAND);
+        player.equipItem(rightHand.get(), SlotType.RIGHT_HAND);
 
         return player;
     }
