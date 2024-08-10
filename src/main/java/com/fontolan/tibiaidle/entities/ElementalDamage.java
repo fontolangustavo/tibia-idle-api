@@ -1,5 +1,6 @@
 package com.fontolan.tibiaidle.entities;
 
+import com.fontolan.tibiaidle.enums.DamageType;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -12,5 +13,5 @@ import lombok.NoArgsConstructor;
 public class ElementalDamage {
     private String name;
     private int value;
-    private String type;
+    private DamageType type;
 }

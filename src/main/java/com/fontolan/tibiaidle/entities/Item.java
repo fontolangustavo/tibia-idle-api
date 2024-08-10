@@ -11,6 +11,7 @@ import org.springframework.data.redis.core.RedisHash;
 import org.springframework.data.redis.core.index.Indexed;
 
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.List;
 
 @Data
@@ -28,13 +29,13 @@ public class Item implements Serializable {
     private int baseAttack;
     private int baseDefense;
     private boolean isTwoHands;
-    private List<ElementalDamage> elementalDamage;
-    private List<ElementalProtection> elementalProtection;
-    private List<AttributeBuff> attributeBuff;
+    private List<ElementalDamage> elementalDamage = new ArrayList<>();
+    private List<ElementalProtection> elementalProtection = new ArrayList<>();
+    private List<AttributeBuff> attributeBuff = new ArrayList<>();
     private int maxEnchantmentSlots;
     private int level;
     private ItemType type;
-    private List<Vocation> vocations;
+    private List<Vocation> vocations = new ArrayList<>();
     private int hitPercentageIncrease;
     private int manaCost;
 }

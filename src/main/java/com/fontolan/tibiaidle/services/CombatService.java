@@ -1,12 +1,15 @@
 package com.fontolan.tibiaidle.services;
 
 import com.fontolan.tibiaidle.entities.*;
+import com.fontolan.tibiaidle.enums.DamageType;
 import com.fontolan.tibiaidle.enums.SlotType;
 import com.fontolan.tibiaidle.repositories.ItemRepository;
 import com.fontolan.tibiaidle.repositories.MonsterRepository;
 import com.fontolan.tibiaidle.repositories.PlayerRepository;
 import com.fontolan.tibiaidle.utils.ArrayUtils;
+import com.fontolan.tibiaidle.utils.Pair;
 import lombok.extern.slf4j.Slf4j;
+
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
@@ -63,8 +66,13 @@ public class CombatService {
                 }
 
                 if (target != null && target.isAlive() && player.isAlive()) {
-                    int damage = fightService.damageCalculate(player);
-                    player.attack(target, damage);
+                    List<Pair<Integer, DamageType>> damages = fightService.damageCalculate(player, FightService.HitType.MELEE);
+
+                    for(Pair<Integer, DamageType> damage : damages) {
+                        int totalDamage = player.attack(target, damage.getFirst(), damage.getSecond());
+
+                        log.info("{} hit {} for {} damage.", player.getName(), target.getName(), totalDamage);
+                    }
 
                     int index = monsters.indexOf(target);
 
@@ -92,7 +100,13 @@ public class CombatService {
                 }
 
                 if (target != null && target.isAlive() && monster.isAlive()) {
-                    monster.attack(target);
+                    List<Pair<Integer, DamageType>> damages = fightService.damageCalculate(monster, FightService.HitType.MELEE);
+
+                    for(Pair<Integer, DamageType> damage : damages) {
+                        int totalDamage = monster.attack(target, damage.getFirst(), damage.getSecond());
+
+                        log.info("{} hit {} for {} damage.", monster.getName(), target.getName(), totalDamage);
+                    }
 
                     playerRepository.save(target);
                 }
@@ -133,7 +147,7 @@ public class CombatService {
                     int totalDamage = damageReceiveds.stream().mapToInt(DamageReceived::getDamage).sum();
 
                     for (DamageReceived damageReceived : damageReceiveds) {
-                        Optional<Player> optionalPlayer = playerRepository.findById(damageReceived.getPlayerId());
+                        Optional<Player> optionalPlayer = playerRepository.findById(damageReceived.getAttackerId());
 
                         if (optionalPlayer.isEmpty()) {
                             throw new RuntimeException();
@@ -156,7 +170,7 @@ public class CombatService {
 
                     if (topDamage != null) {
                         List<MonsterItem> loots = realMonster.get().getLoots();
-                        Optional<Player> optionalPlayer = playerRepository.findById(topDamage.getPlayerId());
+                        Optional<Player> optionalPlayer = playerRepository.findById(topDamage.getAttackerId());
 
                         if (optionalPlayer.isEmpty()) {
                             throw new RuntimeException();

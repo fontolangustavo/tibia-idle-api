@@ -62,23 +62,21 @@ public class HuntService {
 
     private Player generatePlayer(String name) {
         Player player = Player.builder()
-                .name(name)
                 .maxHealth(150)
-                .health(150)
                 .maxMana(70)
                 .mana(70)
-                .experience(0)
                 .playerItems(new ArrayList<>())
                 .build();
 
         Map<ItemType, Integer> weaponMastery = new HashMap<>();
         weaponMastery.put(ItemType.SWORD, 10);
-        weaponMastery.put(ItemType.AXE, 0);
-        weaponMastery.put(ItemType.CLUB, 0);
-        weaponMastery.put(ItemType.DISTANCE, 0);
+        weaponMastery.put(ItemType.AXE, 10);
+        weaponMastery.put(ItemType.CLUB, 10);
+        weaponMastery.put(ItemType.DISTANCE, 10);
 
         player.setWeaponMastery(weaponMastery);
-
+        player.setHealth(150);
+        player.setName(name);
         player.setLevel(player.getLevel());
 
         Optional<Item> rightHand = itemRepository.findByName("Club");

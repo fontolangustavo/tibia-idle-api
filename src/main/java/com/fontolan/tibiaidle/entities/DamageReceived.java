@@ -19,9 +19,9 @@ public class DamageReceived implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private String id;
 
-    private String playerId;
+    private String attackerId;
 
-    private String monsterId;
+    private String targetId;
 
     private int damage;
 }
