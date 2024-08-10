@@ -44,7 +44,10 @@ public class DungeonService {
                             (value) -> {
                                 monsterRespawn.setHealth(value.getMaxHealth());
                                 monsterRespawn.setMonsterId(value.getId());
+                                monsterRespawn.setResistances(value.getResistances());
                                 monsterRespawn.setAbilities(value.getAbilities());
+                                monsterRespawn.setArmor(value.getArmor());
+                                monsterRespawn.setMitigation(value.getMitigation());
                             },
                             () -> log.warn("Room {} has a monster {} out of the database", room.getId(), monsterRespawn.getName())
                     );
