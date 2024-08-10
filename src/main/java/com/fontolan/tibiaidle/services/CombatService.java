@@ -71,8 +71,39 @@ public class CombatService {
             MonsterRespawn target = selectTargetForPlayer(player, monsters);
 
             if (target != null && player.isAlive()) {
-                applyPlayerDamage(player, target, monsters);
+                applyDamage(player, target, monsters);
             }
+        }
+    }
+
+    private void handleMonsterCombat(List<String> players, List<MonsterRespawn> monsters) {
+        for (MonsterRespawn monster : monsters) {
+            Player target = selectTargetForMonster(monster, players);
+
+            if (target != null && monster.isAlive()) {
+                applyDamage(monster, target, monsters);
+            }
+        }
+    }
+    private void applyDamage(Creature attacker, Creature target, List<? extends  Creature> targets) {
+        List<Pair<Integer, DamageType>> damages = fightService.damageCalculate(attacker, FightService.HitType.MELEE);
+
+        for (Pair<Integer, DamageType> damage : damages) {
+            int totalDamage = attacker.attack(target, damage.getFirst(), damage.getSecond());
+            log.info("{} hit {} for {} damage.", attacker.getName(), target.getName(), totalDamage);
+        }
+
+        if (target instanceof MonsterRespawn) {
+            updateTargetInList(target, (List<MonsterRespawn>) targets);
+        }
+    }
+
+    private void updateTargetInList(Creature target, List<MonsterRespawn> creatures) {
+        int index = creatures.indexOf(target);
+        if (index != -1) {
+            creatures.set(index, (MonsterRespawn) target);
+        } else {
+            throw new RuntimeException("Creature not found in the list");
         }
     }
 
@@ -87,36 +118,6 @@ public class CombatService {
         }
 
         return target;
-    }
-
-    private void applyPlayerDamage(Player player, MonsterRespawn target, List<MonsterRespawn> monsters) {
-        List<Pair<Integer, DamageType>> damages = fightService.damageCalculate(player, FightService.HitType.MELEE);
-
-        for (Pair<Integer, DamageType> damage : damages) {
-            int totalDamage = player.attack(target, damage.getFirst(), damage.getSecond());
-            log.info("{} hit {} for {} damage.", player.getName(), target.getName(), totalDamage);
-        }
-
-        updateTargetInList(target, monsters);
-    }
-
-    private void updateTargetInList(MonsterRespawn target, List<MonsterRespawn> monsters) {
-        int index = monsters.indexOf(target);
-        if (index != -1) {
-            monsters.set(index, target);
-        } else {
-            throw new RuntimeException("Monster not found in the list");
-        }
-    }
-
-    private void handleMonsterCombat(List<String> players, List<MonsterRespawn> monsters) {
-        for (MonsterRespawn monster : monsters) {
-            Player target = selectTargetForMonster(monster, players);
-
-            if (target != null && monster.isAlive()) {
-                applyMonsterDamage(monster, target);
-            }
-        }
     }
 
     private Player selectTargetForMonster(MonsterRespawn monster, List<String> players) {
