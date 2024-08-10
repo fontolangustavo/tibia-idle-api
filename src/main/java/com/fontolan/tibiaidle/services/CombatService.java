@@ -70,7 +70,7 @@ public class CombatService {
             Player player = playerRepository.findById(playerId).orElseThrow();
             MonsterRespawn target = selectTargetForPlayer(player, monsters);
 
-            if (target != null && player.isAlive()) {
+            if (target != null && player.isAlive() && target.isAlive()) {
                 applyDamage(player, target, monsters);
             }
         }
@@ -133,17 +133,6 @@ public class CombatService {
         }
 
         return target;
-    }
-
-    private void applyMonsterDamage(MonsterRespawn monster, Player target) {
-        List<Pair<Integer, DamageType>> damages = fightService.damageCalculate(monster, FightService.HitType.MELEE);
-
-        for (Pair<Integer, DamageType> damage : damages) {
-            int totalDamage = monster.attack(target, damage.getFirst(), damage.getSecond());
-            log.info("{} hit {} for {} damage.", monster.getName(), target.getName(), totalDamage);
-        }
-
-        playerRepository.save(target);
     }
 
     private void removeDeadPlayers(List<String> players) {
