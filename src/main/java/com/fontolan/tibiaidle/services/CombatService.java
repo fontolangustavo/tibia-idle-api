@@ -2,18 +2,15 @@ package com.fontolan.tibiaidle.services;
 
 import com.fontolan.tibiaidle.entities.*;
 import com.fontolan.tibiaidle.enums.DamageType;
-import com.fontolan.tibiaidle.enums.SlotType;
 import com.fontolan.tibiaidle.repositories.ItemRepository;
 import com.fontolan.tibiaidle.repositories.MonsterRepository;
 import com.fontolan.tibiaidle.repositories.PlayerRepository;
 import com.fontolan.tibiaidle.utils.ArrayUtils;
 import com.fontolan.tibiaidle.utils.Pair;
 import lombok.extern.slf4j.Slf4j;
-
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
-import java.time.Duration;
 import java.util.*;
 
 @Service
@@ -39,239 +36,239 @@ public class CombatService {
         List<Room> rooms = roomService.findRoomsWithPlayers();
 
         for (Room room : rooms) {
-            List<String> players = room.getPlayers();
-            List<MonsterRespawn> monsters = room.getMonsters();
-
-            Collections.shuffle(players);
-            Collections.shuffle(monsters);
-
-            log.info("Running a room {} with players count {} at {} - players inside", room.getId(), players.size(), new Date());
-
-            for (String playerId : players) {
-                Player player = playerRepository.findById(playerId)
-                        .orElseThrow();
-
-                MonsterRespawn target = ArrayUtils.findById(monsters, player.getTargetId(), MonsterRespawn::getId);
-
-                List<MonsterRespawn> justLiveMonsters = monsters.stream()
-                        .filter(MonsterRespawn::isAlive)
-                        .toList();
-
-                if ((target == null || (target != null && !target.isAlive())) && !justLiveMonsters.isEmpty()) {
-                    target = justLiveMonsters.get(RANDOM.nextInt(justLiveMonsters.size()));
-
-                    player.setTargetId(target.getId());
-
-                    playerRepository.save(player);
-                }
-
-                if (target != null && target.isAlive() && player.isAlive()) {
-                    List<Pair<Integer, DamageType>> damages = fightService.damageCalculate(player, FightService.HitType.MELEE);
-
-                    for(Pair<Integer, DamageType> damage : damages) {
-                        int totalDamage = player.attack(target, damage.getFirst(), damage.getSecond());
-
-                        log.info("{} hit {} for {} damage.", player.getName(), target.getName(), totalDamage);
-                    }
-
-                    int index = monsters.indexOf(target);
-
-                    if (index != -1) {
-                        monsters.set(index, target);
-                    } else {
-                        throw new RuntimeException();
-                    }
-                }
-            }
-
-            for (MonsterRespawn monster : monsters) {
-                Player target = null;
-                if (monster.getTargetId() != null) {
-                    target = playerRepository.findById(monster.getTargetId())
-                            .orElse(null);
-                }
-
-                if (target == null && !players.isEmpty()){
-                    String targetId = players.get(new Random().nextInt(players.size()));
-                    monster.setTargetId(targetId);
-
-                    target = playerRepository.findById(monster.getTargetId())
-                            .orElse(null);
-                }
-
-                if (target != null && target.isAlive() && monster.isAlive()) {
-                    List<Pair<Integer, DamageType>> damages = fightService.damageCalculate(monster, FightService.HitType.MELEE);
-
-                    for(Pair<Integer, DamageType> damage : damages) {
-                        int totalDamage = monster.attack(target, damage.getFirst(), damage.getSecond());
-
-                        log.info("{} hit {} for {} damage.", monster.getName(), target.getName(), totalDamage);
-                    }
-
-                    playerRepository.save(target);
-                }
-            }
-
-            // Remove jogadores mortos
-            players.removeIf(playerId -> {
-                Player player = playerRepository.findById(playerId)
-                        .orElseThrow();
-
-                boolean isDead = !player.isAlive();
-
-                if (isDead) {
-                    player.setTargetId(null);
-                    player.setHealth(player.getMaxHealth());
-                    player.setRoomId(null);
-                    playerRepository.save(player);
-                }
-
-                return isDead;
-            });
-
-            for(MonsterRespawn monster : monsters) {
-                if(!monster.isAlive() && monster.getDiedAt() == null) {
-                    monster.setDiedAt(new Date());
-
-                    Optional<Monster> realMonster = monsterRepository.findById(monster.getMonsterId());
-
-                    int totalXP = 0;
-                    if (realMonster.isPresent()) {
-                        totalXP = realMonster.get().getExperience();
-                    } else {
-                        log.warn("Monster {} not found experience.", monster.getName());
-                    }
-
-
-                    List<DamageReceived> damageReceiveds = monster.getDamageReceived();
-                    int totalDamage = damageReceiveds.stream().mapToInt(DamageReceived::getDamage).sum();
-
-                    for (DamageReceived damageReceived : damageReceiveds) {
-                        Optional<Player> optionalPlayer = playerRepository.findById(damageReceived.getAttackerId());
-
-                        if (optionalPlayer.isEmpty()) {
-                            throw new RuntimeException();
-                        }
-
-                        Player player = optionalPlayer.get();
-
-                        int damageDealt = damageReceived.getDamage();
-                        int xpGained = (int) ((double) damageDealt / totalDamage * totalXP);
-
-                        player.setExperience(player.getExperience() + xpGained);
-                        player.setTargetId(null);
-
-                        playerRepository.save(player);
-                    }
-
-                    damageReceiveds.sort(Comparator.comparingInt(DamageReceived::getDamage).reversed());
-
-                    DamageReceived topDamage = damageReceiveds.isEmpty() ? null : damageReceiveds.get(0);
-
-                    if (topDamage != null) {
-                        List<MonsterItem> loots = realMonster.get().getLoots();
-                        Optional<Player> optionalPlayer = playerRepository.findById(topDamage.getAttackerId());
-
-                        if (optionalPlayer.isEmpty()) {
-                            throw new RuntimeException();
-                        }
-
-                        Player player = optionalPlayer.get();
-
-                        StringBuilder lootMessage = new StringBuilder();
-                        for(MonsterItem loot : loots) {
-                            int quantity = RANDOM.nextInt(loot.getQuantity_max() - loot.getQuantity_min() + 1) + loot.getQuantity_min();
-                            if(shouldDrop(loot) && quantity > 0) {
-                                Optional<Item> optionalItem = itemRepository.findById(loot.getItemId());
-
-                                if (optionalItem.isPresent()) {
-                                    Item item = optionalItem.get();
-                                    PlayerItem playerItem = player.getItemFromBackpack(loot.getItemId());
-
-                                    if (playerItem != null) {
-                                        playerItem.setQuantity(item.isGroupable() ? playerItem.getQuantity() + quantity : 1);
-
-                                        int index = player.getIndexItemFromBackpack(loot.getItemId());
-                                        player.getPlayerItems().set(index, playerItem);
-                                    } else {
-                                        playerItem = PlayerItem.builder()
-                                                .playerId(player.getId())
-                                                .itemId(loot.getItemId())
-                                                .quantity(item.isGroupable() ? quantity : 1)
-                                                .slotType(SlotType.BACKPACK)
-                                                .build();
-
-                                        player.getPlayerItems().add(playerItem);
-                                    }
-
-                                    if (lootMessage.isEmpty()) {
-                                        lootMessage.append(quantity).append(" ").append(loot.getName());
-                                    }else {
-                                        lootMessage.append(", ").append(quantity).append(" ").append(loot.getName());
-                                    }
-
-                                } else {
-                                    log.error("Item {} not found.", loot.getItemId());
-                                }
-                            }
-                        }
-
-                        if (!lootMessage.isEmpty()){
-                            log.info("Player {} received of {}: {}.", player.getName(), monster.getName(), lootMessage);
-                        }
-
-                        playerRepository.save(player);
-                    } else {
-                        log.error("Error while give loots to player from monster {}.", monster.getName());
-                    }
-                }
-            }
-
-            monsters = respawnMonsters(monsters);
-
-            room.setPlayers(players);
-            room.setMonsters(monsters);
-
-            roomService.updateRoom(room);
+            processRoom(room);
         }
     }
 
-    private boolean shouldDrop(MonsterItem item) {
-        return RANDOM.nextDouble() < getDropChance(item.getRarity());
+    private void processRoom(Room room) {
+        List<String> players = room.getPlayers();
+        List<MonsterRespawn> monsters = room.getMonsters();
+
+        shuffleEntities(players, monsters);
+        log.info("Running room {} with {} players at {} - players inside", room.getId(), players.size(), new Date());
+
+        handlePlayerCombat(players, monsters);
+        handleMonsterCombat(players, monsters);
+
+        removeDeadPlayers(players);
+        handleMonsterLoot(monsters);
+
+        monsters = respawnMonsters(monsters);
+
+        room.setPlayers(players);
+        room.setMonsters(monsters);
+        roomService.updateRoom(room);
     }
 
-    private double getDropChance(String rarity) {
-        return switch (rarity) {
-            case "COMMON" -> 0.7;
-            case "UNCOMMON" -> 0.5;
-            case "SEMI_RARE" -> 0.3;
-            case "RARE" -> 0.1;
-            case "VERY_RARE" -> 0.05;
-            case "DURING_INVASIONS" -> 0.2;
-            case "DURING_EVENTS" -> 0.3;
-            default -> 0.1;
-        };
+    private void shuffleEntities(List<String> players, List<MonsterRespawn> monsters) {
+        Collections.shuffle(players);
+        Collections.shuffle(monsters);
     }
 
-    private List<MonsterRespawn> respawnMonsters(List<MonsterRespawn> deadMonsters) {
-        return deadMonsters.stream()
-                .peek(deadMonster -> {
-                    if (deadMonster.getDiedAt() != null) {
-                        Duration duration = Duration.between(deadMonster.getDiedAt().toInstant(), new Date().toInstant());
+    private void handlePlayerCombat(List<String> players, List<MonsterRespawn> monsters) {
+        for (String playerId : players) {
+            Player player = playerRepository.findById(playerId).orElseThrow();
+            MonsterRespawn target = selectTargetForPlayer(player, monsters);
 
-                        if (duration.getSeconds() >= deadMonster.getRespawnIn()) {
-                            log.info("{} - {} respawned", deadMonster.getId(), deadMonster.getName());
-
-                            Optional<Monster> realMonster = monsterRepository.findById(deadMonster.getMonsterId());
-
-                            realMonster.ifPresent(monster -> deadMonster.setHealth(monster.getMaxHealth()));
-
-                            deadMonster.setTargetId(null);
-                            deadMonster.setDiedAt(null);
-                            deadMonster.setDamageReceived(new ArrayList<>());
-                        }
-                    }
-                })
-                .toList();
+            if (target != null && player.isAlive()) {
+                applyPlayerDamage(player, target, monsters);
+            }
+        }
     }
+
+    private MonsterRespawn selectTargetForPlayer(Player player, List<MonsterRespawn> monsters) {
+        MonsterRespawn target = ArrayUtils.findById(monsters, player.getTargetId(), MonsterRespawn::getId);
+        List<MonsterRespawn> aliveMonsters = monsters.stream().filter(MonsterRespawn::isAlive).toList();
+
+        if ((target == null || !target.isAlive()) && !aliveMonsters.isEmpty()) {
+            target = aliveMonsters.get(RANDOM.nextInt(aliveMonsters.size()));
+            player.setTargetId(target.getId());
+            playerRepository.save(player);
+        }
+
+        return target;
+    }
+
+    private void applyPlayerDamage(Player player, MonsterRespawn target, List<MonsterRespawn> monsters) {
+        List<Pair<Integer, DamageType>> damages = fightService.damageCalculate(player, FightService.HitType.MELEE);
+
+        for (Pair<Integer, DamageType> damage : damages) {
+            int totalDamage = player.attack(target, damage.getFirst(), damage.getSecond());
+            log.info("{} hit {} for {} damage.", player.getName(), target.getName(), totalDamage);
+        }
+
+        updateTargetInList(target, monsters);
+    }
+
+    private void updateTargetInList(MonsterRespawn target, List<MonsterRespawn> monsters) {
+        int index = monsters.indexOf(target);
+        if (index != -1) {
+            monsters.set(index, target);
+        } else {
+            throw new RuntimeException("Monster not found in the list");
+        }
+    }
+
+    private void handleMonsterCombat(List<String> players, List<MonsterRespawn> monsters) {
+        for (MonsterRespawn monster : monsters) {
+            Player target = selectTargetForMonster(monster, players);
+
+            if (target != null && monster.isAlive()) {
+                applyMonsterDamage(monster, target);
+            }
+        }
+    }
+
+    private Player selectTargetForMonster(MonsterRespawn monster, List<String> players) {
+        Player target = null;
+        if (monster.getTargetId() != null) {
+            target = playerRepository.findById(monster.getTargetId()).orElse(null);
+        }
+
+        if (target == null && !players.isEmpty()) {
+            String targetId = players.get(RANDOM.nextInt(players.size()));
+            monster.setTargetId(targetId);
+            target = playerRepository.findById(monster.getTargetId()).orElse(null);
+        }
+
+        return target;
+    }
+
+    private void applyMonsterDamage(MonsterRespawn monster, Player target) {
+        List<Pair<Integer, DamageType>> damages = fightService.damageCalculate(monster, FightService.HitType.MELEE);
+
+        for (Pair<Integer, DamageType> damage : damages) {
+            int totalDamage = monster.attack(target, damage.getFirst(), damage.getSecond());
+            log.info("{} hit {} for {} damage.", monster.getName(), target.getName(), totalDamage);
+        }
+
+        playerRepository.save(target);
+    }
+
+    private void removeDeadPlayers(List<String> players) {
+        players.removeIf(playerId -> {
+            Player player = playerRepository.findById(playerId).orElseThrow();
+            boolean isDead = !player.isAlive();
+
+            if (isDead) {
+                resetPlayer(player);
+            }
+
+            return isDead;
+        });
+    }
+
+    private void resetPlayer(Player player) {
+        player.setTargetId(null);
+        player.setHealth(player.getMaxHealth());
+        player.setRoomId(null);
+        playerRepository.save(player);
+    }
+
+    private void handleMonsterLoot(List<MonsterRespawn> monsters) {
+        for (MonsterRespawn monster : monsters) {
+            if (!monster.isAlive() && monster.getDiedAt() == null) {
+                monster.setDiedAt(new Date());
+                distributeLoot(monster);
+            }
+        }
+    }
+
+    private void distributeLoot(MonsterRespawn monster) {
+        Optional<Monster> realMonster = monsterRepository.findById(monster.getMonsterId());
+
+        int totalXP = realMonster.map(Monster::getExperience).orElse(0);
+        List<DamageReceived> damageReceiveds = monster.getDamageReceived();
+        int totalDamage = damageReceiveds.stream().mapToInt(DamageReceived::getDamage).sum();
+
+        for (DamageReceived damageReceived : damageReceiveds) {
+            Player player = playerRepository.findById(damageReceived.getAttackerId()).orElseThrow();
+            int damageDealt = damageReceived.getDamage();
+            int xpGained = (int) ((double) damageDealt / totalDamage * totalXP);
+
+            player.setExperience(player.getExperience() + xpGained);
+            player.setTargetId(null);
+
+            playerRepository.save(player);
+        }
+
+        giveLootToTopDamager(monster, damageReceiveds, realMonster);
+    }
+
+    private void giveLootToTopDamager(MonsterRespawn monster, List<DamageReceived> damageReceiveds, Optional<Monster> realMonster) {
+        damageReceiveds.sort(Comparator.comparingInt(DamageReceived::getDamage).reversed());
+        DamageReceived topDamage = damageReceiveds.isEmpty() ? null : damageReceiveds.get(0);
+
+        if (topDamage != null) {
+            distributeLootToPlayer(monster, realMonster.get(), topDamage.getAttackerId());
+        } else {
+            log.error("Error while giving loot to player from monster {}.", monster.getName());
+        }
+    }
+
+    private void distributeLootToPlayer(MonsterRespawn monster, Monster realMonster, String attackerId) {
+        Player player = playerRepository.findById(attackerId).orElseThrow();
+        List<MonsterItem> loots = realMonster.getLoots();
+
+        StringBuilder lootMessage = new StringBuilder();
+        for (MonsterItem loot : loots) {
+            int quantity = RANDOM.nextInt(loot.getQuantity_max() - loot.getQuantity_min() + 1) + loot.getQuantity_min();
+            if (shouldDrop(loot) && quantity > 0) {
+                addItemToPlayer(player, loot, quantity, lootMessage);
+            }
+        }
+
+        if (!lootMessage.isEmpty()) {
+            log.info("Player {} received from {}: {}.", player.getName(), monster.getName(), lootMessage);
+        }
+
+        playerRepository.save(player);
+    }
+
+    private void addItemToPlayer(Player player, MonsterItem loot, int quantity, StringBuilder lootMessage) {
+        Optional<Item> optionalItem = itemRepository.findById(loot.getItemId());
+
+        if (optionalItem.isPresent()) {
+            Item item = optionalItem.get();
+
+            player.addItemBackpack(item, quantity);
+
+            if (lootMessage.isEmpty()) {
+                lootMessage.append(quantity).append(" ").append(loot.getName());
+            }else {
+                lootMessage.append(", ").append(quantity).append(" ").append(loot.getName());
+            }
+        }
+    }
+
+    private boolean shouldDrop(MonsterItem loot) {
+        return RANDOM.nextDouble() < loot.getDropRate();
+    }
+
+    private List<MonsterRespawn> respawnMonsters(List<MonsterRespawn> monsters) {
+        List<MonsterRespawn> updatedMonsters = new ArrayList<>();
+
+        for (MonsterRespawn monster : monsters) {
+            if (!monster.isAlive() && monster.canRespawn()) {
+                updatedMonsters.add(respawnMonster(monster));
+            } else {
+                updatedMonsters.add(monster);
+            }
+        }
+
+        return updatedMonsters;
+    }
+
+    private MonsterRespawn respawnMonster(MonsterRespawn monster) {
+        Monster realMonster = monsterRepository.findByName(monster.getName())
+            .orElseThrow();
+
+        monster.setHealth(realMonster.getMaxHealth());
+        monster.setTargetId(null);
+        monster.setDiedAt(null);
+
+        log.info("Monster {} has respawned.", monster.getName());
+        return monster;
+    }
+
 }

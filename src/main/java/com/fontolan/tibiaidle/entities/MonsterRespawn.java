@@ -4,7 +4,8 @@ import lombok.*;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.redis.core.RedisHash;
 
-import java.util.*;
+import java.time.Duration;
+import java.util.Date;
 
 @EqualsAndHashCode(callSuper = true)
 @Data
@@ -19,6 +20,12 @@ public class MonsterRespawn extends Creature {
     private Date diedAt;
     private String roomId;
     private String targetId;
+
+    public boolean canRespawn() {
+        Duration duration = Duration.between(this.getDiedAt().toInstant(), new Date().toInstant());
+
+        return duration.getSeconds() >= this.getRespawnIn();
+    }
 
     @Override
     public String toString() {

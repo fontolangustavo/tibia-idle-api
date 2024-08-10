@@ -40,11 +40,10 @@ public class Player extends Creature {
                 .orElse(null);
     }
 
-    public PlayerItem getItemFromBackpack(String itemId) {
+    public Optional<PlayerItem> getItemFromBackpack(String itemId) {
         return playerItems.stream()
                 .filter(item -> item.getItemId().equals(itemId) && item.getSlotType().equals(SlotType.BACKPACK))
-                .findFirst()
-                .orElse(null);
+                .findFirst();
     }
 
     public int getIndexItemFromBackpack(String itemId) {
@@ -77,6 +76,28 @@ public class Player extends Creature {
         );
 
         return true;
+    }
+
+    public void addItemBackpack(Item item, int quantity){
+        this.getItemFromBackpack(item.getId())
+            .ifPresentOrElse(
+                (value) -> {
+                    value.setQuantity(item.isGroupable() ? value.getQuantity() + quantity : 1);
+
+                    int index = this.getIndexItemFromBackpack(item.getId());
+
+                    this.getPlayerItems().set(index, value);
+                },
+                () -> {
+                    this.getPlayerItems().add(PlayerItem.builder()
+                            .playerId(this.getId())
+                            .itemId(item.getId())
+                            .quantity(item.isGroupable() ? quantity : 1)
+                            .slotType(SlotType.BACKPACK)
+                            .build()
+                    );
+                }
+            );
     }
 
     public Optional<PlayerItem> checkSlotType(SlotType slotType) {
