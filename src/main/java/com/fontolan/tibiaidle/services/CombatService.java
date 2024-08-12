@@ -82,6 +82,8 @@ public class CombatService {
 
             if (target != null && monster.isAlive()) {
                 applyDamage(monster, target, monsters);
+
+                playerRepository.save(target);
             }
         }
     }
@@ -141,6 +143,8 @@ public class CombatService {
             boolean isDead = !player.isAlive();
 
             if (isDead) {
+                log.info("Player {} left the room {}.", player.getName(), player.getRoomId());
+
                 resetPlayer(player);
             }
 
@@ -152,6 +156,8 @@ public class CombatService {
         player.setTargetId(null);
         player.setHealth(player.getMaxHealth());
         player.setRoomId(null);
+        player.setDamageReceived(new ArrayList<>());
+
         playerRepository.save(player);
     }
 
