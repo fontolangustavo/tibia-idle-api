@@ -8,11 +8,6 @@ spring:
   redis:
     host: localhost
     port: 6379
-#  datasource:
-#    url: jdbc:sqlserver://127.0.0.1:1433;database=tibiaidle;loginTimeout=30;trustServerCertificate=true
-#    username: sa
-#    password: Cpc33UBI
-#    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
   jpa:
     hibernate:
       ddl-auto: create
@@ -20,3 +15,15 @@ spring:
     properties:
       hibernate:
         format_sql: true
+# JWT
+jwt:
+  expires-in: 300
+  private:
+    key: classpath:config/app.key
+  public:
+    key: classpath:config/public.key
+
+# Google
+google:
+  client:
+    id: ${GOOGLE_CLIENT_ID}

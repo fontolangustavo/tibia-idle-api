@@ -25,6 +25,7 @@ public class Player extends Creature {
     private List<PlayerItem> playerItems = new ArrayList<>();
     private String targetId;
     private String roomId;
+    private String userId;
 
     @Indexed
     private Map<ItemType, Integer> weaponMastery = new HashMap<>();
