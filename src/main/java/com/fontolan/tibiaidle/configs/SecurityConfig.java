@@ -32,7 +32,8 @@ public class SecurityConfig {
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
         http
                 .authorizeHttpRequests(authorize -> authorize
-                    .requestMatchers(HttpMethod.POST, "api/v1/auth/google").permitAll()
+                        .requestMatchers(HttpMethod.GET, "api/v1/public/images/**").permitAll()
+                        .requestMatchers(HttpMethod.POST, "api/v1/auth/google").permitAll()
 
                     .anyRequest().authenticated()
                 )

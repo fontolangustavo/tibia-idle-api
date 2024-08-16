@@ -5,9 +5,13 @@ import com.fontolan.tibiaidle.entities.*;
 import com.fontolan.tibiaidle.repositories.DungeonRepository;
 import com.fontolan.tibiaidle.repositories.MonsterRepository;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.data.domain.PageImpl;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import java.io.File;
+import java.util.List;
 import java.util.Optional;
 
 @Slf4j
@@ -26,6 +30,20 @@ public class DungeonService {
     public void initialize() {
         log.info("Init loading dungeon: sewer-city.json");
         this.loadDungeonFromJson("imports/dungeons/rookgaard/sewer-city.json");
+    }
+    public PageImpl<Dungeon> getAll(int page, int limit, String userId) {
+        Pageable pageable = PageRequest.of(page - 1, limit);
+
+        List<Dungeon> dungeons = dungeonRepository.findAll();
+
+        int start = (int) pageable.getOffset();
+        int end = Math.min((start + pageable.getPageSize()), dungeons.size());
+
+        if (start > dungeons.size()) {
+            return new PageImpl<>(List.of(), pageable, dungeons.size());
+        }
+
+        return new PageImpl<>(dungeons.subList(start, end), pageable, dungeons.size());
     }
 
     public void loadDungeonFromJson(String jsonFilePath) {

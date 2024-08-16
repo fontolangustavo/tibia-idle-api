@@ -14,7 +14,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 
 @Controller
-@RequestMapping("/api/public")
+@RequestMapping("/api/v1/public")
 public class PublicController {
     private final Path baseLocation = Paths.get("src/main/resources/static/images");
 
