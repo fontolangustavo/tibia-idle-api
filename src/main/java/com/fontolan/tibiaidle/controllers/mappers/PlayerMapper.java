@@ -14,6 +14,7 @@ public class PlayerMapper {
         playerResponse.setName(player.getName());
         playerResponse.setMaxHealth(player.getMaxHealth());
         playerResponse.setMaxMana(playerResponse.getMaxMana());
+        playerResponse.setVocation(player.getVocation());
 
         return playerResponse;
     }

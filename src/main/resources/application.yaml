@@ -17,7 +17,7 @@ spring:
         format_sql: true
 # JWT
 jwt:
-  expires-in: 300
+  expires-in: 30000
   private:
     key: classpath:config/app.key
   public:

@@ -2,6 +2,7 @@ package com.fontolan.tibiaidle.controllers;
 
 import com.fontolan.tibiaidle.controllers.mappers.PlayerMapper;
 import com.fontolan.tibiaidle.controllers.request.GetAllRequest;
+import com.fontolan.tibiaidle.controllers.request.PlayerStore;
 import com.fontolan.tibiaidle.controllers.response.PlayerResponse;
 import com.fontolan.tibiaidle.entities.Player;
 import com.fontolan.tibiaidle.services.PlayerService;
@@ -10,6 +11,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationToken;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -33,6 +35,21 @@ public class PlayerController {
         List<Player> players = playerService.getAll(userId);
 
         var response = players.stream().map(playerMapper::toPlayerResponse).toList();
+
+        return ResponseEntity.status(HttpStatus.OK).body(response);
+    }
+
+    @PostMapping
+    public ResponseEntity<PlayerResponse> store(@Valid PlayerStore request, JwtAuthenticationToken token) {
+        String userId = token.getName();
+
+        Player player = Player.builder()
+                .userId(userId)
+                .build();
+
+        player.setName(request.getName());
+
+        var response = playerMapper.toPlayerResponse(playerService.store(player));
 
         return ResponseEntity.status(HttpStatus.OK).body(response);
     }
