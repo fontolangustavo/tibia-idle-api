@@ -7,6 +7,7 @@ import com.fontolan.tibiaidle.controllers.response.PlayerResponse;
 import com.fontolan.tibiaidle.entities.Player;
 import com.fontolan.tibiaidle.services.PlayerService;
 import jakarta.validation.Valid;
+import org.springframework.data.domain.Page;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationToken;
@@ -14,8 +15,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import java.util.List;
 
 @RestController
 @RequestMapping("/api/v1/players")
@@ -29,12 +28,12 @@ public class PlayerController {
     }
 
     @GetMapping
-    public ResponseEntity<List<PlayerResponse>> getAll(@Valid GetAllRequest request, JwtAuthenticationToken token){
+    public ResponseEntity<Page<PlayerResponse>> getAll(@Valid GetAllRequest request, JwtAuthenticationToken token){
         String userId = token.getName();
 
-        List<Player> players = playerService.getAll(userId);
+        Page<Player> players = playerService.getAll(request.getPage(), request.getLimit(), userId);
 
-        var response = players.stream().map(playerMapper::toPlayerResponse).toList();
+        var response = players.map(playerMapper::toPlayerResponse);
 
         return ResponseEntity.status(HttpStatus.OK).body(response);
     }

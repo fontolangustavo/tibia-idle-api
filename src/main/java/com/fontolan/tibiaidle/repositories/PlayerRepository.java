@@ -8,5 +8,5 @@ import java.util.List;
 
 @Repository
 public interface PlayerRepository extends CrudRepository<Player, String> {
-    List<Player> findAllUserId(String playerId);
+    List<Player> findByUserId(String playerId);
 }

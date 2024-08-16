@@ -7,11 +7,12 @@ import com.fontolan.tibiaidle.enums.SlotType;
 import com.fontolan.tibiaidle.enums.Vocation;
 import com.fontolan.tibiaidle.repositories.ItemRepository;
 import com.fontolan.tibiaidle.repositories.PlayerRepository;
+import org.springframework.data.domain.PageImpl;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import java.util.*;
-import java.util.stream.Collectors;
-import java.util.stream.StreamSupport;
 
 @Service
 public class PlayerService {
@@ -23,11 +24,19 @@ public class PlayerService {
         this.itemRepository = itemRepository;
     }
 
-    public List<Player> getAll(String userId) {
-        Iterable<Player> iterablePlayers = playerRepository.findAllUserId(userId);
+    public PageImpl<Player> getAll(int page, int limit, String userId) {
+        Pageable pageable = PageRequest.of(page - 1, limit);
 
-        return StreamSupport.stream(iterablePlayers.spliterator(), false)
-                .collect(Collectors.toList());
+        List<Player> players = playerRepository.findByUserId(userId);
+
+        int start = (int) pageable.getOffset();
+        int end = Math.min((start + pageable.getPageSize()), players.size());
+
+        if (start > players.size()) {
+            return new PageImpl<>(List.of(), pageable, players.size());
+        }
+
+        return new PageImpl<>(players.subList(start, end), pageable, players.size());
     }
 
     public Player store(Player player) {
