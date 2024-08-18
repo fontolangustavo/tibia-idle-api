@@ -2,11 +2,13 @@ package com.fontolan.tibiaidle.services;
 
 import com.fontolan.tibiaidle.entities.Item;
 import com.fontolan.tibiaidle.entities.Player;
+import com.fontolan.tibiaidle.entities.User;
 import com.fontolan.tibiaidle.enums.ItemType;
 import com.fontolan.tibiaidle.enums.SlotType;
 import com.fontolan.tibiaidle.enums.Vocation;
 import com.fontolan.tibiaidle.repositories.ItemRepository;
 import com.fontolan.tibiaidle.repositories.PlayerRepository;
+import com.fontolan.tibiaidle.repositories.UserRepository;
 import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
@@ -16,10 +18,12 @@ import java.util.*;
 
 @Service
 public class PlayerService {
+    private final UserRepository userRepository;
     private final PlayerRepository playerRepository;
     private final ItemRepository itemRepository;
 
-    public PlayerService(PlayerRepository playerRepository, ItemRepository itemRepository) {
+    public PlayerService(UserRepository userRepository, PlayerRepository playerRepository, ItemRepository itemRepository) {
+        this.userRepository = userRepository;
         this.playerRepository = playerRepository;
         this.itemRepository = itemRepository;
     }
@@ -40,7 +44,17 @@ public class PlayerService {
     }
 
     public Player store(Player player) {
-        return playerRepository.save(this.generatePlayer(player));
+        player = playerRepository.save(this.generatePlayer(player));
+
+        Player finalPlayer = player;
+        User user = userRepository.findById(player.getUserId())
+                .orElseThrow(() -> new RuntimeException("User not found with ID: " + finalPlayer.getUserId()));
+
+        user.getPlayers().add(player.getId());
+
+        userRepository.save(user);
+
+        return player;
     }
 
     private Player generatePlayer(Player player) {

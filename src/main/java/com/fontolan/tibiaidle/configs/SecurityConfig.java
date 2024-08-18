@@ -35,6 +35,8 @@ public class SecurityConfig {
                         .requestMatchers(HttpMethod.GET, "api/v1/public/images/**").permitAll()
                         .requestMatchers(HttpMethod.POST, "api/v1/auth/google").permitAll()
 
+                        .requestMatchers(HttpMethod.GET, "api/v1/dungeons").permitAll()
+
                     .anyRequest().authenticated()
                 )
                 .csrf(csrf -> csrf.disable())
