@@ -43,6 +43,11 @@ public class PlayerService {
         return new PageImpl<>(players.subList(start, end), pageable, players.size());
     }
 
+    public Player show(String playerId) {
+       return playerRepository.findById(playerId)
+                .orElseThrow(() -> new RuntimeException("Player not found with ID: " + playerId));
+    }
+
     public Player store(Player player) {
         player = playerRepository.save(this.generatePlayer(player));
 

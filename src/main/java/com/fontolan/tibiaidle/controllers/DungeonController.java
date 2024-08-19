@@ -26,7 +26,11 @@ public class DungeonController {
     }
     @GetMapping
     public ResponseEntity<Page<DungeonResponse>> getAll(@Valid GetAllRequest request, JwtAuthenticationToken token){
-        String userId = token.getName();
+        String userId = null;
+
+        if (token != null) {
+            userId = token.getName();
+        }
 
         Page<Dungeon> dungeons = dungeonService.getAll(request.getPage(), request.getLimit(), userId);
 

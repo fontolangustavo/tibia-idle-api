@@ -55,6 +55,12 @@
         "quantity_min": 0,
         "quantity_max": 4,
         "rarity": "COMMON"
+      },
+      {
+        "name": "Cheese",
+        "quantity_min": 0,
+        "quantity_max": 1,
+        "rarity": "COMMON"
       }
     ]
   }
